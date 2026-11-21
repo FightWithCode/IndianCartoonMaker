@@ -1,0 +1,72 @@
+{
+  "title": "The Missing Bucket",
+  "ratio": "16:9",
+  "language": "en",
+  "captions": true,
+  "characters": [
+    { "name": "Meera", "gender": "female", "age": "young", "costume": "salwar", "hair": "braid", "primary": "#1d797a", "accent": "#f3b852", "skin": "#ba7550", "voiceStyle": "female, young adult, moderate pitch" },
+    { "name": "Hari", "gender": "male", "age": "elder", "costume": "dhoti", "hair": "turban", "primary": "#aa4e3c", "accent": "#ebbd68", "skin": "#a46748", "moustache": true, "voiceStyle": "male, elderly, low pitch" }
+  ],
+  "scenes": [
+    { "name": "Banyan Well", "kind": "chowk", "image": "banyan-square", "palette": "#a57548", "ambience": "village" }
+  ],
+  "props": [
+    { "name": "Drawing Bucket", "kind": "basket", "color": "#975631" }
+  ],
+  "shots": [
+    {
+      "name": "The village well",
+      "scene": "Banyan Well",
+      "time": "day",
+      "direction": "Meera enters the banyan square. Hari is looking at the old well.",
+      "camera": { "frame": "wide", "move": "push" },
+      "actors": [
+        { "character": "Meera", "x": 0.22, "y": 0.88, "size": 0.83, "face": "right", "pose": "walk", "keys": [{ "at": 2.6, "x": 0.40, "pose": "idle" }] },
+        { "character": "Hari", "x": 0.56, "y": 0.84, "size": 0.87, "face": "left", "pose": "think" }
+      ],
+      "props": [{ "prop": "Drawing Bucket", "x": 0.57, "y": 0.85, "size": 0.9 }],
+      "dialogue": [{ "speaker": "Narrator", "text": "Every afternoon, Meera took the long way home past the village well.", "at": 0.65 }],
+      "sounds": [{ "kind": "birds", "at": 0.12, "gain": 0.32 }],
+      "transition": "fade"
+    },
+    {
+      "name": "A very important bucket",
+      "scene": "Banyan Well",
+      "direction": "Hari points to the well, worried. Meera looks down and reassures him.",
+      "camera": { "frame": "medium", "move": "static" },
+      "actors": [
+        { "character": "Meera", "x": 0.405, "y": 0.88, "size": 0.83, "face": "right", "pose": "think", "keys": [{ "at": 3, "pose": "open", "emotion": "happy" }] },
+        { "character": "Hari", "x": 0.56, "y": 0.84, "size": 0.87, "face": "left", "pose": "point", "emotion": "worried", "keys": [{ "at": 3.1, "pose": "look" }] }
+      ],
+      "props": [{ "prop": "Drawing Bucket", "x": 0.57, "y": 0.85, "size": 0.9 }],
+      "dialogue": [
+        { "speaker": "Hari", "text": "Meera, the bucket is gone! How will we draw water now?", "emotion": "worried" },
+        { "speaker": "Meera", "text": "Kaka, look behind you. It is right by your foot.", "emotion": "happy" }
+      ]
+    },
+    {
+      "name": "The culprit",
+      "scene": "Banyan Well",
+      "direction": "Hari looks down, then laughs.",
+      "camera": { "frame": "close", "focus": "Hari", "move": "push" },
+      "actors": [{ "character": "Hari", "x": 0.56, "y": 0.84, "size": 0.87, "face": "left", "pose": "look", "keys": [{ "at": 0.65, "pose": "open", "emotion": "funny" }] }],
+      "dialogue": [{ "speaker": "Hari", "text": "Arre! My eyes must have gone for a tea break.", "emotion": "funny", "at": 0.65 }],
+      "sounds": [{ "kind": "funny", "at": 0.18, "gain": 0.48 }]
+    },
+    {
+      "name": "Walking home",
+      "scene": "Banyan Well",
+      "time": "dusk",
+      "direction": "The two wave goodbye in the square at dusk.",
+      "camera": { "frame": "wide", "move": "pull" },
+      "actors": [
+        { "character": "Meera", "x": 0.41, "y": 0.88, "size": 0.83, "face": "right", "pose": "wave", "emotion": "happy", "keys": [{ "at": 1.45, "face": "back", "pose": "walk" }, { "at": 4.2, "x": 0.49, "y": 0.69, "size": 0.65, "pose": "idle" }] },
+        { "character": "Hari", "x": 0.56, "y": 0.84, "size": 0.87, "face": "left", "pose": "wave", "emotion": "happy", "keys": [{ "at": 1.6, "face": "back", "pose": "walk" }, { "at": 4.2, "x": 0.59, "y": 0.69, "size": 0.68, "pose": "idle" }] }
+      ],
+      "props": [{ "prop": "Drawing Bucket", "holder": "Hari", "at": 1.6, "size": 0.75 }],
+      "dialogue": [{ "speaker": "Narrator", "text": "With a laugh, they carried the water home before sunset." }],
+      "sounds": [{ "kind": "birds", "at": 2.4, "gain": 0.25 }],
+      "transition": "fade"
+    }
+  ]
+}

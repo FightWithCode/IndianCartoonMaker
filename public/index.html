@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#161817">
+  <title>Gaon Studio · Village Animation</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/draw.js" defer></script>
+  <script src="/inserts.js" defer></script>
+  <script src="/scenery.js" defer></script>
+  <script src="/cast.js" defer></script>
+  <script src="/canvas.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="Gaon Studio home">
+      <svg viewBox="0 0 42 42" aria-hidden="true"><path d="M4 23 21 8l17 15M9 21v14h24V21M17 35V24h8v11M2 36h38" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32.5" cy="10" r="3" fill="currentColor"/></svg>
+      <span>Gaon <b>Studio</b><small>VILLAGE ANIMATION</small></span>
+    </a>
+    <span class="local-tag"><i></i> Local workspace</span>
+  </header>
+
+  <main>
+    <div class="intro">
+      <div>
+        <p class="eyebrow">THE PRODUCTION DESK</p>
+        <h1>A story from the village.</h1>
+        <p>Direct the shots, bring back your cast, and export an animated film.</p>
+      </div>
+      <div class="example-buttons">
+        <button class="secondary" id="load-demo" type="button">English example</button>
+        <button class="secondary" id="load-hindi" type="button">Hindi example</button>
+      </div>
+    </div>
+
+    <div class="workbench">
+      <section class="panel editor" aria-label="Production editor">
+        <div class="tabs" role="tablist" aria-label="Production">
+          <button id="script-tab" role="tab" aria-selected="true" aria-controls="script-pane" type="button">Script</button>
+          <button id="story-tab" role="tab" aria-selected="false" aria-controls="story-pane" type="button">Storyboard</button>
+          <button id="library-tab" role="tab" aria-selected="false" aria-controls="library-pane" type="button">Library</button>
+        </div>
+
+        <div class="pane" id="script-pane" role="tabpanel" aria-labelledby="script-tab">
+          <label for="title">Film title</label>
+          <input id="title" maxlength="160" placeholder="Untitled village story" autocomplete="off">
+          <div class="form-row">
+            <fieldset>
+              <legend>Frame</legend>
+              <div class="ratio-picker">
+                <label><input type="radio" name="ratio" value="16:9" checked><span><i></i> 16:9</span></label>
+                <label><input type="radio" name="ratio" value="9:16"><span><i></i> 9:16</span></label>
+              </div>
+            </fieldset>
+            <label class="field" for="language">Spoken language
+              <select id="language">
+                <option value="hi">Hindi · हिन्दी</option><option value="en">English</option>
+                <option value="mr">Marathi · मराठी</option><option value="bn">Bengali · বাংলা</option>
+                <option value="gu">Gujarati · ગુજરાતી</option><option value="pa">Punjabi · ਪੰਜਾਬੀ</option>
+                <option value="ta">Tamil · தமிழ்</option><option value="te">Telugu · తెలుగు</option>
+                <option value="kn">Kannada · ಕನ್ನಡ</option><option value="ml">Malayalam · മലയാളം</option>
+                <option value="ur">Urdu · اردو</option>
+              </select>
+            </label>
+          </div>
+          <label for="script">Script</label>
+          <textarea id="script" rows="10" maxlength="60000" spellcheck="false" placeholder="# Scene name | chowk | wide | day&#10;[Meera enters with a basket.]&#10;Meera {happy}: नमस्ते, काका!"></textarea>
+          <p class="hint">Use <code># Shot name</code>, <code>[direction]</code>, and <code>Speaker: Dialogue</code> on separate lines.</p>
+          <details class="details">
+            <summary>Shot notes and planning model</summary>
+            <label for="notes">Shot notes</label>
+            <textarea id="notes" rows="3" maxlength="12000" placeholder="Where actors stand, when to cut, lighting, wardrobe, and sound cues"></textarea>
+            <div class="form-row engine-row">
+              <label class="field" for="planner">Planner
+                <select id="planner"><option value="ollama">Ollama · local AI</option><option value="openai">OpenAI API</option><option value="anthropic">Anthropic API</option><option value="offline">Offline · shot headings</option></select>
+              </label>
+              <label class="field" for="model">Model ID<input id="model" maxlength="180" autocomplete="off" placeholder="Provider model ID"></label>
+            </div>
+            <p id="planner-hint" class="hint"></p>
+          </details>
+          <button id="plan" class="primary wide-button" type="button">Build storyboard <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="pane" id="story-pane" role="tabpanel" aria-labelledby="story-tab" hidden>
+          <div class="pane-title"><h2>Shot directions</h2><span class="micro">EDITABLE JSON</span></div>
+          <p class="hint">Refine cast, staging, timing, props, camera, and dialogue before export.</p>
+          <textarea id="story" rows="21" aria-label="Storyboard JSON" spellcheck="false" placeholder="Build or import a storyboard to edit its shots here."></textarea>
+          <div class="button-row">
+            <button id="update-preview" class="primary" type="button">Apply and preview</button>
+            <button id="save-assets" class="secondary" type="button">Save to library</button>
+          </div>
+          <div class="button-row quiet-row">
+            <button id="import-story" class="text-button" type="button">Import JSON</button>
+            <button id="download-story" class="text-button" type="button">Download JSON</button>
+            <input type="file" id="story-file" accept=".json,application/json" hidden>
+          </div>
+          <details class="details" id="paint-settings" hidden>
+            <summary>Paint a location with OpenAI</summary>
+            <label class="field" for="paint-scene">Location<select id="paint-scene"></select></label>
+            <p class="hint">Sends the scene's art direction to the OpenAI image service. Your API account is billed for generation.</p>
+            <button class="secondary" id="paint" type="button">Generate backdrop</button>
+          </details>
+        </div>
+
+        <div class="pane" id="library-pane" role="tabpanel" aria-labelledby="library-tab" hidden>
+          <div class="pane-title"><h2>Shared library</h2><span class="micro">ON THIS PC</span></div>
+          <p class="hint">Reuse a character, place, or prop by name in another storyboard. Save edits from the Storyboard tab.</p>
+          <div id="asset-list" class="asset-list"></div>
+          <hr>
+          <div class="pane-title"><h2>Media</h2><button id="import-media" class="secondary compact" type="button">Import file</button></div>
+          <input type="file" id="media-file" accept="image/jpeg,image/png,image/webp,.wav,.mp3,.m4a,.ogg,.flac" hidden>
+          <p class="hint">Import a painted backdrop, transparent sprite, voice recording, or sound. Use its ID in the storyboard.</p>
+          <div id="media-list" class="asset-list"></div>
+        </div>
+        <p id="editor-status" class="message" role="status" hidden></p>
+      </section>
+
+      <section class="panel monitor" aria-label="Preview and export">
+        <div class="monitor-top">
+          <div><p class="eyebrow">PREVIEW MONITOR</p><h2 id="monitor-title">Untitled village story</h2></div>
+          <span class="pill" id="monitor-ratio">16:9</span>
+        </div>
+        <div class="screen" id="screen" data-ratio="16:9">
+          <canvas id="canvas" width="1280" height="720" aria-label="Storyboard preview"></canvas>
+          <video id="video" controls playsinline preload="metadata" aria-label="Exported film" hidden></video>
+          <span id="screen-label" class="screen-label">STORYBOARD · SILENT</span>
+        </div>
+        <div class="transport" id="transport">
+          <button id="play" class="icon-button" type="button" title="Play preview" aria-label="Play preview">▶</button>
+          <input id="seek" type="range" min="0" max="1" step="0.02" value="0" aria-label="Preview time">
+          <span id="clock" class="timecode">0:00 / 0:00</span>
+        </div>
+        <div class="timeline-head"><span class="eyebrow">SHOT TIMELINE</span><span id="shot-count" class="micro">0 SHOTS</span></div>
+        <div id="shots" class="shot-strip" aria-label="Shots"></div>
+        <div class="export-settings">
+          <details class="details">
+            <summary>Voices and export settings</summary>
+            <div class="form-row engine-row">
+              <label class="field" for="voice-engine">Dialogue engine
+                <select id="voice-engine">
+                  <option value="auto">Auto by language</option><option value="voicestudio">VoiceStudio · local AI</option><option value="offline">Offline · English</option>
+                </select>
+              </label>
+              <label class="field" for="voice-model">VoiceStudio engine ID<input id="voice-model" autocomplete="off" maxlength="120" placeholder="omnivoice"></label>
+            </div>
+            <div class="form-row engine-row">
+              <label class="field" for="narrator">Narrator voice profile<input id="narrator" list="voices" autocomplete="off" maxlength="160" placeholder="default"><datalist id="voices"></datalist></label>
+              <label class="field" for="fps">Frame rate<select id="fps"><option>25</option><option>24</option><option>30</option></select></label>
+            </div>
+            <div class="form-row engine-row">
+              <label class="field" for="resolution">Resolution<select id="resolution"><option value="720">720p</option><option value="1080">1080p</option></select></label>
+            </div>
+            <div class="settings-foot"><label class="check"><input id="captions" type="checkbox" checked> Burn captions into video</label><button id="refresh-voices" class="text-button" type="button">List VoiceStudio profiles</button></div>
+            <p id="voice-status" class="hint" role="status"></p>
+          </details>
+        </div>
+        <div class="export-row">
+          <button id="export" class="primary" type="button">Render MP4 <span aria-hidden="true">↓</span></button>
+          <span id="export-caption" class="hint">H.264 video · AAC audio · SRT captions</span>
+          <button id="back-preview" class="text-button" type="button" hidden>Back to storyboard</button>
+        </div>
+        <div id="progress-wrap" class="progress-wrap" hidden>
+          <div><span id="export-stage" role="status"></span><span id="percent" class="timecode"></span></div>
+          <progress id="progress" value="0" max="100"></progress>
+        </div>
+        <div id="downloads" class="downloads" hidden></div>
+        <p id="export-status" class="message" role="status" hidden></p>
+      </section>
+    </div>
+
+    <section class="history panel" aria-label="Recent exports">
+      <div class="pane-title"><h2>Recent exports</h2><span class="micro">LOCAL FILES</span></div>
+      <div id="history"><p class="hint">Rendered films appear here.</p></div>
+    </section>
+  </main>
+  <footer>Gaon Studio <span>·</span> A local animation workshop</footer>
+</body>
+</html>

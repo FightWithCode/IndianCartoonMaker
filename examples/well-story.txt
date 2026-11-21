@@ -1,0 +1,16 @@
+# The village well | chowk | wide | day
+[Meera enters the banyan square. Hari is looking at the old well.]
+Narrator: Every afternoon, Meera took the long way home past the village well.
+
+# A very important bucket | chowk | medium | day
+[Hari points to the well, worried. Meera listens with her hand on her chin.]
+Hari {worried}: Meera, the bucket is gone! How will we draw water now?
+Meera {happy}: Kaka, look behind you. It is right by your foot.
+
+# The culprit | chowk | close | day
+[Hari looks down at the basket, then laughs. Add a funny sound.]
+Hari {funny}: Arre! My eyes must have gone for a tea break.
+
+# Walking home | chowk | wide | dusk
+[The two wave goodbye in the square at dusk.]
+Narrator: With a laugh, they carried the water home before sunset.

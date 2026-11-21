@@ -1,0 +1,16 @@
+# गाँव का कुआँ | Banyan Well | wide | day
+[Use the shared Banyan Well backdrop throughout. Compose for 9:16. Meera walks in from x=.33 to x=.43 while Hari waits at x=.55. The Drawing Bucket is by Hari's foot. Keep the characters and the well visible.]
+Narrator: हर दोपहर मीरा गाँव के कुएँ के पास से घर जाती थी।
+
+# बाल्टी कहाँ गई? | Banyan Well | medium | day
+[Hari looks worried and points, Meera looks down at the Drawing Bucket by his foot. Keep Hari on the right and Meera on the left.]
+Hari {worried}: अरे मीरा, बाल्टी कहाँ गई? अब पानी कैसे भरेंगे?
+Meera {happy}: काका, ज़रा अपने पैर के पास देखिए। बाल्टी वहीं है!
+
+# काका की चाय | Banyan Well | close | day
+[Close-up of Hari's face. He looks down, then grins and opens his hands. Play a gentle comic sound at the moment he realizes.]
+Hari {funny}: अरे! लगता है मेरी आँखें चाय पीने चली गई थीं!
+
+# घर की राह | Banyan Well | wide | dusk
+[In the warm evening light, both wave goodbye. Keep their movements small and show the well behind them.]
+Narrator: दोनों हँसते हुए सूरज ढलने से पहले घर लौट गए।

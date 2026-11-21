@@ -1,0 +1,1176 @@
+{
+  "title": "बंजर टीले की लाल मिट्टी और एक माँ का हौसला · भाग १",
+  "language": "hi",
+  "ratio": "16:9",
+  "captions": true,
+  "captionScale": 0.74,
+  "characters": [
+    {
+      "name": "जानकी",
+      "gender": "female",
+      "age": "adult",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#a8694a",
+      "primary": "#d9d1c1",
+      "accent": "#8f8678",
+      "moustache": false,
+      "voice": "Juhi",
+      "voiceStyle": "female, middle-aged, moderate pitch"
+    },
+    {
+      "name": "छोटू",
+      "gender": "male",
+      "age": "child",
+      "costume": "shirt",
+      "hair": "crop",
+      "skin": "#b4794f",
+      "primary": "#6f8ea0",
+      "accent": "#c8b48c",
+      "moustache": false,
+      "voiceStyle": "male, child, high pitch"
+    },
+    {
+      "name": "गाँव के बुज़ुर्ग",
+      "gender": "male",
+      "age": "elder",
+      "costume": "dhoti",
+      "hair": "turban",
+      "skin": "#a36e50",
+      "primary": "#d9cfb6",
+      "accent": "#9b4d3a",
+      "moustache": true,
+      "voiceStyle": "male, elderly, moderate pitch"
+    },
+    {
+      "name": "चौपाल के काका",
+      "gender": "male",
+      "age": "elder",
+      "costume": "vest",
+      "hair": "grey",
+      "skin": "#ac7551",
+      "primary": "#8e5643",
+      "accent": "#d3ac71",
+      "moustache": true,
+      "voiceStyle": "male, elderly, low pitch"
+    },
+    {
+      "name": "चौपाल के दादा",
+      "gender": "male",
+      "age": "elder",
+      "costume": "kurta",
+      "hair": "turban",
+      "skin": "#b57d55",
+      "primary": "#667c4a",
+      "accent": "#e0cfa0",
+      "moustache": true,
+      "glasses": true,
+      "voiceStyle": "male, elderly, moderate pitch"
+    },
+    {
+      "name": "शहर का राहगीर",
+      "gender": "male",
+      "age": "young",
+      "costume": "shirt",
+      "hair": "part",
+      "skin": "#b98057",
+      "primary": "#4f7a8a",
+      "accent": "#d9c08a",
+      "moustache": false,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "शहर की दीदी",
+      "gender": "female",
+      "age": "young",
+      "costume": "salwar",
+      "hair": "braid",
+      "skin": "#c08a60",
+      "primary": "#b0485c",
+      "accent": "#e7c46a",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "पनिहारिन काकी",
+      "gender": "female",
+      "age": "adult",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#a56a4c",
+      "primary": "#356d84",
+      "accent": "#e0b860",
+      "voiceStyle": "female, middle-aged, low pitch"
+    },
+    {
+      "name": "पनिहारिन बहू",
+      "gender": "female",
+      "age": "young",
+      "costume": "sari",
+      "hair": "braid",
+      "skin": "#b5774f",
+      "primary": "#a04b38",
+      "accent": "#e4d0ab",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "सेठ धनीराम",
+      "gender": "male",
+      "age": "adult",
+      "costume": "vest",
+      "hair": "turban",
+      "skin": "#bd8b62",
+      "primary": "#865437",
+      "accent": "#d8a54a",
+      "moustache": true,
+      "glasses": false,
+      "voiceStyle": "male, middle-aged, low pitch"
+    },
+    {
+      "name": "मास्टर जी",
+      "gender": "male",
+      "age": "elder",
+      "costume": "kurta",
+      "hair": "grey",
+      "skin": "#b07a55",
+      "primary": "#e0d6bf",
+      "accent": "#7b8a6b",
+      "moustache": false,
+      "glasses": true,
+      "voiceStyle": "male, elderly, moderate pitch"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "चंदनपुर · बंजर टीला",
+      "kind": "field",
+      "image": "f823ccab0e3a08fadc0fcb932edb44f1.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · शहर का हाट",
+      "kind": "chowk",
+      "image": "2c9a72bb2235a80988c1c59dd7f052a6.jpg",
+      "ambience": "market",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · पीपल की चौपाल",
+      "kind": "chowk",
+      "image": "213ee03fc6767e7d0e81ffc265052a7d.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · साँझ की चौपाल",
+      "kind": "chowk",
+      "image": "fa4a0febb8f1d2d71f4ae165a96b71b6.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · सुबह का घाट",
+      "kind": "river",
+      "image": "dc31bc3e2322cb32417d5e3b676952b7.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · मंदिर का चबूतरा",
+      "kind": "temple",
+      "image": "db32321ecd3473fd343b035990442060.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · कुआँ और पनघट",
+      "kind": "chowk",
+      "image": "3edf954ccf5d29e8e030c0e2d77c52e9.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · जानकी का कच्चा घर",
+      "kind": "home",
+      "image": "7e714910ba8e496287329012e78cc340.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "चंदनपुर · जानकी का घर, साँझ",
+      "kind": "home",
+      "image": "9ab6f3fd8e1e14418150a7554e7f33e1.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    }
+  ],
+  "props": [
+    {
+      "name": "चंदनपुर · जानकी का पुराना चाक",
+      "kind": "chaak",
+      "color": "#8a5f3c",
+      "label": "dusty"
+    },
+    {
+      "name": "चंदनपुर · लाल मिट्टी का घड़ा",
+      "kind": "pot",
+      "color": "#b9482f"
+    },
+    {
+      "name": "चंदनपुर · फावड़ा",
+      "kind": "shovel",
+      "color": "#9a9a9c"
+    },
+    {
+      "name": "चंदनपुर · मिट्टी की टोकरी",
+      "kind": "basket",
+      "color": "#a8794a"
+    },
+    {
+      "name": "चंदनपुर · ठंडे पानी का कुल्हड़",
+      "kind": "tea",
+      "color": "#b9482f"
+    }
+  ],
+  "shots": [
+    {
+      "name": "१ · बंजर टीला · शीर्षक",
+      "scene": "चंदनपुर · बंजर टीला",
+      "time": "dusk",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.36,
+        "y": 0.4,
+        "zoom": 1.25,
+        "move": "push"
+      },
+      "actors": [],
+      "vignette": 0.22,
+      "fx": [
+        "glow",
+        "rays",
+        "dust",
+        "glitter"
+      ],
+      "fxAmount": 1,
+      "overlays": [
+        {
+          "text": "बंजर टीले की लाल मिट्टी",
+          "eyebrow": "भाग १ · चंदनपुर की कहानी",
+          "style": "title",
+          "y": 0.56,
+          "at": 0.5,
+          "end": 4.8
+        },
+        {
+          "text": "और एक माँ का हौसला",
+          "style": "tag",
+          "y": 0.68,
+          "at": 1.6,
+          "end": 4.8
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.34
+        },
+        {
+          "kind": "twinkle",
+          "at": 0.7,
+          "gain": 0.26
+        },
+        {
+          "kind": "twinkle",
+          "at": 2.1,
+          "gain": 0.18
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "गांव के जिस सूखे टीले को लोग कभी ‘बंजर टीला’ कहकर मुँह फेर लेते थे,",
+          "audio": "3fdd0ef51eb04aae6115275b7e7db939.wav",
+          "emotion": "sad",
+          "at": 3.7
+        }
+      ],
+      "props": []
+    },
+    {
+      "name": "२ · आज · ठंडे घड़ों का हाट",
+      "scene": "चंदनपुर · शहर का हाट",
+      "time": "day",
+      "mood": "happy",
+      "atmosphere": "market",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pull"
+      },
+      "vignette": 0.12,
+      "fx": [
+        "glow",
+        "glitter",
+        "dust"
+      ],
+      "fxAmount": 1,
+      "overlays": [
+        {
+          "text": "आज",
+          "eyebrow": "वर्षों बाद",
+          "style": "tag",
+          "y": 0.15,
+          "at": 0.3,
+          "end": 3
+        }
+      ],
+      "actors": [
+        {
+          "character": "शहर का राहगीर",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.92,
+          "face": "right",
+          "pose": "hold",
+          "emotion": "happy"
+        },
+        {
+          "character": "शहर की दीदी",
+          "x": 0.66,
+          "y": 0.82,
+          "size": 0.9,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.2,
+              "pose": "nod"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "चंदनपुर · ठंडे पानी का कुल्हड़",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 1,
+          "holder": "शहर का राहगीर"
+        },
+        {
+          "prop": "चंदनपुर · लाल मिट्टी का घड़ा",
+          "x": 0.17,
+          "y": 0.88,
+          "size": 2,
+          "motion": "glow"
+        },
+        {
+          "prop": "चंदनपुर · लाल मिट्टी का घड़ा",
+          "x": 0.31,
+          "y": 0.93,
+          "size": 1.6,
+          "motion": "glow"
+        },
+        {
+          "prop": "चंदनपुर · लाल मिट्टी का घड़ा",
+          "x": 0.84,
+          "y": 0.9,
+          "size": 1.9,
+          "motion": "glow"
+        },
+        {
+          "prop": "चंदनपुर · लाल मिट्टी का घड़ा",
+          "x": 0.94,
+          "y": 0.95,
+          "size": 1.5,
+          "motion": "glow"
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "water",
+          "at": 0.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "twinkle",
+          "at": 0.9,
+          "gain": 0.3
+        },
+        {
+          "kind": "twinkle",
+          "at": 3.3,
+          "gain": 0.2
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "आज उसी मिट्टी से बने घड़ों का ठंडा पानी पूरे शहर की प्यास बुझाता है।",
+          "audio": "a0b707bb2764e99b5200aec5c7d09148.wav",
+          "emotion": "happy",
+          "at": 0.8
+        }
+      ]
+    },
+    {
+      "name": "३ · तब · टीले की मिट्टी को पहला हाथ",
+      "scene": "चंदनपुर · बंजर टीला",
+      "time": "dusk",
+      "mood": "sad",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.33,
+        "y": 0.5,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "fx": [
+        "glow",
+        "dust",
+        "glitter"
+      ],
+      "fxAmount": 0.75,
+      "overlays": [
+        {
+          "text": "तब",
+          "eyebrow": "एक साधारण सुबह",
+          "style": "tag",
+          "y": 0.14,
+          "at": 0.3,
+          "end": 3.2
+        }
+      ],
+      "actors": [
+        {
+          "character": "जानकी",
+          "x": 0.31,
+          "y": 0.55,
+          "size": 0.66,
+          "face": "left",
+          "pose": "scoop",
+          "stance": "sit",
+          "emotion": "worried"
+        },
+        {
+          "character": "छोटू",
+          "x": 0.4,
+          "y": 0.57,
+          "size": 0.58,
+          "face": "left",
+          "pose": "reach",
+          "stance": "sit",
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "चंदनपुर · फावड़ा",
+          "x": 0.49,
+          "y": 0.6,
+          "size": 0.8
+        },
+        {
+          "prop": "चंदनपुर · मिट्टी की टोकरी",
+          "x": 0.22,
+          "y": 0.6,
+          "size": 0.66
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.3
+        },
+        {
+          "kind": "footstep",
+          "at": 1.2,
+          "gain": 0.2
+        },
+        {
+          "kind": "footstep",
+          "at": 2.6,
+          "gain": 0.2
+        },
+        {
+          "kind": "footstep",
+          "at": 4.1,
+          "gain": 0.2
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पर जब एक गरीब विधवा माँ और उसके नन्हे बेटे ने पहली बार उस टीले की सख्त मिट्टी को हाथ लगाया,",
+          "audio": "ec2300bed5ecc9d9fbdb00175d70a93b.wav",
+          "emotion": "sad",
+          "at": 0.6
+        }
+      ]
+    },
+    {
+      "name": "४ · बड़े-बुजुर्ग हँस पड़े",
+      "scene": "चंदनपुर · पीपल की चौपाल",
+      "time": "day",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "move": "static"
+      },
+      "vignette": 0.18,
+      "fx": [
+        "dust"
+      ],
+      "fxAmount": 0.6,
+      "actors": [
+        {
+          "character": "चौपाल के दादा",
+          "x": 0.3,
+          "y": 0.84,
+          "size": 1,
+          "face": "right",
+          "pose": "laugh",
+          "emotion": "funny"
+        },
+        {
+          "character": "गाँव के बुज़ुर्ग",
+          "x": 0.5,
+          "y": 0.86,
+          "size": 1.04,
+          "face": "left",
+          "pose": "laugh",
+          "emotion": "funny",
+          "keys": [
+            {
+              "at": 4.5,
+              "pose": "point"
+            }
+          ]
+        },
+        {
+          "character": "चौपाल के काका",
+          "x": 0.7,
+          "y": 0.84,
+          "size": 1,
+          "face": "left",
+          "pose": "laugh",
+          "emotion": "funny"
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.25
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "तो गांव के बड़े-बुजुर्ग हंस पड़े। बोले—",
+          "audio": "ee6371493e925817f41ca24cc87138d4.wav",
+          "emotion": "sad",
+          "at": 0.5
+        },
+        {
+          "speaker": "गाँव के बुज़ुर्ग",
+          "text": "इस राख जैसी मिट्टी से घड़े नहीं, सिर्फ तुम्हारी किस्मत फूटेगी।",
+          "audio": "39a24da32d63e089291c88ad7b5b7d1c.wav",
+          "emotion": "funny"
+        }
+      ],
+      "props": []
+    },
+    {
+      "name": "५ · टूटे चाक के आगे झुके सिर",
+      "scene": "चंदनपुर · जानकी का घर, साँझ",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fx": [
+        "glow",
+        "rays",
+        "glitter"
+      ],
+      "fxAmount": 1.25,
+      "actors": [
+        {
+          "character": "चौपाल के दादा",
+          "x": 0.6,
+          "y": 0.78,
+          "size": 0.96,
+          "face": "left",
+          "pose": "fold",
+          "emotion": "sad"
+        },
+        {
+          "character": "गाँव के बुज़ुर्ग",
+          "x": 0.72,
+          "y": 0.82,
+          "size": 1,
+          "face": "left",
+          "pose": "fold",
+          "emotion": "sad"
+        },
+        {
+          "character": "चौपाल के काका",
+          "x": 0.84,
+          "y": 0.8,
+          "size": 0.98,
+          "face": "left",
+          "pose": "fold",
+          "emotion": "sad"
+        }
+      ],
+      "props": [
+        {
+          "prop": "चंदनपुर · जानकी का पुराना चाक",
+          "x": 0.34,
+          "y": 0.9,
+          "size": 2.5,
+          "motion": "glow"
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.25
+        },
+        {
+          "kind": "twinkle",
+          "at": 2.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "twinkle",
+          "at": 6.8,
+          "gain": 0.25
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उन्हें क्या पता था कि कुछ ही महीनों बाद वही लोग उस टूटे हुए चाक के आगे सिर झुकाकर खड़े होंगे।",
+          "audio": "d62900ac2ccbba293b24b6f67c7c00f8.wav",
+          "emotion": "neutral",
+          "at": 1
+        }
+      ],
+      "minDuration": 13.5
+    },
+    {
+      "name": "६ · चंदनपुर · सुबह का घाट",
+      "scene": "चंदनपुर · सुबह का घाट",
+      "time": "dawn",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pan-right"
+      },
+      "vignette": 0.15,
+      "fx": [
+        "rays",
+        "glow",
+        "dust",
+        "shimmer"
+      ],
+      "fxAmount": 1,
+      "transition": "fade",
+      "overlays": [
+        {
+          "text": "चंदनपुर",
+          "eyebrow": "एक छोटा सा गाँव",
+          "style": "title",
+          "y": 0.2,
+          "at": 0.5,
+          "end": 4.4
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.2,
+          "gain": 0.12
+        },
+        {
+          "kind": "twinkle",
+          "at": 0.7,
+          "gain": 0.24
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "चंदनपुर नाम का एक छोटा सा गांव था,",
+          "audio": "25782b3fc00c1866d2e57072806e5897.wav",
+          "emotion": "happy",
+          "at": 2.6
+        }
+      ],
+      "minDuration": 6.2,
+      "actors": [],
+      "props": []
+    },
+    {
+      "name": "७ · मंदिर की ओर",
+      "scene": "चंदनपुर · मंदिर का चबूतरा",
+      "time": "dawn",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.14,
+      "fx": [
+        "rays",
+        "dust"
+      ],
+      "fxAmount": 0.8,
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.2
+        },
+        {
+          "kind": "bell",
+          "at": 4.5,
+          "gain": 0.45
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जहां सुबह की शुरुआत चिड़ियों की चहचहाहट से नहीं,",
+          "audio": "8292d79d50de9b3ad98b47f581ab0f01.wav",
+          "emotion": "neutral",
+          "at": 0.5
+        }
+      ],
+      "minDuration": 5.8,
+      "actors": [],
+      "props": []
+    },
+    {
+      "name": "८ · मंदिर की घंटियाँ और पनघट",
+      "scene": "चंदनपुर · कुआँ और पनघट",
+      "time": "dawn",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pull"
+      },
+      "vignette": 0.14,
+      "fx": [
+        "rays",
+        "dust",
+        "glitter"
+      ],
+      "fxAmount": 0.8,
+      "actors": [
+        {
+          "character": "पनिहारिन काकी",
+          "x": 0.7,
+          "y": 0.74,
+          "size": 0.9,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2.2,
+              "pose": "reach"
+            },
+            {
+              "at": 4.2,
+              "pose": "idle"
+            }
+          ]
+        },
+        {
+          "character": "पनिहारिन बहू",
+          "x": 0.55,
+          "y": 0.8,
+          "size": 0.95,
+          "face": "left",
+          "pose": "walk",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2,
+              "x": 0.5,
+              "pose": "idle"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "चंदनपुर · लाल मिट्टी का घड़ा",
+          "x": 0.6,
+          "y": 0.82,
+          "size": 0.9,
+          "holder": "पनिहारिन बहू"
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "bell",
+          "at": 0.1,
+          "gain": 0.42
+        },
+        {
+          "kind": "bell",
+          "at": 1.7,
+          "gain": 0.34
+        },
+        {
+          "kind": "pot",
+          "at": 2.5,
+          "gain": 0.34
+        },
+        {
+          "kind": "water",
+          "at": 3,
+          "gain": 0.28
+        },
+        {
+          "kind": "pot",
+          "at": 4.6,
+          "gain": 0.32
+        },
+        {
+          "kind": "bell",
+          "at": 4.9,
+          "gain": 0.3
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "बल्कि मंदिर की घंटियों और कुएं पर बजती बाल्टियों की आवाज से होती थी।",
+          "audio": "6da3b3e1563abc1d30f176a847e4b568.wav",
+          "emotion": "neutral",
+          "at": 0.5
+        }
+      ]
+    },
+    {
+      "name": "९ · पुराना पीपल",
+      "scene": "चंदनपुर · पीपल की चौपाल",
+      "time": "day",
+      "mood": "neutral",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.14,
+      "fx": [
+        "rays",
+        "dust"
+      ],
+      "fxAmount": 0.9,
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.2,
+          "gain": 0.14
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "गांव के बीचों-बीच एक पुराना पीपल का पेड़ था,",
+          "audio": "52c92960eea5572d63e9f1b6e73caea4.wav",
+          "emotion": "neutral",
+          "at": 0.4
+        }
+      ],
+      "actors": [],
+      "props": []
+    },
+    {
+      "name": "१० · हर शाम की चौपाल",
+      "scene": "चंदनपुर · साँझ की चौपाल",
+      "time": "dusk",
+      "mood": "neutral",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "move": "static"
+      },
+      "vignette": 0.26,
+      "fx": [
+        "glow",
+        "fireflies",
+        "dust"
+      ],
+      "fxAmount": 0.9,
+      "actors": [
+        {
+          "character": "चौपाल के दादा",
+          "x": 0.44,
+          "y": 0.7,
+          "size": 0.86,
+          "face": "right",
+          "pose": "talk",
+          "stance": "sit",
+          "emotion": "neutral"
+        },
+        {
+          "character": "गाँव के बुज़ुर्ग",
+          "x": 0.58,
+          "y": 0.7,
+          "size": 0.88,
+          "face": "left",
+          "pose": "listen",
+          "stance": "sit",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "चौपाल के काका",
+          "x": 0.7,
+          "y": 0.7,
+          "size": 0.86,
+          "face": "left",
+          "pose": "open",
+          "stance": "sit",
+          "emotion": "neutral"
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.18
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "और उसके नीचे हर शाम गांव के बड़े लोगों की चौपाल जमती थी।",
+          "audio": "5f8bcd9f3d4706abc763a4d097703d97.wav",
+          "emotion": "neutral",
+          "at": 0.4
+        }
+      ],
+      "props": []
+    },
+    {
+      "name": "११ · गाँव का आख़िरी छोर",
+      "scene": "चंदनपुर · जानकी का घर, साँझ",
+      "time": "dusk",
+      "mood": "sad",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pan-left"
+      },
+      "vignette": 0.34,
+      "fx": [
+        "glow",
+        "dust"
+      ],
+      "fxAmount": 0.8,
+      "overlays": [
+        {
+          "text": "गाँव का आख़िरी छोर",
+          "eyebrow": "नाले के किनारे",
+          "style": "tag",
+          "y": 0.14,
+          "at": 0.6,
+          "end": 4.6
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.3
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसी गांव के सबसे आखिरी छोर पर, नाले के किनारे एक कच्चा घर था।",
+          "audio": "c625a4060643168c9298558284836399.wav",
+          "emotion": "sad",
+          "at": 0.6
+        }
+      ],
+      "actors": [],
+      "props": []
+    },
+    {
+      "name": "१२ · टूटी छत, बारिश की लकीरें",
+      "scene": "चंदनपुर · जानकी का घर, साँझ",
+      "time": "dusk",
+      "mood": "sad",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.7,
+        "x": 0.56,
+        "y": 0.3,
+        "move": "push"
+      },
+      "vignette": 0.36,
+      "fx": [
+        "glow",
+        "dust"
+      ],
+      "fxAmount": 0.7,
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.3
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसकी छत के खपरैल आधे टूट चुके थे, और दीवारों पर बारिश की लकीरें साफ दिखती थीं।",
+          "audio": "f05e47b246f868aae67ffa8e51194803.wav",
+          "emotion": "sad",
+          "at": 0.4
+        }
+      ],
+      "actors": [],
+      "props": []
+    },
+    {
+      "name": "१३ · जानकी और छोटू",
+      "scene": "चंदनपुर · जानकी का घर, साँझ",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fx": [
+        "glow",
+        "glitter",
+        "dust",
+        "fireflies"
+      ],
+      "fxAmount": 0.8,
+      "transition": "fade",
+      "overlays": [
+        {
+          "text": "जानकी",
+          "eyebrow": "३८ साल",
+          "style": "tag",
+          "y": 0.15,
+          "at": 1,
+          "end": 3.7
+        },
+        {
+          "text": "छोटू",
+          "eyebrow": "११ साल",
+          "style": "tag",
+          "y": 0.15,
+          "at": 3.9,
+          "end": 7.2
+        }
+      ],
+      "actors": [
+        {
+          "character": "जानकी",
+          "x": 0.42,
+          "y": 0.84,
+          "size": 1,
+          "face": "right",
+          "pose": "idle",
+          "emotion": "neutral"
+        },
+        {
+          "character": "छोटू",
+          "x": 0.56,
+          "y": 0.85,
+          "size": 0.86,
+          "face": "left",
+          "pose": "wave",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 4,
+              "pose": "idle"
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 1.2,
+          "gain": 0.26
+        },
+        {
+          "kind": "twinkle",
+          "at": 3.8,
+          "gain": 0.26
+        },
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.22
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उस घर में रहती थी ३८ साल की जानकी और उसका ११ साल का बेटा, छोटू।",
+          "audio": "517883fd5305c6c5b61a3719153c62c4.wav",
+          "emotion": "neutral",
+          "at": 0.5
+        }
+      ],
+      "minDuration": 9.4,
+      "props": []
+    }
+  ],
+  "score": {
+    "file": "c6f8beaee6b20ec25579c202a3d37e54.wav",
+    "gain": 0.34
+  }
+}

@@ -1,0 +1,5084 @@
+{
+  "title": "बरगदपुर · भाग 1",
+  "ratio": "16:9",
+  "language": "hi",
+  "captions": true,
+  "captionScale": 0.74,
+  "characters": [
+    {
+      "name": "कथावाचक",
+      "gender": "male",
+      "voiceStyle": "male, middle-aged, low pitch"
+    },
+    {
+      "name": "रामदीन",
+      "gender": "male",
+      "costume": "dhoti",
+      "hair": "turban",
+      "skin": "#b98057",
+      "primary": "#ddc6a0",
+      "accent": "#a44d39",
+      "moustache": true,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "कमला",
+      "gender": "female",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#ae714c",
+      "primary": "#397b72",
+      "accent": "#edbf62",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "मुन्नी",
+      "gender": "female",
+      "age": "child",
+      "costume": "salwar",
+      "hair": "braid",
+      "skin": "#c88e61",
+      "primary": "#dfab47",
+      "accent": "#ad4b59",
+      "voiceStyle": "female, child, high pitch"
+    },
+    {
+      "name": "बाँके",
+      "gender": "male",
+      "costume": "vest",
+      "hair": "part",
+      "skin": "#aa724f",
+      "primary": "#536e77",
+      "accent": "#c29564",
+      "moustache": false,
+      "voiceStyle": "male, young adult, low pitch"
+    },
+    {
+      "name": "दरोगा भीम सिंह",
+      "gender": "male",
+      "costume": "shirt",
+      "hair": "turban",
+      "skin": "#a16a4a",
+      "primary": "#af8955",
+      "accent": "#89643d",
+      "moustache": true,
+      "badge": true,
+      "voiceStyle": "male, middle-aged, very low pitch"
+    },
+    {
+      "name": "पांडू",
+      "gender": "male",
+      "age": "young",
+      "costume": "shirt",
+      "hair": "crop",
+      "skin": "#c38a5c",
+      "primary": "#b89b65",
+      "accent": "#775e41",
+      "moustache": false,
+      "badge": true,
+      "voiceStyle": "male, young adult, high pitch"
+    },
+    {
+      "name": "शंभू काका",
+      "gender": "male",
+      "age": "elder",
+      "costume": "vest",
+      "hair": "grey",
+      "skin": "#ac7551",
+      "primary": "#8e5643",
+      "accent": "#d3ac71",
+      "moustache": true,
+      "badge": true,
+      "voiceStyle": "male, elderly, moderate pitch"
+    },
+    {
+      "name": "गोमती काकी",
+      "gender": "female",
+      "age": "elder",
+      "costume": "sari",
+      "hair": "grey",
+      "skin": "#aa6b4e",
+      "primary": "#875976",
+      "accent": "#e0ad80",
+      "glasses": true,
+      "voiceStyle": "female, elderly, low pitch"
+    },
+    {
+      "name": "सेठ घनश्याम",
+      "gender": "male",
+      "age": "elder",
+      "costume": "vest",
+      "hair": "turban",
+      "skin": "#bd8b62",
+      "primary": "#865437",
+      "accent": "#d8a54a",
+      "moustache": true,
+      "glasses": true
+    },
+    {
+      "name": "सरपंच",
+      "gender": "male",
+      "age": "elder",
+      "costume": "dhoti",
+      "hair": "turban",
+      "skin": "#a36e50",
+      "primary": "#c9b994",
+      "accent": "#4b696b",
+      "moustache": true,
+      "voiceStyle": "male, elderly, low pitch"
+    },
+    {
+      "name": "बीजवाले काका",
+      "gender": "male",
+      "age": "elder",
+      "costume": "kurta",
+      "hair": "grey",
+      "skin": "#b57d55",
+      "primary": "#667c4a",
+      "accent": "#d1ab75",
+      "moustache": true
+    },
+    {
+      "name": "सब्ज़ी लेने आई दीदी",
+      "gender": "female",
+      "costume": "sari",
+      "hair": "braid",
+      "skin": "#b07856",
+      "primary": "#b96e49",
+      "accent": "#e6bb68"
+    },
+    {
+      "name": "बरगदपुर का किसान",
+      "gender": "male",
+      "costume": "dhoti",
+      "hair": "turban",
+      "skin": "#ac7959",
+      "primary": "#b6956a",
+      "accent": "#5f817b",
+      "moustache": true
+    },
+    {
+      "name": "हाट का बच्चा",
+      "gender": "male",
+      "age": "child",
+      "costume": "kurta",
+      "hair": "crop",
+      "skin": "#b57e58",
+      "primary": "#627d9e",
+      "accent": "#dbc090",
+      "moustache": false
+    }
+  ],
+  "scenes": [
+    {
+      "name": "बरगदपुर · गंगा घाट",
+      "kind": "river",
+      "ambience": "river",
+      "bakedLight": true,
+      "image": "dc31bc3e2322cb32417d5e3b676952b7.jpg"
+    },
+    {
+      "name": "बरगदपुर · साप्ताहिक हाट",
+      "kind": "chowk",
+      "ambience": "market",
+      "bakedLight": true,
+      "image": "2c9a72bb2235a80988c1c59dd7f052a6.jpg"
+    },
+    {
+      "name": "बरगदपुर · रामदीन का आँगन",
+      "kind": "courtyard",
+      "ambience": "quiet",
+      "bakedLight": true,
+      "image": "796682643f3c05cfa835f4f4a13c55ba.jpg"
+    },
+    {
+      "name": "बरगदपुर · दीये वाली रसोई",
+      "kind": "home",
+      "ambience": "room",
+      "bakedLight": true,
+      "image": "14b1a7083b2059cc27e37772d03c0379.jpg"
+    },
+    {
+      "name": "बरगदपुर · मंदिर के पास छाते की दुकान",
+      "kind": "temple",
+      "ambience": "quiet",
+      "bakedLight": true,
+      "image": "db32321ecd3473fd343b035990442060.jpg"
+    },
+    {
+      "name": "बरगदपुर · बरगद की चौपाल और कुआँ",
+      "kind": "chowk",
+      "ambience": "quiet",
+      "bakedLight": true,
+      "image": "3edf954ccf5d29e8e030c0e2d77c52e9.jpg"
+    },
+    {
+      "name": "बरगदपुर · खेत की पगडंडी",
+      "kind": "field",
+      "ambience": "quiet",
+      "bakedLight": true,
+      "image": "9ba90100b32f22d0064aa9c2563850ad.jpg"
+    },
+    {
+      "name": "बरगदपुर · पुलिस चौकी का कमरा",
+      "kind": "home",
+      "ambience": "room",
+      "bakedLight": true,
+      "image": "deaa0b47e9cdcfcd72384998bde2e4d8.jpg"
+    },
+    {
+      "name": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "kind": "home",
+      "ambience": "room",
+      "bakedLight": true,
+      "image": "b6b97cf16a4c8d483ab54aa6ae4a00f1.jpg"
+    },
+    {
+      "name": "बरगदपुर · बरगद वाली गली",
+      "kind": "lane",
+      "ambience": "quiet",
+      "bakedLight": true,
+      "image": "213ee03fc6767e7d0e81ffc265052a7d.jpg"
+    }
+  ],
+  "props": [
+    {
+      "name": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+      "kind": "cloth-pouch",
+      "color": "#496a64"
+    },
+    {
+      "name": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+      "kind": "open-pouch",
+      "color": "#496a64"
+    },
+    {
+      "name": "बरगदपुर · सेठ घनश्याम का बटुआ",
+      "kind": "wallet",
+      "color": "#9a5d38"
+    },
+    {
+      "name": "बरगदपुर · गोमती काकी की थैली",
+      "kind": "cloth-pouch",
+      "color": "#9e5d6f"
+    },
+    {
+      "name": "बरगदपुर · बीज के रुपये",
+      "kind": "banknotes",
+      "color": "#969d74"
+    },
+    {
+      "name": "बरगदपुर · मुन्नी का सिक्का",
+      "kind": "coin",
+      "color": "#d4a74d",
+      "label": "plain"
+    },
+    {
+      "name": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+      "kind": "parcel",
+      "color": "#b99161"
+    },
+    {
+      "name": "बरगदपुर · पार्सल की खुली तह",
+      "kind": "note",
+      "color": "#cbb084"
+    },
+    {
+      "name": "बरगदपुर · बटुए के साथ आई पर्ची",
+      "kind": "note",
+      "color": "#e6d7ab"
+    },
+    {
+      "name": "बरगदपुर · मुन्नी की मिट्टी की गुल्लक",
+      "kind": "piggy-bank",
+      "color": "#b96850"
+    },
+    {
+      "name": "बरगदपुर · खुली बीज की बोरी",
+      "kind": "seed-sack",
+      "color": "#ad8d63"
+    },
+    {
+      "name": "बरगदपुर · रामदीन के बीज की बँधी बोरी",
+      "kind": "sack",
+      "color": "#ba9a6c"
+    },
+    {
+      "name": "बरगदपुर · रोटी और कटोरी की थाली",
+      "kind": "thali",
+      "color": "#c5b19e"
+    },
+    {
+      "name": "बरगदपुर · रसोई का छोटा दीया",
+      "kind": "diya",
+      "color": "#af5f43"
+    },
+    {
+      "name": "बरगदपुर · बाँके का नीला छाता",
+      "kind": "umbrella",
+      "color": "#3f7589"
+    },
+    {
+      "name": "बरगदपुर · बाँके का लाल छाता",
+      "kind": "umbrella",
+      "color": "#a95445"
+    },
+    {
+      "name": "बरगदपुर · छाता साफ़ करने का सादा साबुन",
+      "kind": "soap-bar",
+      "color": "#e1cfab"
+    },
+    {
+      "name": "बरगदपुर · रामदीन के घर की चाबी",
+      "kind": "key",
+      "color": "#b39a62"
+    },
+    {
+      "name": "बरगदपुर · साबुन लगी हुई चाबी",
+      "kind": "soap-key",
+      "color": "#b39a62"
+    },
+    {
+      "name": "बरगदपुर · कमला का छोटा कपड़ा",
+      "kind": "clean-cloth",
+      "color": "#dbc59f"
+    },
+    {
+      "name": "बरगदपुर · चौकी की सागौन मेज़",
+      "kind": "desk",
+      "color": "#8e6347"
+    },
+    {
+      "name": "बरगदपुर · चौकी की रिपोर्ट बही",
+      "kind": "book",
+      "color": "#b39c76"
+    },
+    {
+      "name": "बरगदपुर · पांडू की पेंसिल",
+      "kind": "pencil",
+      "color": "#ad7e43"
+    },
+    {
+      "name": "बरगदपुर · शंभू काका की साइकिल",
+      "kind": "cycle",
+      "color": "#5b7473"
+    },
+    {
+      "name": "बरगदपुर · हाट की बाँस की टोकरी",
+      "kind": "basket",
+      "color": "#b49761"
+    },
+    {
+      "name": "बरगदपुर · आँगन के लाल टमाटर",
+      "kind": "tomato",
+      "color": "#be4235"
+    },
+    {
+      "name": "बरगदपुर · कुएँ के पास सफ़ेद बकरी",
+      "kind": "goat",
+      "color": "#d4bf9f"
+    },
+    {
+      "name": "बरगदपुर · छातेवाले की चौकी",
+      "kind": "bench",
+      "color": "#927452"
+    },
+    {
+      "name": "बरगदपुर · आँगन की मिट्टी की मटकी",
+      "kind": "pot",
+      "color": "#b5684b"
+    }
+  ],
+  "shots": [
+    {
+      "name": "वापस आया कपड़े का बटुआ",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 9.84,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "एक गाँव में बड़ा अजीब चोर आया। वह बटुए चुराता था… और अगली सुबह पैसे समेत लौटा देता था!",
+          "audio": "9fef8a497bdbc8885af514b7a9d02740.wav",
+          "emotion": "neutral",
+          "at": 1.18
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.45,
+          "y": 0.64,
+          "size": 1.34,
+          "angle": -8,
+          "keys": [
+            {
+              "at": 4.837,
+              "x": 0.45
+            },
+            {
+              "at": 6.373,
+              "x": 0.35,
+              "angle": -14
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+          "x": 0.62,
+          "y": 0.64,
+          "size": 1.48,
+          "at": 5.715,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 5.715,
+              "alpha": 0
+            },
+            {
+              "at": 6.739,
+              "alpha": 1
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.7,
+          "y": 0.56,
+          "size": 1,
+          "at": 6.08,
+          "angle": 9,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 6.08,
+              "alpha": 0
+            },
+            {
+              "at": 7.251,
+              "alpha": 1
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "0759d8331ece178909ee6bf44c84dabb.wav",
+          "at": 5.13,
+          "gain": 0.23
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.49,
+        "y": 0.56,
+        "zoom": 1.65,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "transition": "fade",
+      "direction": "Start with the folded parcel in warm light. The returned pouch and money appear with the narration."
+    },
+    {
+      "name": "पूरे रुपये लौटे",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 6.64,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "न एक रुपया कम, न एक सिक्का गायब! लोग उसे कहने लगे—“शरीफ़ चोर।”",
+          "audio": "dd6c5122a4a98b4679bd25f212ead767.wav",
+          "emotion": "surprised",
+          "at": 0.75
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+          "x": 0.48,
+          "y": 0.66,
+          "size": 1.27,
+          "angle": -10
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.61,
+          "y": 0.62,
+          "size": 1.15,
+          "angle": 8
+        },
+        {
+          "prop": "बरगदपुर · बटुए के साथ आई पर्ची",
+          "x": 0.68,
+          "y": 0.52,
+          "size": 0.69,
+          "angle": -15
+        },
+        {
+          "prop": "बरगदपुर · मुन्नी का सिक्का",
+          "x": 0.59,
+          "y": 0.5,
+          "size": 0.48
+        }
+      ],
+      "sounds": [
+        {
+          "file": "f7d426c73c42c5e33b3e4b93c6cc3c93.wav",
+          "at": 2.294,
+          "gain": 0.2
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.57,
+        "y": 0.55,
+        "zoom": 2.02,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "मुन्नी की जिज्ञासा",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 10.28,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन वह ऐसा करता क्यों था? जवाब एक छोटी-सी चीज़ में छिपा था… जिसे सबसे पहले एक बच्ची ने देखा।",
+          "audio": "d86d00e47654ebe581ed2e34144af6df.wav",
+          "emotion": "neutral",
+          "at": 0.83
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.53,
+          "y": 0.88,
+          "size": 1.12,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.433,
+              "pose": "think"
+            },
+            {
+              "at": 6.361,
+              "face": "right",
+              "pose": "idle",
+              "emotion": "surprised"
+            },
+            {
+              "at": 8.232,
+              "pose": "look",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.34,
+          "y": 0.86,
+          "size": 0.95,
+          "depth": 0.89
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.07,
+          "gain": 0.08
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.52,
+        "y": 0.61,
+        "zoom": 1.82,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "गंगा और बरगदपुर",
+      "scene": "बरगदपुर · गंगा घाट",
+      "minDuration": 12.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "यह कहानी है गंगा किनारे बसे बरगदपुर गाँव की। यहाँ लोग दिन में खेतों में काम करते और शाम को बड़े बरगद के नीचे बैठकर बातें करते।",
+          "audio": "fc1d9e0cb31256fbb7f0b6f412638382.wav",
+          "emotion": "neutral",
+          "at": 1.1
+        }
+      ],
+      "actors": [
+        {
+          "character": "बरगदपुर का किसान",
+          "x": 0.53,
+          "y": 0.66,
+          "size": 0.26,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 8.39,
+              "x": 0.42,
+              "y": 0.72
+            },
+            {
+              "at": 8.598,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "sounds": [
+        {
+          "file": "2908fecb970e54b893e4aa4ba30171e0.wav",
+          "at": 0.07,
+          "gain": 0.72
+        },
+        {
+          "kind": "birds",
+          "at": 4.432,
+          "gain": 0.12
+        },
+        {
+          "file": "5fb29e5e4a80547e77b4e39f4399fa2b.wav",
+          "at": 8.286,
+          "gain": 0.1
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.49,
+        "y": 0.51,
+        "zoom": 1.045,
+        "move": "pan-right",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn",
+      "transition": "fade"
+    },
+    {
+      "name": "रंगों और जलेबी का हाट",
+      "scene": "बरगदपुर · साप्ताहिक हाट",
+      "minDuration": 12.12,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "हर गुरुवार गाँव में हाट लगता था। यानी हफ़्ते में एक बार लगने वाला बड़ा बाज़ार! कहीं ताज़ी सब्ज़ियाँ, कहीं रंगीन चूड़ियाँ… और कहीं गरमागरम जलेबियाँ!",
+          "audio": "8ec0cbb725cc9b425af4a33f6d00f11b.wav",
+          "emotion": "happy",
+          "at": 0.91
+        }
+      ],
+      "actors": [
+        {
+          "character": "सब्ज़ी लेने आई दीदी",
+          "x": 0.15,
+          "y": 0.75,
+          "size": 0.48,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.706,
+              "x": 0.38,
+              "y": 0.79
+            },
+            {
+              "at": 5.806,
+              "pose": "hold"
+            }
+          ]
+        },
+        {
+          "character": "हाट का बच्चा",
+          "x": 0.76,
+          "y": 0.77,
+          "size": 0.57,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 6.905,
+              "x": 0.58,
+              "y": 0.79
+            },
+            {
+              "at": 7.104,
+              "pose": "point",
+              "face": "right"
+            }
+          ]
+        },
+        {
+          "character": "बीजवाले काका",
+          "x": 0.91,
+          "y": 0.66,
+          "size": 0.45,
+          "pose": "hold",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": []
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.54,
+          "holder": "सब्ज़ी लेने आई दीदी",
+          "grip": 40
+        },
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.18,
+          "y": 0.86,
+          "size": 1.24,
+          "depth": 0.9
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0.03,
+          "gain": 0.28
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 2.209,
+          "gain": 0.18
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.51,
+        "y": 0.52,
+        "zoom": 1.12,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "रामदीन का घर",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 12.92,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "इसी गाँव में किसान रामदीन अपनी पत्नी कमला और बेटी मुन्नी के साथ रहता था। मुन्नी छोटी थी, पर उसकी नज़र से छोटी-सी बात भी बचना मुश्किल था।",
+          "audio": "380d8fb6d172ea4b807d33f11ca4df72.wav",
+          "emotion": "neutral",
+          "at": 1
+        }
+      ],
+      "actors": [
+        {
+          "character": "कमला",
+          "x": 0.34,
+          "y": 0.87,
+          "size": 0.79,
+          "pose": "hold",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 6.612,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.65,
+          "y": 0.86,
+          "size": 0.86,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 8.123,
+              "pose": "open"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.18,
+          "y": 0.89,
+          "size": 0.81,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.101,
+              "x": 0.46,
+              "y": 0.88
+            },
+            {
+              "at": 5.317,
+              "pose": "look"
+            },
+            {
+              "at": 9.202,
+              "pose": "point"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.3,
+          "y": 0.9,
+          "size": 0.92
+        },
+        {
+          "prop": "बरगदपुर · आँगन के लाल टमाटर",
+          "x": 0.3,
+          "y": 0.872,
+          "size": 0.69,
+          "depth": 0.91
+        },
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.83,
+          "y": 0.85,
+          "size": 1.04
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 2.835,
+          "gain": 0.18
+        },
+        {
+          "kind": "birds",
+          "at": 7.799,
+          "gain": 0.09
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.51,
+        "y": 0.54,
+        "zoom": 1.105,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "टमाटर जैसा लाल",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 15.44,
+      "dialogue": [
+        {
+          "speaker": "मुन्नी",
+          "text": "बापू! आज हाट जा रहे हो ना? मेरे लिए लाल रिबन लाना। एकदम लाल… जैसे टमाटर!",
+          "audio": "67024d10ac98c4a51d786ec5f2faf84d.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "अच्छा! रिबन बाँधेगी या उसकी चटनी बनाएगी?",
+          "audio": "268adc70bebd194ee2a1f5cd59cf2ed5.wav",
+          "emotion": "funny",
+          "at": 7.59
+        },
+        {
+          "speaker": "मुन्नी",
+          "text": "बापू! रिबन की भी कहीं चटनी बनती है?",
+          "audio": "c78c21f40519fa043baaff8e59f84c35.wav",
+          "emotion": "funny",
+          "at": 11.178
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.39,
+          "y": 0.885,
+          "size": 0.9,
+          "pose": "talk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.932,
+              "pose": "hold"
+            },
+            {
+              "at": 5.416,
+              "pose": "offer"
+            },
+            {
+              "at": 8.08,
+              "pose": "think",
+              "emotion": "surprised"
+            },
+            {
+              "at": 11.648,
+              "pose": "cheer",
+              "y": 0.875,
+              "emotion": "happy"
+            },
+            {
+              "at": 11.853,
+              "y": 0.85
+            },
+            {
+              "at": 12.294,
+              "y": 0.885,
+              "pose": "open"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.65,
+          "y": 0.88,
+          "size": 0.91,
+          "pose": "listen",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.113,
+              "pose": "look"
+            },
+            {
+              "at": 7.59,
+              "pose": "open"
+            },
+            {
+              "at": 9.137,
+              "pose": "think"
+            },
+            {
+              "at": 12.705,
+              "pose": "nod"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · आँगन के लाल टमाटर",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.55,
+          "holder": "मुन्नी",
+          "at": 2.629,
+          "end": 7.925,
+          "grip": 9
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 2.629,
+          "gain": 0.12
+        },
+        {
+          "kind": "funny",
+          "at": 10.357999999999999,
+          "gain": 0.075
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.58,
+        "zoom": 1.53,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "पहले खेत के बीज",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 12,
+      "dialogue": [
+        {
+          "speaker": "कमला",
+          "text": "बस, तुम दोनों की बातें शुरू हो गईं। सुनिए जी, पहले खेत के लिए बीज ले लीजिएगा।",
+          "audio": "8e84d79db3d3e73250065dcfb14c80a0.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "हाँ, पहले बीज। फिर हमारी मुन्नी का रिबन।",
+          "audio": "eaacafa01ebd9589594b287b3f6fb8ed.wav",
+          "emotion": "happy",
+          "at": 7.868
+        }
+      ],
+      "actors": [
+        {
+          "character": "कमला",
+          "x": 0.26,
+          "y": 0.87,
+          "size": 0.82,
+          "pose": "open",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.093,
+              "pose": "point"
+            },
+            {
+              "at": 6.301,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.49,
+          "y": 0.885,
+          "size": 0.87,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 9.249,
+              "face": "right",
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.71,
+          "y": 0.87,
+          "size": 0.88,
+          "pose": "listen",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 7.868,
+              "pose": "nod"
+            },
+            {
+              "at": 9.587,
+              "pose": "open"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.36,
+          "y": 0.891,
+          "size": 0.77
+        }
+      ],
+      "sounds": [],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.52,
+        "y": 0.58,
+        "zoom": 1.24,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "बटुए में पैसे और चाबी",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 9.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन ने कपड़े के बटुए में पाँच सौ रुपये रखे। घर की चाबी भी वह उसी बटुए में रखता था।",
+          "audio": "870cb48abe4ce6d9e21bfa7bc7c7d245.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+          "x": 0.46,
+          "y": 0.68,
+          "size": 1.55,
+          "angle": -4,
+          "depth": 0.73,
+          "end": 7.561
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.65,
+          "y": 0.6,
+          "size": 1.03,
+          "angle": 8,
+          "end": 4.081,
+          "depth": 0.74,
+          "keys": [
+            {
+              "at": 2.231,
+              "x": 0.65,
+              "y": 0.6
+            },
+            {
+              "at": 3.859,
+              "x": 0.46,
+              "y": 0.55,
+              "size": 0.72,
+              "alpha": 0.28
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · रामदीन के घर की चाबी",
+          "x": 0.34,
+          "y": 0.6,
+          "size": 1.3,
+          "angle": -21,
+          "end": 7.561,
+          "depth": 0.75,
+          "keys": [
+            {
+              "at": 5.118,
+              "x": 0.34,
+              "y": 0.6
+            },
+            {
+              "at": 7.413,
+              "x": 0.46,
+              "y": 0.56,
+              "size": 0.9,
+              "alpha": 0.32
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+          "x": 0.46,
+          "y": 0.68,
+          "size": 1.49,
+          "at": 7.561,
+          "angle": -4,
+          "depth": 0.74
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 2.527,
+          "gain": 0.26
+        },
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 5.932,
+          "gain": 0.23
+        },
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 7.265,
+          "gain": 0.2
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.5,
+        "y": 0.59,
+        "zoom": 1.91,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "कमर से बँधा बटुआ",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 9.88,
+      "dialogue": [
+        {
+          "speaker": "कमला",
+          "text": "पैसे सँभालकर रखिएगा। हाट में बहुत भीड़ होती है।",
+          "audio": "148d992c40513097b7bcef2050a33003.wav",
+          "emotion": "worried",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "चिंता मत करो। बटुआ कमर से अच्छी तरह बँधा है।",
+          "audio": "9eabe5137f0bc6f6ab4f1ae2645fdd73.wav",
+          "emotion": "neutral",
+          "at": 4.954
+        }
+      ],
+      "actors": [
+        {
+          "character": "कमला",
+          "x": 0.38,
+          "y": 0.88,
+          "size": 0.88,
+          "pose": "talk",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.03,
+              "pose": "look"
+            },
+            {
+              "at": 7.576,
+              "emotion": "happy",
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.65,
+          "y": 0.88,
+          "size": 0.94,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.494,
+              "pose": "check-pocket",
+              "emotion": "happy"
+            },
+            {
+              "at": 8.232,
+              "pose": "nod"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+          "x": 0.605,
+          "y": 0.728,
+          "size": 0.66,
+          "depth": 0.881,
+          "angle": -9
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 6.072,
+          "gain": 0.23
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.54,
+        "y": 0.59,
+        "zoom": 1.62,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "बापू, लाल वाला",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 5.44,
+      "dialogue": [
+        {
+          "speaker": "मुन्नी",
+          "text": "और बापू… लाल वाला! हरा लाए तो मैं मिर्ची लगूँगी!",
+          "audio": "c750096d99a97605964c832d7d8807a0.wav",
+          "emotion": "happy",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.35,
+          "y": 0.88,
+          "size": 0.9,
+          "pose": "wave",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.566,
+              "pose": "point"
+            },
+            {
+              "at": 3.491,
+              "pose": "open"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.67,
+          "y": 0.86,
+          "size": 0.83,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.1,
+              "face": "right",
+              "pose": "walk"
+            },
+            {
+              "at": 4.76,
+              "x": 0.84,
+              "y": 0.83
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.24,
+          "y": 0.87,
+          "size": 0.77,
+          "pose": "idle",
+          "emotion": "happy",
+          "face": "right",
+          "keys": []
+        }
+      ],
+      "props": [],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 3.456,
+          "gain": 0.18
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.55,
+        "y": 0.54,
+        "zoom": 1.29,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "हाट को जाती पगडंडी",
+      "scene": "बरगदपुर · खेत की पगडंडी",
+      "minDuration": 4.96,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन हँसते-हँसते हाट की ओर चल पड़ा।",
+          "audio": "dbf5a10847d7eb31b9ce0c1a128cfbbf.wav",
+          "emotion": "neutral",
+          "at": 0.9
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.25,
+          "y": 0.87,
+          "size": 0.66,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.116,
+              "x": 0.69,
+              "y": 0.78,
+              "size": 0.56
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.3,
+          "gain": 0.18
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 2.5,
+          "gain": 0.12
+        },
+        {
+          "kind": "birds",
+          "at": 2.18,
+          "gain": 0.09
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.55,
+        "y": 0.51,
+        "zoom": 1.1,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "मंदिर के पीछे बाँके",
+      "scene": "बरगदपुर · मंदिर के पास छाते की दुकान",
+      "minDuration": 12.28,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "कुछ दिन पहले गाँव में बाँके नाम का एक आदमी आया था। वह मंदिर के पीछे एक कमरे में रहता और हाट में छाते ठीक करता था।",
+          "audio": "acb37409fe2e733c19fc68f3c6564f8e.wav",
+          "emotion": "neutral",
+          "at": 1.02
+        }
+      ],
+      "actors": [
+        {
+          "character": "बाँके",
+          "x": 0.48,
+          "y": 0.83,
+          "size": 0.8,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.361,
+              "x": 0.4,
+              "y": 0.85
+            },
+            {
+              "at": 4.665,
+              "pose": "look",
+              "face": "right"
+            },
+            {
+              "at": 7.804,
+              "pose": "work",
+              "stance": "crouch"
+            }
+          ]
+        },
+        {
+          "character": "सब्ज़ी लेने आई दीदी",
+          "x": 0.85,
+          "y": 0.75,
+          "size": 0.44,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "right",
+          "keys": [
+            {
+              "at": 9.424,
+              "x": 1.07,
+              "y": 0.77
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · छातेवाले की चौकी",
+          "x": 0.49,
+          "y": 0.86,
+          "size": 1.52,
+          "depth": 0.87
+        },
+        {
+          "prop": "बरगदपुर · बाँके का नीला छाता",
+          "x": 0.48,
+          "y": 0.81,
+          "size": 1.09,
+          "angle": -14,
+          "depth": 0.88,
+          "motion": "sway"
+        },
+        {
+          "prop": "बरगदपुर · छाता साफ़ करने का सादा साबुन",
+          "x": 0.59,
+          "y": 0.794,
+          "size": 0.39,
+          "depth": 0.891
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5fb29e5e4a80547e77b4e39f4399fa2b.wav",
+          "at": 0.12,
+          "gain": 0.14
+        },
+        {
+          "file": "7369d839569eee3794f9e1abc9b4521c.wav",
+          "at": 8.108,
+          "gain": 0.2
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.52,
+        "y": 0.54,
+        "zoom": 1.11,
+        "move": "pan-right",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "धागा, छाता और साबुन",
+      "scene": "बरगदपुर · मंदिर के पास छाते की दुकान",
+      "minDuration": 10.24,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसके पास धागे, औज़ार और छाते साफ़ करने का साबुन रखा रहता। वह सबसे हाथ जोड़कर मिलता और बड़े प्यार से बात करता।",
+          "audio": "22c883ff27ea20ec750c6eafb9d8ab33.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "बाँके",
+          "x": 0.4,
+          "y": 0.84,
+          "size": 0.84,
+          "pose": "work",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.727,
+              "pose": "fold",
+              "stance": "stand"
+            },
+            {
+              "at": 7.836,
+              "pose": "nod"
+            }
+          ],
+          "stance": "crouch"
+        },
+        {
+          "character": "बरगदपुर का किसान",
+          "x": 0.69,
+          "y": 0.8,
+          "size": 0.66,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.559,
+              "pose": "fold"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · छातेवाले की चौकी",
+          "x": 0.53,
+          "y": 0.85,
+          "size": 1.75,
+          "depth": 0.86
+        },
+        {
+          "prop": "बरगदपुर · बाँके का नीला छाता",
+          "x": 0.52,
+          "y": 0.797,
+          "size": 1.04,
+          "depth": 0.872,
+          "angle": 17,
+          "keys": [
+            {
+              "at": 2.606,
+              "angle": 17
+            },
+            {
+              "at": 4.124,
+              "angle": 8
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · छाता साफ़ करने का सादा साबुन",
+          "x": 0.62,
+          "y": 0.785,
+          "size": 0.63,
+          "depth": 0.88
+        },
+        {
+          "prop": "बरगदपुर · कमला का छोटा कपड़ा",
+          "x": 0.6,
+          "y": 0.792,
+          "size": 0.54,
+          "angle": 11,
+          "depth": 0.87
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 2.1,
+          "gain": 0.2
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.47,
+        "y": 0.625,
+        "zoom": 1.74,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "राम-राम, रामदीन भैया",
+      "scene": "बरगदपुर · साप्ताहिक हाट",
+      "minDuration": 15.04,
+      "dialogue": [
+        {
+          "speaker": "बाँके",
+          "text": "राम-राम, रामदीन भैया! आज कहाँ की तैयारी है?",
+          "audio": "44f1372f8e002ae4f235b5ef614eadba.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "राम-राम, बाँके भाई। बीज लेने आया हूँ। खेत में बीज डालने का समय हो गया है।",
+          "audio": "943e369543aabeee17c79b83fd7215eb.wav",
+          "emotion": "neutral",
+          "at": 4.505
+        },
+        {
+          "speaker": "बाँके",
+          "text": "तब तो जल्दी जाइए। आज बहुत भीड़ है!",
+          "audio": "9ba20c965d11dda212aeaedc6f8237df.wav",
+          "emotion": "happy",
+          "at": 11.082
+        }
+      ],
+      "actors": [
+        {
+          "character": "बाँके",
+          "x": 0.35,
+          "y": 0.865,
+          "size": 0.89,
+          "pose": "fold",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.103,
+              "pose": "open"
+            },
+            {
+              "at": 5.566,
+              "pose": "look"
+            },
+            {
+              "at": 12.044,
+              "pose": "point"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.68,
+          "y": 0.875,
+          "size": 0.88,
+          "pose": "fold",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.802,
+              "pose": "talk"
+            },
+            {
+              "at": 8.161,
+              "pose": "open"
+            },
+            {
+              "at": 12.298,
+              "pose": "nod"
+            },
+            {
+              "at": 14.18,
+              "pose": "walk",
+              "face": "right"
+            },
+            {
+              "at": 14.51,
+              "x": 0.737,
+              "y": 0.868
+            }
+          ]
+        },
+        {
+          "character": "सब्ज़ी लेने आई दीदी",
+          "x": 0.51,
+          "y": 0.713,
+          "size": 0.45,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 9.458,
+              "x": 0.21,
+              "y": 0.752
+            },
+            {
+              "at": 11.506,
+              "pose": "hold"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · बाँके का लाल छाता",
+          "x": 0.2,
+          "y": 0.87,
+          "size": 1.08,
+          "angle": -13,
+          "depth": 0.849
+        },
+        {
+          "prop": "बरगदपुर · छातेवाले की चौकी",
+          "x": 0.25,
+          "y": 0.87,
+          "size": 1.02
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0.18,
+          "gain": 0.21
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 13.53,
+          "gain": 0.11
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.58,
+        "zoom": 1.37,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "बीज की दुकान",
+      "scene": "बरगदपुर · साप्ताहिक हाट",
+      "minDuration": 8.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन बीज की दुकान पर पहुँचा। उसने बीज पसंद किए और पैसे निकालने के लिए कमर पर हाथ रखा।",
+          "audio": "c405f1e99b61bd0ac77c056631ac9d4c.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.29,
+          "y": 0.86,
+          "size": 0.81,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.75,
+              "x": 0.43,
+              "y": 0.875
+            },
+            {
+              "at": 2.888,
+              "pose": "look"
+            },
+            {
+              "at": 4.336,
+              "pose": "point",
+              "emotion": "happy"
+            },
+            {
+              "at": 6.129,
+              "pose": "check-pocket",
+              "emotion": "neutral"
+            }
+          ]
+        },
+        {
+          "character": "बीजवाले काका",
+          "x": 0.68,
+          "y": 0.818,
+          "size": 0.79,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.129,
+              "pose": "offer"
+            },
+            {
+              "at": 6.198,
+              "pose": "listen"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · खुली बीज की बोरी",
+          "x": 0.62,
+          "y": 0.876,
+          "size": 1.23
+        },
+        {
+          "prop": "बरगदपुर · खुली बीज की बोरी",
+          "x": 0.73,
+          "y": 0.893,
+          "size": 1.12
+        },
+        {
+          "prop": "बरगदपुर · रामदीन के बीज की बँधी बोरी",
+          "x": 0.76,
+          "y": 0.851,
+          "size": 0.92
+        },
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.54,
+          "y": 0.906,
+          "size": 0.83
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.22,
+          "gain": 0.18
+        },
+        {
+          "file": "b27445132ded71d16809b190cca92efa.wav",
+          "at": 4.405,
+          "gain": 0.22
+        },
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 6.267,
+          "gain": 0.22
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.595,
+        "zoom": 1.4,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "खाली कमर",
+      "scene": "बरगदपुर · साप्ताहिक हाट",
+      "minDuration": 7.84,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन… बटुआ वहाँ था ही नहीं!",
+          "audio": "494af8f52158abf1d545d334493a7980.wav",
+          "emotion": "worried",
+          "at": 0.88
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "अरे! मेरा बटुआ! अभी तो यहीं था!",
+          "audio": "0cce6c243d217855348fe4d20031e5af.wav",
+          "emotion": "worried",
+          "at": 4.028
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.51,
+          "y": 0.94,
+          "size": 1,
+          "pose": "check-pocket",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 1.914,
+              "emotion": "surprised",
+              "stance": "crouch"
+            },
+            {
+              "at": 4.028,
+              "pose": "flinch",
+              "stance": "stand"
+            },
+            {
+              "at": 5.127,
+              "pose": "check-pocket",
+              "face": "left"
+            },
+            {
+              "at": 5.97,
+              "pose": "look",
+              "emotion": "worried"
+            }
+          ]
+        },
+        {
+          "character": "बीजवाले काका",
+          "x": 0.7,
+          "y": 0.88,
+          "size": 0.81,
+          "pose": "listen",
+          "emotion": "worried",
+          "face": "left",
+          "keys": []
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · खुली बीज की बोरी",
+          "x": 0.67,
+          "y": 0.96,
+          "size": 1.18
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 0.25,
+          "gain": 0.25
+        },
+        {
+          "kind": "surprise",
+          "at": 2.213,
+          "gain": 0.048
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.49,
+        "y": 0.616,
+        "zoom": 2.02,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "हाट में ढूँढ़ना",
+      "scene": "बरगदपुर · साप्ताहिक हाट",
+      "minDuration": 14.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसने कपड़े टटोले। नीचे देखा। फिर जिस रास्ते से आया था, वहाँ तक ढूँढ़ता चला गया।",
+          "audio": "e90ca2db6459fa1194c7d19bbe6ce25b.wav",
+          "emotion": "worried",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "किसी को कपड़े का बटुआ मिला है क्या? उसमें मेरे बीज के पैसे हैं!",
+          "audio": "fd6f3270c98c2fc43d3f6bd2a999fe51.wav",
+          "emotion": "worried",
+          "at": 7.778
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.61,
+          "y": 0.86,
+          "size": 0.87,
+          "pose": "check-pocket",
+          "emotion": "worried",
+          "face": "left",
+          "keys": [
+            {
+              "at": 2.351,
+              "pose": "look",
+              "stance": "crouch"
+            },
+            {
+              "at": 3.767,
+              "pose": "walk",
+              "stance": "stand"
+            },
+            {
+              "at": 6.415,
+              "x": 0.42,
+              "y": 0.885
+            },
+            {
+              "at": 7.778,
+              "pose": "open"
+            },
+            {
+              "at": 10.402,
+              "pose": "point",
+              "face": "right"
+            },
+            {
+              "at": 12.063,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "सब्ज़ी लेने आई दीदी",
+          "x": 0.26,
+          "y": 0.78,
+          "size": 0.62,
+          "pose": "hold",
+          "emotion": "neutral",
+          "face": "right",
+          "keys": [
+            {
+              "at": 8.796,
+              "pose": "shake",
+              "emotion": "worried"
+            }
+          ]
+        },
+        {
+          "character": "बरगदपुर का किसान",
+          "x": 0.79,
+          "y": 0.755,
+          "size": 0.55,
+          "pose": "walk",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.8,
+              "x": 0.64,
+              "y": 0.769
+            },
+            {
+              "at": 9.117,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.23,
+          "y": 0.877,
+          "size": 1.12
+        },
+        {
+          "prop": "बरगदपुर · खुली बीज की बोरी",
+          "x": 0.82,
+          "y": 0.881,
+          "size": 1
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0.05,
+          "gain": 0.21
+        },
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 1.366,
+          "gain": 0.17
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 3.891,
+          "gain": 0.2
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.51,
+        "y": 0.55,
+        "zoom": 1.23,
+        "move": "pan-right",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "खाली हाथ चौकी की ओर",
+      "scene": "बरगदपुर · बरगद वाली गली",
+      "minDuration": 7.28,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "बहुत ढूँढ़ने पर भी बटुआ नहीं मिला। रामदीन खाली हाथ पुलिस चौकी पहुँच गया।",
+          "audio": "9546eab151f4ce8829c745bdd9d44ec7.wav",
+          "emotion": "sad",
+          "at": 0.9
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.74,
+          "y": 0.87,
+          "size": 0.72,
+          "pose": "walk",
+          "emotion": "sad",
+          "face": "left",
+          "keys": [
+            {
+              "at": 6.603000000000001,
+              "x": 0.4,
+              "y": 0.845
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.26,
+          "gain": 0.16
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 4.211,
+          "gain": 0.12
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.48,
+        "y": 0.57,
+        "zoom": 1.14,
+        "move": "pan-right",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "transition": "fade"
+    },
+    {
+      "name": "दरोगा को रामदीन की बात",
+      "scene": "बरगदपुर · पुलिस चौकी का कमरा",
+      "minDuration": 17.96,
+      "dialogue": [
+        {
+          "speaker": "रामदीन",
+          "text": "दरोगा जी, हाट में मेरा बटुआ गायब हो गया। उसमें पूरे पाँच सौ रुपये थे… और घर की चाबी भी।",
+          "audio": "651d35ad21ee419b01b67a022e04d663.wav",
+          "emotion": "worried",
+          "at": 0.75
+        },
+        {
+          "speaker": "दरोगा भीम सिंह",
+          "text": "आखिरी बार बटुआ कहाँ देखा था?",
+          "audio": "0f08c01f34e470eaf32f2edb86b22557.wav",
+          "emotion": "neutral",
+          "at": 9.292
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "हाट पहुँचने पर देखा था। फिर बीज की दुकान तक गया… बस।",
+          "audio": "468b1eb6db70ce511e8f359e237b703f.wav",
+          "emotion": "neutral",
+          "at": 12.221
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.31,
+          "y": 0.894,
+          "size": 0.91,
+          "pose": "talk",
+          "emotion": "sad",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.371,
+              "pose": "open"
+            },
+            {
+              "at": 9.513,
+              "pose": "look",
+              "emotion": "worried"
+            },
+            {
+              "at": 13.512,
+              "pose": "think"
+            },
+            {
+              "at": 15.679,
+              "pose": "talk",
+              "emotion": "sad"
+            }
+          ]
+        },
+        {
+          "character": "दरोगा भीम सिंह",
+          "x": 0.59,
+          "y": 0.86,
+          "size": 0.88,
+          "pose": "listen",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 6.372,
+              "pose": "look"
+            },
+            {
+              "at": 9.447,
+              "pose": "open"
+            },
+            {
+              "at": 14.618,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "पांडू",
+          "x": 0.76,
+          "y": 0.81,
+          "size": 0.67,
+          "pose": "idle",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": []
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.6,
+          "y": 0.894,
+          "size": 1.38,
+          "depth": 0.9
+        },
+        {
+          "prop": "बरगदपुर · चौकी की रिपोर्ट बही",
+          "x": 0.65,
+          "y": 0.66,
+          "size": 0.85,
+          "depth": 0.91
+        },
+        {
+          "prop": "बरगदपुर · कमला का छोटा कपड़ा",
+          "x": 0.73,
+          "y": 0.673,
+          "size": 0.58,
+          "depth": 0.915
+        }
+      ],
+      "sounds": [],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.575,
+        "zoom": 1.27,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "पांडू रिपोर्ट लिखता है",
+      "scene": "बरगदपुर · पुलिस चौकी का कमरा",
+      "minDuration": 16.44,
+      "dialogue": [
+        {
+          "speaker": "दरोगा भीम सिंह",
+          "text": "पांडू, रिपोर्ट लिखो। हाट में पूछताछ भी करेंगे।",
+          "audio": "1b16982916e8b876624f566c28569b0a.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        },
+        {
+          "speaker": "पांडू",
+          "text": "जी साहब। रामदीन भैया, बटुआ कैसा था?",
+          "audio": "4b5880c23838a770e843a615c788434e.wav",
+          "emotion": "neutral",
+          "at": 4.508
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन ने सब बता दिया। दरोगा जी ने खोजने का भरोसा दिया, लेकिन उस दिन बटुआ नहीं मिला।",
+          "audio": "6be7f0a1e73304962e44322b204f303d.wav",
+          "emotion": "neutral",
+          "at": 8.133
+        }
+      ],
+      "actors": [
+        {
+          "character": "दरोगा भीम सिंह",
+          "x": 0.48,
+          "y": 0.855,
+          "size": 0.87,
+          "pose": "open",
+          "emotion": "neutral",
+          "face": "right",
+          "keys": [
+            {
+              "at": 1.704,
+              "pose": "point"
+            },
+            {
+              "at": 2.997,
+              "pose": "look",
+              "face": "left"
+            },
+            {
+              "at": 11.806,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "पांडू",
+          "x": 0.67,
+          "y": 0.875,
+          "size": 0.77,
+          "pose": "hold",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.911,
+              "pose": "nod"
+            },
+            {
+              "at": 5.689,
+              "pose": "open"
+            },
+            {
+              "at": 8.895,
+              "pose": "write",
+              "stance": "crouch"
+            },
+            {
+              "at": 13.747,
+              "pose": "look",
+              "stance": "stand"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.3,
+          "y": 0.886,
+          "size": 0.79,
+          "pose": "look",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 10.351,
+              "pose": "open"
+            },
+            {
+              "at": 13.331,
+              "pose": "nod",
+              "emotion": "sad"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.6,
+          "y": 0.91,
+          "size": 1.36,
+          "depth": 0.895
+        },
+        {
+          "prop": "बरगदपुर · चौकी की रिपोर्ट बही",
+          "x": 0.622,
+          "y": 0.685,
+          "size": 1.05,
+          "depth": 0.901
+        },
+        {
+          "prop": "बरगदपुर · पांडू की पेंसिल",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.5,
+          "holder": "पांडू",
+          "at": 9.034,
+          "end": 13.747,
+          "grip": 20,
+          "angle": 11,
+          "depth": 0.916
+        }
+      ],
+      "sounds": [
+        {
+          "file": "6956a1756881abd555b6945afc905727.wav",
+          "at": 9.727,
+          "gain": 0.34
+        },
+        {
+          "file": "6956a1756881abd555b6945afc905727.wav",
+          "at": 11.945,
+          "gain": 0.21
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.56,
+        "y": 0.59,
+        "zoom": 1.53,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "शाम की रसोई",
+      "scene": "बरगदपुर · दीये वाली रसोई",
+      "minDuration": 8.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "शाम को घर में दीया जला। खाने की थालियाँ भी लगीं। पर रामदीन चुप बैठा रहा।",
+          "audio": "4d7f2096c8d0b53186da72c9334d9621.wav",
+          "emotion": "sad",
+          "at": 1.23
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.56,
+          "y": 0.835,
+          "size": 0.88,
+          "pose": "look",
+          "emotion": "sad",
+          "face": "left",
+          "keys": [
+            {
+              "at": 6.094,
+              "pose": "fold"
+            }
+          ],
+          "stance": "sit"
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.38,
+          "y": 0.835,
+          "size": 0.83,
+          "pose": "look",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [],
+          "stance": "sit"
+        },
+        {
+          "character": "कमला",
+          "x": 0.7,
+          "y": 0.827,
+          "size": 0.79,
+          "pose": "reach",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.555,
+              "pose": "look",
+              "stance": "sit"
+            }
+          ],
+          "stance": "crouch"
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रसोई का छोटा दीया",
+          "x": 0.487,
+          "y": 0.848,
+          "size": 0.93,
+          "depth": 0.875
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.4,
+          "y": 0.897,
+          "size": 0.8
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.58,
+          "y": 0.891,
+          "size": 0.84
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.69,
+          "y": 0.88,
+          "size": 0.77
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b5120538f165fa8ca0d9ee6f3b41c452.wav",
+          "at": 0.15,
+          "gain": 0.46
+        },
+        {
+          "kind": "pot",
+          "at": 4.124,
+          "gain": 0.065
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.5,
+        "y": 0.57,
+        "zoom": 1.14,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.13,
+      "time": "dusk",
+      "transition": "fade"
+    },
+    {
+      "name": "रिबन बाद में, बापू",
+      "scene": "बरगदपुर · दीये वाली रसोई",
+      "minDuration": 16.36,
+      "dialogue": [
+        {
+          "speaker": "रामदीन",
+          "text": "बीज नहीं लाया तो खेत का काम रुक जाएगा। इतनी मुश्किल से पैसे जोड़े थे…",
+          "audio": "6d19ab5134d740ba3c88e95ade30bf71.wav",
+          "emotion": "worried",
+          "at": 0.75
+        },
+        {
+          "speaker": "कमला",
+          "text": "आप अकेले थोड़े हैं। हम मिलकर कोई रास्ता निकालेंगे।",
+          "audio": "30f445947184b33ab8c690abb325c9e3.wav",
+          "emotion": "neutral",
+          "at": 7.643
+        },
+        {
+          "speaker": "मुन्नी",
+          "text": "बापू… मेरा रिबन बाद में ले आना।",
+          "audio": "ab75ead02542640202d7dabbb85160e8.wav",
+          "emotion": "sad",
+          "at": 12.07
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.535,
+          "y": 0.864,
+          "size": 0.88,
+          "pose": "look",
+          "emotion": "sad",
+          "face": "left",
+          "keys": [
+            {
+              "at": 2.366,
+              "pose": "open"
+            },
+            {
+              "at": 9.03,
+              "pose": "listen",
+              "face": "right"
+            },
+            {
+              "at": 12.364,
+              "face": "left",
+              "pose": "look"
+            }
+          ],
+          "stance": "sit"
+        },
+        {
+          "character": "कमला",
+          "x": 0.697,
+          "y": 0.857,
+          "size": 0.82,
+          "pose": "look",
+          "emotion": "worried",
+          "face": "left",
+          "keys": [
+            {
+              "at": 8.024,
+              "pose": "open"
+            },
+            {
+              "at": 9.654,
+              "pose": "comfort",
+              "emotion": "happy"
+            },
+            {
+              "at": 13.408,
+              "pose": "look"
+            }
+          ],
+          "stance": "sit"
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.36,
+          "y": 0.858,
+          "size": 0.85,
+          "pose": "look",
+          "emotion": "sad",
+          "face": "right",
+          "keys": [
+            {
+              "at": 12.418,
+              "pose": "talk"
+            },
+            {
+              "at": 14.077,
+              "pose": "think",
+              "emotion": "worried"
+            }
+          ],
+          "stance": "sit"
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रसोई का छोटा दीया",
+          "x": 0.473,
+          "y": 0.89,
+          "size": 0.92
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.372,
+          "y": 0.914,
+          "size": 0.74
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.566,
+          "y": 0.931,
+          "size": 0.82
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.706,
+          "y": 0.91,
+          "size": 0.73
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 9.723,
+          "gain": 0.12
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.54,
+        "y": 0.66,
+        "zoom": 1.43,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.14,
+      "time": "dusk"
+    },
+    {
+      "name": "मुन्नी अपनी गुल्लक लाती है",
+      "scene": "बरगदपुर · दीये वाली रसोई",
+      "minDuration": 5.32,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "मुन्नी दौड़कर अपनी छोटी गुल्लक ले आई।",
+          "audio": "29dc53cbbdbc1dc825fedf8b8be919b2.wav",
+          "emotion": "neutral",
+          "at": 0.87
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.405,
+          "y": 0.872,
+          "size": 0.83,
+          "pose": "run",
+          "emotion": "worried",
+          "face": "left",
+          "keys": [
+            {
+              "at": 1.744,
+              "x": 0.245,
+              "y": 0.78,
+              "pose": "reach",
+              "stance": "crouch"
+            },
+            {
+              "at": 2.42,
+              "pose": "hold",
+              "face": "right",
+              "stance": "stand"
+            },
+            {
+              "at": 2.9,
+              "pose": "walk"
+            },
+            {
+              "at": 4.269,
+              "x": 0.422,
+              "y": 0.861,
+              "pose": "hold"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.58,
+          "y": 0.865,
+          "size": 0.86,
+          "pose": "look",
+          "emotion": "sad",
+          "face": "left",
+          "keys": [],
+          "stance": "sit"
+        },
+        {
+          "character": "कमला",
+          "x": 0.74,
+          "y": 0.856,
+          "size": 0.78,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [],
+          "stance": "sit"
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रसोई का छोटा दीया",
+          "x": 0.498,
+          "y": 0.889,
+          "size": 0.88
+        },
+        {
+          "prop": "बरगदपुर · मुन्नी की मिट्टी की गुल्लक",
+          "x": 0.205,
+          "y": 0.689,
+          "size": 0.67,
+          "end": 2.364,
+          "depth": 0.739
+        },
+        {
+          "prop": "बरगदपुर · मुन्नी की मिट्टी की गुल्लक",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.72,
+          "holder": "मुन्नी",
+          "at": 2.364,
+          "grip": 33
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.596,
+          "y": 0.916,
+          "size": 0.77
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.1,
+          "gain": 0.19
+        },
+        {
+          "file": "51fae4495a3034971145526d2f11aa24.wav",
+          "at": 2.336,
+          "gain": 0.21
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.46,
+        "y": 0.53,
+        "zoom": 1.11,
+        "move": "pan-right",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dusk"
+    },
+    {
+      "name": "चार सिक्कों की पेशकश",
+      "scene": "बरगदपुर · दीये वाली रसोई",
+      "minDuration": 11.12,
+      "dialogue": [
+        {
+          "speaker": "मुन्नी",
+          "text": "इसमें मेरे चार सिक्के हैं। बीज के लिए ले लो ना।",
+          "audio": "ba026cec3ab204d5bb2feb2b541c7e49.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "अरे मेरी बिटिया… तूने तो अभी मेरा मन हल्का कर दिया।",
+          "audio": "18cbfedb77378ebd15d9ac2778556891.wav",
+          "emotion": "neutral",
+          "at": 5.435
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.417,
+          "y": 0.854,
+          "size": 0.92,
+          "pose": "hold",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.16,
+              "pose": "offer",
+              "emotion": "happy"
+            },
+            {
+              "at": 8.395,
+              "pose": "hold"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.593,
+          "y": 0.87,
+          "size": 0.88,
+          "pose": "listen",
+          "emotion": "sad",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.353,
+              "pose": "look"
+            },
+            {
+              "at": 6.239,
+              "pose": "comfort",
+              "emotion": "happy"
+            },
+            {
+              "at": 8.734,
+              "pose": "nod"
+            }
+          ],
+          "stance": "sit"
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · मुन्नी की मिट्टी की गुल्लक",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.83,
+          "holder": "मुन्नी",
+          "grip": 34,
+          "depth": 0.9
+        },
+        {
+          "prop": "बरगदपुर · रसोई का छोटा दीया",
+          "x": 0.498,
+          "y": 0.922,
+          "size": 0.93
+        }
+      ],
+      "sounds": [
+        {
+          "file": "51fae4495a3034971145526d2f11aa24.wav",
+          "at": 1.401,
+          "gain": 0.25
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.52,
+        "y": 0.65,
+        "zoom": 1.64,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.15,
+      "time": "dusk"
+    },
+    {
+      "name": "एक-दूसरे के साथ",
+      "scene": "बरगदपुर · दीये वाली रसोई",
+      "minDuration": 9.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसने मुन्नी को पास बिठा लिया। उस रात पैसे की चिंता थी, पर परिवार एक-दूसरे के साथ था।",
+          "audio": "d4c6e4b21eff26f535eeda57ffe25dfb.wav",
+          "emotion": "neutral",
+          "at": 0.86
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.55,
+          "y": 0.863,
+          "size": 0.86,
+          "pose": "comfort",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.784,
+              "pose": "look"
+            }
+          ],
+          "stance": "sit"
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.451,
+          "y": 0.865,
+          "size": 0.87,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.149,
+              "x": 0.465,
+              "pose": "hold"
+            }
+          ],
+          "stance": "sit"
+        },
+        {
+          "character": "कमला",
+          "x": 0.691,
+          "y": 0.854,
+          "size": 0.83,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.258,
+              "pose": "nod"
+            }
+          ],
+          "stance": "sit"
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · मुन्नी की मिट्टी की गुल्लक",
+          "x": 0.399,
+          "y": 0.886,
+          "size": 0.74
+        },
+        {
+          "prop": "बरगदपुर · रसोई का छोटा दीया",
+          "x": 0.504,
+          "y": 0.905,
+          "size": 0.92
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.63,
+          "y": 0.919,
+          "size": 0.73
+        },
+        {
+          "prop": "बरगदपुर · रोटी और कटोरी की थाली",
+          "x": 0.738,
+          "y": 0.887,
+          "size": 0.69
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b5120538f165fa8ca0d9ee6f3b41c452.wav",
+          "at": 0.37,
+          "gain": 0.4
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.55,
+        "y": 0.64,
+        "zoom": 1.36,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.13,
+      "time": "dusk",
+      "transition": "fade"
+    },
+    {
+      "name": "दरवाज़े पर साइकिल की घंटी",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 6.24,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "अगली सुबह दरवाज़े पर साइकिल की घंटी बजी। टन-टन!",
+          "audio": "59526d32fd862553fe1e1ee5c06320b5.wav",
+          "emotion": "happy",
+          "at": 1.05
+        }
+      ],
+      "actors": [
+        {
+          "character": "शंभू काका",
+          "x": 0.14,
+          "y": 0.855,
+          "size": 0.79,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.828,
+              "x": 0.36,
+              "y": 0.855
+            },
+            {
+              "at": 2.939,
+              "pose": "reach"
+            },
+            {
+              "at": 3.865,
+              "pose": "wave"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.685,
+          "y": 0.843,
+          "size": 0.85,
+          "pose": "look",
+          "emotion": "surprised",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.532,
+              "pose": "walk"
+            },
+            {
+              "at": 5.284,
+              "x": 0.61,
+              "y": 0.866,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · शंभू काका की साइकिल",
+          "x": 0.252,
+          "y": 0.862,
+          "size": 2.31,
+          "depth": 0.866,
+          "keys": [
+            {
+              "at": 2.828,
+              "x": 0.472
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.47,
+          "holder": "शंभू काका",
+          "grip": 25,
+          "at": 3.828
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.22,
+          "gain": 0.13
+        },
+        {
+          "file": "cc6d236bd1c4bff37676610a4a88a0a5.wav",
+          "at": 2.828,
+          "gain": 0.38
+        },
+        {
+          "file": "841ed8a8275bce01f5366ab7fbb41998.wav",
+          "at": 3.939,
+          "gain": 0.15
+        },
+        {
+          "kind": "birds",
+          "at": 0.05,
+          "gain": 0.09
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.52,
+        "y": 0.55,
+        "zoom": 1.13,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn",
+      "transition": "fade"
+    },
+    {
+      "name": "शंभू काका का पार्सल",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 14.96,
+      "dialogue": [
+        {
+          "speaker": "शंभू काका",
+          "text": "रामदीन! डाक आई है! तुम्हारे नाम का एक छोटा पार्सल!",
+          "audio": "74180cc1014c8439072a082bba814521.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "मेरे नाम? किसने भेजा, शंभू काका?",
+          "audio": "580da7a3c7b8695171ed621b28f9e445.wav",
+          "emotion": "surprised",
+          "at": 5.458
+        },
+        {
+          "speaker": "शंभू काका",
+          "text": "भेजने वाले का नाम तो नहीं है। बाहर तुम्हारा नाम और पता लिखा है।",
+          "audio": "9a7181632521a79691d02cff7e834796.wav",
+          "emotion": "neutral",
+          "at": 8.602
+        }
+      ],
+      "actors": [
+        {
+          "character": "शंभू काका",
+          "x": 0.36,
+          "y": 0.884,
+          "size": 0.87,
+          "pose": "offer",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.136,
+              "pose": "hold"
+            },
+            {
+              "at": 6.84,
+              "pose": "read"
+            },
+            {
+              "at": 10.96,
+              "pose": "offer"
+            },
+            {
+              "at": 13.118,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.625,
+          "y": 0.885,
+          "size": 0.9,
+          "pose": "look",
+          "emotion": "surprised",
+          "face": "left",
+          "keys": [
+            {
+              "at": 6.172,
+              "pose": "open"
+            },
+            {
+              "at": 10.81,
+              "pose": "reach"
+            },
+            {
+              "at": 12.867,
+              "pose": "hold"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · शंभू काका की साइकिल",
+          "x": 0.233,
+          "y": 0.89,
+          "size": 2.2,
+          "depth": 0.86
+        },
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.75,
+          "holder": "शंभू काका",
+          "grip": 33,
+          "end": 12.867
+        },
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.75,
+          "holder": "रामदीन",
+          "grip": 33,
+          "at": 12.867
+        }
+      ],
+      "sounds": [
+        {
+          "file": "0759d8331ece178909ee6bf44c84dabb.wav",
+          "at": 12.315,
+          "gain": 0.15
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.51,
+        "y": 0.61,
+        "zoom": 1.41,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn"
+    },
+    {
+      "name": "कागज़ खुलता है",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 5.44,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन ने पार्सल खोला… और उसकी आँखें फैल गईं।",
+          "audio": "7c648170f07fa4f5bb580bde30eaae62.wav",
+          "emotion": "surprised",
+          "at": 0.88
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.49,
+          "y": 0.655,
+          "size": 1.55,
+          "angle": -5,
+          "end": 2.837
+        },
+        {
+          "prop": "बरगदपुर · पार्सल की खुली तह",
+          "x": 0.49,
+          "y": 0.652,
+          "size": 1.43,
+          "angle": 16,
+          "at": 2.837,
+          "keys": [
+            {
+              "at": 3.5,
+              "x": 0.42,
+              "y": 0.63,
+              "angle": 30
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+          "x": 0.54,
+          "y": 0.64,
+          "size": 1.48,
+          "angle": -12,
+          "at": 2.837,
+          "depth": 0.7,
+          "keys": [
+            {
+              "at": 3.534,
+              "x": 0.55,
+              "y": 0.658,
+              "angle": -9
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "0759d8331ece178909ee6bf44c84dabb.wav",
+          "at": 1.51,
+          "gain": 0.33
+        },
+        {
+          "file": "6d39dd6ae798b57bfb48325c90bee15a.wav",
+          "at": 3.102,
+          "gain": 0.22
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.52,
+        "y": 0.565,
+        "zoom": 2.11,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "कमला, मुन्नी, जल्दी आओ",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 6.28,
+      "dialogue": [
+        {
+          "speaker": "रामदीन",
+          "text": "कमला! मुन्नी! जल्दी आओ! मेरा बटुआ!",
+          "audio": "e118cc7d478b8753656307216a3b3c4b.wav",
+          "emotion": "surprised",
+          "at": 0.75
+        },
+        {
+          "speaker": "कमला",
+          "text": "पैसे? पैसे हैं उसमें?",
+          "audio": "84e0f67932e0dc84f6d85072a0fcbc3f.wav",
+          "emotion": "worried",
+          "at": 3.628
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.51,
+          "y": 0.87,
+          "size": 0.92,
+          "pose": "offer",
+          "emotion": "surprised",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.245,
+              "pose": "hold"
+            },
+            {
+              "at": 4.732,
+              "pose": "look",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.835,
+          "y": 0.855,
+          "size": 0.84,
+          "pose": "walk",
+          "emotion": "surprised",
+          "face": "left",
+          "keys": [
+            {
+              "at": 2.684,
+              "x": 0.715,
+              "y": 0.881
+            },
+            {
+              "at": 3.628,
+              "pose": "open",
+              "emotion": "worried"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.22,
+          "y": 0.86,
+          "size": 0.83,
+          "pose": "run",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.662,
+              "x": 0.349,
+              "y": 0.89
+            },
+            {
+              "at": 3.693,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन का बँधा कपड़े का बटुआ",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.76,
+          "holder": "रामदीन",
+          "grip": 50
+        },
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.79,
+          "y": 0.898,
+          "size": 0.87
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 1.673,
+          "gain": 0.18
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.51,
+        "y": 0.56,
+        "zoom": 1.21,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn"
+    },
+    {
+      "name": "पैसे, चाबी और खुशी",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 11.4,
+      "dialogue": [
+        {
+          "speaker": "रामदीन",
+          "text": "पूरे पाँच सौ! और चाबी भी! सब वापस आ गया!",
+          "audio": "fa2f5ff4b47463a0ebc31b63ff0073e8.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "मुन्नी",
+          "text": "तो अब बीज भी आएँगे… और मेरा रिबन भी?",
+          "audio": "9733bf755dfdc7a441838430ec51f09d.wav",
+          "emotion": "happy",
+          "at": 4.964
+        },
+        {
+          "speaker": "रामदीन",
+          "text": "हाँ बिटिया, दोनों!",
+          "audio": "cdfa7860525f84e016856978ff7228e2.wav",
+          "emotion": "happy",
+          "at": 8.737
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.54,
+          "y": 0.873,
+          "size": 0.87,
+          "pose": "read",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 2.064,
+              "pose": "offer"
+            },
+            {
+              "at": 3.443,
+              "pose": "open"
+            },
+            {
+              "at": 6.127,
+              "pose": "look"
+            },
+            {
+              "at": 9.041,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.366,
+          "y": 0.884,
+          "size": 0.94,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.322,
+              "pose": "cheer",
+              "y": 0.884
+            },
+            {
+              "at": 5.71,
+              "y": 0.838
+            },
+            {
+              "at": 6.247,
+              "y": 0.886,
+              "pose": "open"
+            },
+            {
+              "at": 9.358,
+              "pose": "wave"
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.716,
+          "y": 0.871,
+          "size": 0.84,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.312,
+              "pose": "nod"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.543,
+          "y": 0.933,
+          "size": 0.95,
+          "depth": 0.91
+        },
+        {
+          "prop": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+          "x": 0.528,
+          "y": 0.768,
+          "size": 0.57,
+          "depth": 0.913
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.59,
+          "holder": "रामदीन",
+          "grip": 28,
+          "end": 2.228,
+          "angle": 3,
+          "depth": 0.94
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.564,
+          "y": 0.762,
+          "size": 0.54,
+          "at": 2.228,
+          "depth": 0.925,
+          "angle": -12
+        },
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.71,
+          "holder": "रामदीन",
+          "grip": 31,
+          "at": 2.228,
+          "end": 3.541,
+          "angle": -9,
+          "depth": 0.94
+        },
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.591,
+          "y": 0.754,
+          "size": 0.54,
+          "at": 3.541,
+          "depth": 0.929,
+          "angle": 9
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 1.111,
+          "gain": 0.2
+        },
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 2.359,
+          "gain": 0.21
+        },
+        {
+          "kind": "footstep",
+          "at": 6.247,
+          "gain": 0.09
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.62,
+        "zoom": 1.4,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn"
+    },
+    {
+      "name": "छोटी-सी पर्ची",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 10.28,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "बटुए के साथ एक छोटी पर्ची थी। उस पर लिखा था—",
+          "audio": "5e363387918431f5b72d2474ee924d05.wav",
+          "emotion": "neutral",
+          "at": 0.76
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "“रास्ते में मिला था। आगे से ज़रा ध्यान रखना।”",
+          "audio": "378f99eaf83a36e829bc45b35c2ecc21.wav",
+          "emotion": "neutral",
+          "at": 5.748
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+          "x": 0.39,
+          "y": 0.64,
+          "size": 1.19,
+          "angle": -17,
+          "depth": 0.63
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.6,
+          "y": 0.65,
+          "size": 0.86,
+          "angle": 11,
+          "depth": 0.65
+        },
+        {
+          "prop": "बरगदपुर · बटुए के साथ आई पर्ची",
+          "x": 0.522,
+          "y": 0.62,
+          "size": 1.57,
+          "angle": -7,
+          "depth": 0.68,
+          "keys": [
+            {
+              "at": 2.611,
+              "x": 0.534,
+              "angle": -7
+            },
+            {
+              "at": 3.832,
+              "x": 0.545,
+              "angle": -3
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 1.902,
+          "gain": 0.3
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.53,
+        "y": 0.55,
+        "zoom": 2.18,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "मुन्नी चाबी उठाती है",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 9.28,
+      "dialogue": [
+        {
+          "speaker": "कमला",
+          "text": "चलिए, किसी ने लौटाया तो सही।",
+          "audio": "0c1c21ff9368bb2d00df17d70240e678.wav",
+          "emotion": "happy",
+          "at": 0.75
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "तभी मुन्नी ने चाबी उठाई। उस पर सफ़ेद-सा कुछ लगा था।",
+          "audio": "3f96cbe26de7efbb387fa1f844ada317.wav",
+          "emotion": "surprised",
+          "at": 3.885
+        }
+      ],
+      "actors": [
+        {
+          "character": "कमला",
+          "x": 0.35,
+          "y": 0.874,
+          "size": 0.84,
+          "pose": "open",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.065,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.617,
+          "y": 0.88,
+          "size": 1.03,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.475,
+              "pose": "reach",
+              "stance": "crouch"
+            },
+            {
+              "at": 5.655,
+              "pose": "read",
+              "stance": "stand",
+              "emotion": "surprised"
+            },
+            {
+              "at": 7.299,
+              "pose": "sniff"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.505,
+          "y": 0.932,
+          "size": 0.94,
+          "depth": 0.925
+        },
+        {
+          "prop": "बरगदपुर · रामदीन का खुला कपड़े का बटुआ",
+          "x": 0.445,
+          "y": 0.77,
+          "size": 0.57,
+          "depth": 0.93
+        },
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.535,
+          "y": 0.766,
+          "size": 0.57,
+          "end": 5.571,
+          "depth": 0.94,
+          "angle": 17
+        },
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.68,
+          "holder": "मुन्नी",
+          "grip": 24,
+          "at": 5.571,
+          "depth": 0.954,
+          "angle": 18
+        }
+      ],
+      "sounds": [
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 5.571,
+          "gain": 0.22
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.54,
+        "y": 0.625,
+        "zoom": 1.56,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn"
+    },
+    {
+      "name": "साबुन की खुशबू",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 7.72,
+      "dialogue": [
+        {
+          "speaker": "मुन्नी",
+          "text": "बापू, चाबी पर यह क्या है? इसमें से तो साबुन की खुशबू आ रही है!",
+          "audio": "059fb49e59ee4e27aa83fa29aa43987a.wav",
+          "emotion": "surprised",
+          "at": 0.92
+        }
+      ],
+      "actors": [
+        {
+          "character": "मुन्नी",
+          "x": 0.54,
+          "y": 0.915,
+          "size": 1.15,
+          "pose": "read",
+          "emotion": "surprised",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.319,
+              "pose": "sniff"
+            },
+            {
+              "at": 5.16,
+              "pose": "offer",
+              "emotion": "surprised"
+            }
+          ]
+        },
+        {
+          "character": "रामदीन",
+          "x": 0.74,
+          "y": 0.91,
+          "size": 0.93,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.16,
+              "pose": "listen"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.88,
+          "holder": "मुन्नी",
+          "grip": 30,
+          "angle": 6,
+          "depth": 0.955
+        }
+      ],
+      "sounds": [
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 4.937,
+          "gain": 0.11
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.55,
+        "y": 0.64,
+        "zoom": 2.12,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.1,
+      "time": "dawn"
+    },
+    {
+      "name": "चाबी पोंछ दी गई",
+      "scene": "बरगदपुर · आँगन की लकड़ी की मेज़",
+      "minDuration": 15.48,
+      "dialogue": [
+        {
+          "speaker": "रामदीन",
+          "text": "अरे, कहीं लग गया होगा। अभी मुझे बीज लेने जाना है।",
+          "audio": "1edee89e1302197f01195f96cbcf8612.wav",
+          "emotion": "neutral",
+          "at": 0.77
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "रामदीन ने चाबी पोंछकर रख ली। सबकी नज़र लौटे हुए पैसों पर थी। चाबी पर लगे साबुन की बात वहीं रह गई।",
+          "audio": "3bd133b6898af43b7a00084a05ddb6d7.wav",
+          "emotion": "neutral",
+          "at": 5.661
+        }
+      ],
+      "actors": [],
+      "props": [
+        {
+          "prop": "बरगदपुर · साबुन लगी हुई चाबी",
+          "x": 0.497,
+          "y": 0.61,
+          "size": 1.69,
+          "angle": -12,
+          "end": 8.712,
+          "depth": 0.67
+        },
+        {
+          "prop": "बरगदपुर · रामदीन के घर की चाबी",
+          "x": 0.497,
+          "y": 0.61,
+          "size": 1.69,
+          "angle": -12,
+          "at": 8.712,
+          "depth": 0.67,
+          "keys": [
+            {
+              "at": 10.916,
+              "x": 0.497
+            },
+            {
+              "at": 12.442,
+              "x": 0.454,
+              "y": 0.612,
+              "angle": -9
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · कमला का छोटा कपड़ा",
+          "x": 0.382,
+          "y": 0.65,
+          "size": 1.44,
+          "angle": -17,
+          "depth": 0.71,
+          "keys": [
+            {
+              "at": 6.254,
+              "x": 0.382
+            },
+            {
+              "at": 8.543,
+              "x": 0.496,
+              "angle": 7
+            },
+            {
+              "at": 10.577,
+              "x": 0.386,
+              "angle": -10
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · बीज के रुपये",
+          "x": 0.658,
+          "y": 0.655,
+          "size": 1.05,
+          "angle": 10,
+          "depth": 0.68
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 7.271,
+          "gain": 0.27
+        },
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 11.679,
+          "gain": 0.15
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.53,
+        "y": 0.563,
+        "zoom": 2.03,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "बीज और लाल रिबन",
+      "scene": "बरगदपुर · रामदीन का आँगन",
+      "minDuration": 6.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उस दिन बीज भी आ गए… और मुन्नी का लाल रिबन भी।",
+          "audio": "6924e210c07e8aa2e35cb021bce4b4ca.wav",
+          "emotion": "happy",
+          "at": 0.97
+        }
+      ],
+      "actors": [
+        {
+          "character": "रामदीन",
+          "x": 0.696,
+          "y": 0.866,
+          "size": 0.87,
+          "pose": "hold",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 2.622,
+              "pose": "offer"
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.31,
+          "y": 0.858,
+          "size": 0.82,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.153,
+              "pose": "open"
+            }
+          ]
+        },
+        {
+          "character": "मुन्नी",
+          "x": 0.493,
+          "y": 0.886,
+          "size": 0.9,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.146,
+              "pose": "cheer",
+              "y": 0.886
+            },
+            {
+              "at": 3.589,
+              "y": 0.848
+            },
+            {
+              "at": 4.072,
+              "pose": "open",
+              "y": 0.886
+            },
+            {
+              "at": 4.757,
+              "face": "left",
+              "pose": "wave"
+            }
+          ],
+          "ribbon": true
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · रामदीन के बीज की बँधी बोरी",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.84,
+          "holder": "रामदीन",
+          "grip": 53,
+          "end": 2.904
+        },
+        {
+          "prop": "बरगदपुर · रामदीन के बीज की बँधी बोरी",
+          "x": 0.64,
+          "y": 0.888,
+          "size": 0.96,
+          "at": 2.904
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b27445132ded71d16809b190cca92efa.wav",
+          "at": 2.138,
+          "gain": 0.2
+        },
+        {
+          "kind": "birds",
+          "at": 0.12,
+          "gain": 0.08
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.58,
+        "zoom": 1.34,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "transition": "fade"
+    },
+    {
+      "name": "सेठ घनश्याम का बटुआ",
+      "scene": "बरगदपुर · बरगद वाली गली",
+      "minDuration": 8.96,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "अगले गुरुवार सेठ घनश्याम का बटुआ गायब हो गया। और अगली सुबह… वह भी पार्सल में लौट आया!",
+          "audio": "ebc5464b3a7004e0b3e1fe4cfd5ef71e.wav",
+          "emotion": "surprised",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "सेठ घनश्याम",
+          "x": 0.49,
+          "y": 0.88,
+          "size": 0.92,
+          "pose": "check-pocket",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.165,
+              "pose": "look"
+            },
+            {
+              "at": 4.408,
+              "pose": "flinch",
+              "emotion": "surprised"
+            },
+            {
+              "at": 5.719,
+              "pose": "hold",
+              "emotion": "happy"
+            },
+            {
+              "at": 7.03,
+              "pose": "offer"
+            }
+          ]
+        },
+        {
+          "character": "शंभू काका",
+          "x": 0.83,
+          "y": 0.856,
+          "size": 0.77,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.029,
+              "x": 0.7,
+              "y": 0.862
+            },
+            {
+              "at": 5.098,
+              "pose": "offer"
+            },
+            {
+              "at": 6.202,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.73,
+          "holder": "शंभू काका",
+          "end": 6.202,
+          "grip": 29
+        },
+        {
+          "prop": "बरगदपुर · सेठ घनश्याम का बटुआ",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.75,
+          "holder": "सेठ घनश्याम",
+          "at": 6.202,
+          "grip": 37
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 2.406,
+          "gain": 0.18
+        },
+        {
+          "file": "0759d8331ece178909ee6bf44c84dabb.wav",
+          "at": 5.098,
+          "gain": 0.25
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.58,
+        "zoom": 1.34,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08,
+      "time": "dawn"
+    },
+    {
+      "name": "गोमती काकी की थैली",
+      "scene": "बरगदपुर · बरगद की चौपाल और कुआँ",
+      "minDuration": 10.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "फिर गोमती काकी की पैसे वाली थैली गई। वह भी लौट आई। पैसे पूरे। साथ में वही पर्ची—“आगे से ज़रा ध्यान रखना।”",
+          "audio": "fdf4050bddd3315841200a6235a8c31b.wav",
+          "emotion": "surprised",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "गोमती काकी",
+          "x": 0.49,
+          "y": 0.88,
+          "size": 0.93,
+          "pose": "think",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.309,
+              "pose": "hold",
+              "emotion": "surprised"
+            },
+            {
+              "at": 6.343,
+              "pose": "read",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · बिना नाम का कागज़ी पार्सल",
+          "x": 0.635,
+          "y": 0.885,
+          "size": 0.85,
+          "angle": 10,
+          "at": 3.377,
+          "depth": 0.91
+        },
+        {
+          "prop": "बरगदपुर · गोमती काकी की थैली",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.87,
+          "holder": "गोमती काकी",
+          "at": 3.97,
+          "end": 6.343,
+          "grip": 48
+        },
+        {
+          "prop": "बरगदपुर · बटुए के साथ आई पर्ची",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.85,
+          "holder": "गोमती काकी",
+          "at": 6.343,
+          "grip": 53,
+          "angle": -10,
+          "depth": 0.92
+        },
+        {
+          "prop": "बरगदपुर · कुएँ के पास सफ़ेद बकरी",
+          "x": 0.25,
+          "y": 0.857,
+          "size": 0.67,
+          "depth": 0.865,
+          "keys": [
+            {
+              "at": 8.461,
+              "x": 0.301
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "6d39dd6ae798b57bfb48325c90bee15a.wav",
+          "at": 3.377,
+          "gain": 0.19
+        },
+        {
+          "file": "f7d426c73c42c5e33b3e4b93c6cc3c93.wav",
+          "at": 5.326,
+          "gain": 0.16
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 6.428,
+          "gain": 0.18
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.51,
+        "y": 0.61,
+        "zoom": 1.53,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "कुएँ से चौपाल तक चर्चा",
+      "scene": "बरगदपुर · बरगद की चौपाल और कुआँ",
+      "minDuration": 12.32,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "कई गुरुवार बीत गए। कई बटुए गायब हुए, और हर बार अगले दिन वापस आ गए। अब कुएँ से लेकर चौपाल तक, बस इसी की चर्चा थी।",
+          "audio": "0f51000044e35490d77566f505eff926.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "सेठ घनश्याम",
+          "x": 0.29,
+          "y": 0.844,
+          "size": 0.68,
+          "pose": "talk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 5.328,
+              "pose": "open"
+            },
+            {
+              "at": 8.242,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "बरगदपुर का किसान",
+          "x": 0.43,
+          "y": 0.844,
+          "size": 0.65,
+          "pose": "look",
+          "emotion": "surprised",
+          "face": "left",
+          "keys": [
+            {
+              "at": 5.016,
+              "pose": "think"
+            },
+            {
+              "at": 8.554,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "गोमती काकी",
+          "x": 0.61,
+          "y": 0.867,
+          "size": 0.77,
+          "pose": "walk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 6.889,
+              "x": 0.68,
+              "y": 0.876
+            },
+            {
+              "at": 6.993,
+              "pose": "open"
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.8,
+          "y": 0.858,
+          "size": 0.77,
+          "pose": "hold",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 7.305,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · सेठ घनश्याम का बटुआ",
+          "x": 0.5,
+          "y": 0.75,
+          "size": 0.58,
+          "holder": "सेठ घनश्याम",
+          "grip": 33
+        },
+        {
+          "prop": "बरगदपुर · कुएँ के पास सफ़ेद बकरी",
+          "x": 0.51,
+          "y": 0.904,
+          "size": 0.71,
+          "keys": [
+            {
+              "at": 10.843,
+              "x": 0.57
+            }
+          ]
+        },
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.75,
+          "y": 0.885,
+          "size": 0.86
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.14,
+          "gain": 0.09
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 5.536,
+          "gain": 0.13
+        },
+        {
+          "kind": "goat",
+          "at": 8.762,
+          "gain": 0.068
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.51,
+        "y": 0.53,
+        "zoom": 1.12,
+        "move": "pan-left",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "बटुए घुमाने ले जाता है?",
+      "scene": "बरगदपुर · बरगद की चौपाल और कुआँ",
+      "minDuration": 19.56,
+      "dialogue": [
+        {
+          "speaker": "गोमती काकी",
+          "text": "अरे कमला, यह कैसा चोर है? चोरी करता है या बटुए घुमाने ले जाता है?",
+          "audio": "453a1c96e0c33635411104ff3684293b.wav",
+          "emotion": "funny",
+          "at": 0.75
+        },
+        {
+          "speaker": "कमला",
+          "text": "बात तो अजीब है काकी। लेकिन बटुआ न मिले तो जो चिंता होती है, वह भी कोई छोटी बात है?",
+          "audio": "09f7f97d6e973c0f849db96f06530a19.wav",
+          "emotion": "neutral",
+          "at": 6.957
+        },
+        {
+          "speaker": "गोमती काकी",
+          "text": "हाँ, यह तो है। उस दिन मेरी तो जान ही सूख गई थी।",
+          "audio": "fe71022fbb06f83439ad9f8b917e5350.wav",
+          "emotion": "neutral",
+          "at": 14.486
+        }
+      ],
+      "actors": [
+        {
+          "character": "गोमती काकी",
+          "x": 0.364,
+          "y": 0.884,
+          "size": 0.87,
+          "pose": "open",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.062,
+              "pose": "think"
+            },
+            {
+              "at": 4.346,
+              "pose": "open"
+            },
+            {
+              "at": 9.218,
+              "pose": "look",
+              "emotion": "neutral"
+            },
+            {
+              "at": 15.399,
+              "pose": "nod"
+            },
+            {
+              "at": 16.997,
+              "pose": "open",
+              "emotion": "worried"
+            }
+          ]
+        },
+        {
+          "character": "कमला",
+          "x": 0.661,
+          "y": 0.885,
+          "size": 0.91,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 7.688,
+              "pose": "talk"
+            },
+            {
+              "at": 9.75,
+              "pose": "open",
+              "emotion": "worried"
+            },
+            {
+              "at": 12.609,
+              "pose": "look"
+            },
+            {
+              "at": 16.464,
+              "pose": "nod",
+              "emotion": "neutral"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.708,
+          "y": 0.915,
+          "size": 0.93,
+          "depth": 0.924
+        },
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.283,
+          "y": 0.913,
+          "size": 1.03
+        }
+      ],
+      "sounds": [
+        {
+          "kind": "funny",
+          "at": 6.066999999999999,
+          "gain": 0.054
+        },
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 10.082,
+          "gain": 0.1
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.53,
+        "y": 0.595,
+        "zoom": 1.48,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "सारे गाँव की बात",
+      "scene": "बरगदपुर · बरगद की चौपाल और कुआँ",
+      "minDuration": 9.76,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "फिर भी, कुछ लोग हँसी-मज़ाक में उसे “शरीफ़ चोर” कहने लगे। नाम ऐसा चला कि पूरा गाँव यही बोलने लगा।",
+          "audio": "6b3554376ac399f90985557c36209f36.wav",
+          "emotion": "neutral",
+          "at": 0.75
+        }
+      ],
+      "actors": [
+        {
+          "character": "बीजवाले काका",
+          "x": 0.29,
+          "y": 0.847,
+          "size": 0.7,
+          "pose": "open",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.449,
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "सेठ घनश्याम",
+          "x": 0.44,
+          "y": 0.855,
+          "size": 0.72,
+          "pose": "look",
+          "emotion": "happy",
+          "face": "left",
+          "keys": [
+            {
+              "at": 3.679,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "गोमती काकी",
+          "x": 0.62,
+          "y": 0.858,
+          "size": 0.74,
+          "pose": "talk",
+          "emotion": "happy",
+          "face": "right",
+          "keys": [
+            {
+              "at": 4.835,
+              "pose": "point"
+            }
+          ]
+        },
+        {
+          "character": "सब्ज़ी लेने आई दीदी",
+          "x": 0.79,
+          "y": 0.849,
+          "size": 0.68,
+          "pose": "listen",
+          "emotion": "surprised",
+          "face": "left",
+          "keys": [
+            {
+              "at": 4.989,
+              "pose": "open",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · आँगन की मिट्टी की मटकी",
+          "x": 0.56,
+          "y": 0.882,
+          "size": 0.78
+        },
+        {
+          "prop": "बरगदपुर · हाट की बाँस की टोकरी",
+          "x": 0.747,
+          "y": 0.887,
+          "size": 0.94
+        }
+      ],
+      "sounds": [],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "x": 0.55,
+        "y": 0.553,
+        "zoom": 1.18,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.08
+    },
+    {
+      "name": "दरोगा भीम सिंह की चिंता",
+      "scene": "बरगदपुर · पुलिस चौकी का कमरा",
+      "minDuration": 5.04,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन दरोगा भीम सिंह खुश नहीं थे।",
+          "audio": "147fdc852b647a499121a8be923452ba.wav",
+          "emotion": "neutral",
+          "at": 0.99
+        }
+      ],
+      "actors": [
+        {
+          "character": "दरोगा भीम सिंह",
+          "x": 0.53,
+          "y": 0.88,
+          "size": 0.96,
+          "pose": "read",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 2.414,
+              "pose": "think"
+            },
+            {
+              "at": 3.381,
+              "pose": "look",
+              "face": "left"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.56,
+          "y": 0.922,
+          "size": 1.43,
+          "depth": 0.9
+        },
+        {
+          "prop": "बरगदपुर · चौकी की रिपोर्ट बही",
+          "x": 0.548,
+          "y": 0.66,
+          "size": 1.12,
+          "depth": 0.91
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 0.35,
+          "gain": 0.19
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "x": 0.54,
+        "y": 0.56,
+        "zoom": 1.79,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.16,
+      "transition": "fade"
+    },
+    {
+      "name": "अगले गुरुवार की योजना",
+      "scene": "बरगदपुर · पुलिस चौकी का कमरा",
+      "minDuration": 16.72,
+      "dialogue": [
+        {
+          "speaker": "सरपंच",
+          "text": "दरोगा जी, बटुए लौट रहे हैं, पर चोरी तो हो रही है। इसे रोकना होगा।",
+          "audio": "c6e3f991bc6b820d43dd5229361339e6.wav",
+          "emotion": "worried",
+          "at": 0.86
+        },
+        {
+          "speaker": "दरोगा भीम सिंह",
+          "text": "बिल्कुल। इस गुरुवार पांडू सादे कपड़ों में हाट जाएगा। देखते हैं, यह चोर कब तक बचता है।",
+          "audio": "d5bf79e4aab710cd3cd5900726658da2.wav",
+          "emotion": "neutral",
+          "at": 7.37
+        }
+      ],
+      "actors": [
+        {
+          "character": "सरपंच",
+          "x": 0.315,
+          "y": 0.881,
+          "size": 0.83,
+          "pose": "talk",
+          "emotion": "worried",
+          "face": "right",
+          "keys": [
+            {
+              "at": 3.317,
+              "pose": "point"
+            },
+            {
+              "at": 9.398,
+              "pose": "look"
+            },
+            {
+              "at": 12.081,
+              "pose": "nod"
+            }
+          ]
+        },
+        {
+          "character": "दरोगा भीम सिंह",
+          "x": 0.554,
+          "y": 0.87,
+          "size": 0.88,
+          "pose": "listen",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 7.959,
+              "pose": "nod"
+            },
+            {
+              "at": 9.333,
+              "pose": "point",
+              "face": "right"
+            },
+            {
+              "at": 11.754,
+              "pose": "fold",
+              "face": "left"
+            },
+            {
+              "at": 14.423,
+              "face": "right",
+              "pose": "look"
+            }
+          ]
+        },
+        {
+          "character": "पांडू",
+          "x": 0.724,
+          "y": 0.84,
+          "size": 0.74,
+          "pose": "look",
+          "emotion": "neutral",
+          "face": "left",
+          "keys": [
+            {
+              "at": 10.053,
+              "pose": "nod",
+              "emotion": "happy"
+            },
+            {
+              "at": 12.604,
+              "pose": "fold",
+              "emotion": "neutral"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "बरगदपुर · चौकी की सागौन मेज़",
+          "x": 0.577,
+          "y": 0.925,
+          "size": 1.18,
+          "depth": 0.9
+        },
+        {
+          "prop": "बरगदपुर · चौकी की रिपोर्ट बही",
+          "x": 0.601,
+          "y": 0.702,
+          "size": 0.94,
+          "depth": 0.915
+        }
+      ],
+      "sounds": [
+        {
+          "file": "5d92506fcd42da6418d77639360f192f.wav",
+          "at": 9.791,
+          "gain": 0.12
+        }
+      ],
+      "captionPosition": "low",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "x": 0.55,
+        "y": 0.57,
+        "zoom": 1.39,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.17,
+      "transition": "fade"
+    }
+  ],
+  "score": {
+    "file": "e0ce416887ebc534e94a4bde6fc16f32.wav",
+    "gain": 0.55
+  }
+}

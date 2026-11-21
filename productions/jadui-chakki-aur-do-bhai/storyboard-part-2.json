@@ -1,0 +1,1786 @@
+{
+  "title": "जादुई चक्की और दो भाइयों का न्याय · खंड 2",
+  "slug": "jadui-chakki-aur-do-bhai-part-2",
+  "language": "hi",
+  "ratio": "16:9",
+  "captions": true,
+  "captionScale": 0.74,
+  "characters": [
+    {
+      "name": "माधव",
+      "gender": "male",
+      "age": "adult",
+      "build": "slim",
+      "costume": "dhoti",
+      "hair": "crop",
+      "skin": "#a8694a",
+      "primary": "#b8ad90",
+      "accent": "#a2593e",
+      "patches": true,
+      "mud": true,
+      "barefoot": true,
+      "moustache": false,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "कविता",
+      "gender": "female",
+      "age": "adult",
+      "build": "slim",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#b06f4d",
+      "primary": "#6f8e88",
+      "accent": "#b89a58",
+      "patches": true,
+      "jewelry": "simple",
+      "barefoot": true,
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "साधु बाबा",
+      "gender": "male",
+      "age": "elder",
+      "build": "slim",
+      "costume": "ascetic",
+      "hair": "jata",
+      "skin": "#9a6540",
+      "primary": "#e07a1f",
+      "accent": "#c4561a",
+      "beard": "long",
+      "tilak": "tripund",
+      "barefoot": true,
+      "moustache": true,
+      "voiceStyle": "male, elderly, low pitch"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "जादुई चक्की · कोहरे में झोपड़ी",
+      "kind": "home",
+      "image": "01bd038ec8cd323aeb933317c8eaffbf.jpg",
+      "ambience": "village",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · काली पहाड़ी की पगडंडी",
+      "kind": "lane",
+      "image": "747894e614019b0ef334b215692322c1.jpg",
+      "ambience": "village",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · पहाड़ी की चट्टान",
+      "kind": "field",
+      "image": "52f442d73a0dc67ab6f4b5c297e7666a.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · आंधी में जंगल",
+      "kind": "field",
+      "image": "7145d384b08f076d649327384e9ef5a3.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · प्राचीन गुफा",
+      "kind": "field",
+      "image": "a83ee3ef8a75abdc6b7557894878bef8.jpg",
+      "ambience": "quiet",
+      "bakedLight": true
+    }
+  ],
+  "props": [
+    {
+      "name": "जादुई चक्की · फावड़ा",
+      "kind": "shovel",
+      "color": "#8d8f93"
+    },
+    {
+      "name": "जादुई चक्की · कपड़े का थैला",
+      "kind": "cloth-pouch",
+      "color": "#c9b48a"
+    },
+    {
+      "name": "जादुई चक्की · माधव का गमछा",
+      "kind": "shawl",
+      "color": "#9a6a3c"
+    },
+    {
+      "name": "जादुई चक्की · दो सूखी रोटियां",
+      "kind": "roti",
+      "color": "#d3b27a"
+    },
+    {
+      "name": "जादुई चक्की · पानी का लोटा",
+      "kind": "lota",
+      "color": "#c89a3c"
+    },
+    {
+      "name": "जादुई चक्की · पत्थर की चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82"
+    },
+    {
+      "name": "जादुई चक्की · जगमगाती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "glow"
+    }
+  ],
+  "shots": [
+    {
+      "actors": [
+        {
+          "character": "कविता",
+          "x": 0.42,
+          "y": 0.8,
+          "size": 0.9,
+          "face": "right",
+          "pose": "hold",
+          "emotion": "worried"
+        },
+        {
+          "character": "माधव",
+          "x": 0.66,
+          "y": 0.88,
+          "size": 1.02,
+          "face": "left",
+          "pose": "reach",
+          "emotion": "sad",
+          "keys": [
+            {
+              "at": 4.949999999999999,
+              "pose": "idle",
+              "emotion": "neutral"
+            },
+            {
+              "at": 6.129999999999999,
+              "pose": "hold",
+              "emotion": "neutral",
+              "face": "right"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · फावड़ा",
+          "x": 0.78,
+          "y": 0.9,
+          "size": 0.95,
+          "end": 4.949999999999999
+        },
+        {
+          "prop": "जादुई चक्की · फावड़ा",
+          "x": 0.66,
+          "y": 0.88,
+          "size": 0.95,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "near",
+            "x": 6,
+            "y": -6
+          },
+          "at": 4.949999999999999
+        },
+        {
+          "prop": "जादुई चक्की · कपड़े का थैला",
+          "x": 0.66,
+          "y": 0.88,
+          "size": 0.85,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "far",
+            "x": 0,
+            "y": 0
+          },
+          "at": 4.949999999999999
+        }
+      ],
+      "fx": [
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.4,
+          "gain": 0.12
+        },
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.2
+        },
+        {
+          "kind": "thunder",
+          "at": 6.129999999999999,
+          "gain": 0.22
+        }
+      ],
+      "name": "१ · कोहरे की सुबह",
+      "scene": "जादुई चक्की · कोहरे में झोपड़ी",
+      "time": "dawn",
+      "weather": "mist",
+      "atmosphere": "village",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.18,
+        "x": 0.52,
+        "y": 0.6,
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fxAmount": 0.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "अपने ही भाई के दरवाजे से अपमानित होकर लौटे माधव ने",
+          "audio": "21bbd431b599fd46e30a1a87e3a1c1db.wav",
+          "at": 0.5
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "हिम्मत नहीं हारी।",
+          "audio": "933da4294aa519ff178495671a0557a0.wav"
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "अगली सुबह,",
+          "audio": "66122f2804f649ee09612efd37a2bed2.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.4,
+          "y": 0.98,
+          "size": 1.05,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 1.1,
+              "x": 0.52,
+              "y": 0.89,
+              "size": 0.84
+            },
+            {
+              "at": 2.2,
+              "x": 0.66,
+              "y": 0.79,
+              "size": 0.64
+            },
+            {
+              "at": 3.1,
+              "x": 0.72,
+              "y": 0.73,
+              "size": 0.52
+            },
+            {
+              "at": 4,
+              "x": 0.65,
+              "y": 0.68,
+              "size": 0.42
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · फावड़ा",
+          "x": 0.4,
+          "y": 0.98,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "near",
+            "x": 6,
+            "y": -6
+          }
+        },
+        {
+          "prop": "जादुई चक्की · कपड़े का थैला",
+          "x": 0.4,
+          "y": 0.98,
+          "size": 0.85,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "far",
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "fx": [
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.4,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 1,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 1.6,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 2.2,
+          "gain": 0.12
+        },
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.1
+        },
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.2
+        }
+      ],
+      "name": "२ · गांव से दूर",
+      "scene": "जादुई चक्की · काली पहाड़ी की पगडंडी",
+      "time": "dawn",
+      "weather": "mist",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "static"
+      },
+      "vignette": 0.2,
+      "fxAmount": 0.8,
+      "minDuration": 4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "वह चिकनी मिट्टी की तलाश में गांव से दूर",
+          "audio": "f13b678cc004e68cdc596696600c86d6.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [],
+      "props": [],
+      "fx": [
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "thunder",
+          "at": 0.5,
+          "gain": 0.55
+        },
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.24
+        },
+        {
+          "kind": "thunder",
+          "at": 2.6,
+          "gain": 0.4
+        }
+      ],
+      "name": "३ · काली पहाड़ी",
+      "scene": "जादुई चक्की · काली पहाड़ी की पगडंडी",
+      "time": "dawn",
+      "weather": "mist",
+      "mood": "worried",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 2.1,
+        "x": 0.7,
+        "y": 0.3,
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "fxAmount": 0.9,
+      "minDuration": 3.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "खतरनाक ‘काली पहाड़ी’ की ओर निकल पड़ा।",
+          "audio": "817069defdb1213d5b73834e86118335.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.14,
+          "y": 0.98,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 0.9,
+              "x": 0.12,
+              "y": 0.84,
+              "size": 0.82
+            },
+            {
+              "at": 1.8,
+              "x": 0.15,
+              "y": 0.71,
+              "size": 0.66
+            },
+            {
+              "at": 2.7,
+              "x": 0.21,
+              "y": 0.61,
+              "size": 0.52
+            },
+            {
+              "at": 3.5,
+              "x": 0.265,
+              "y": 0.49,
+              "size": 0.4
+            },
+            {
+              "at": 4.2,
+              "x": 0.25,
+              "y": 0.41,
+              "size": 0.33
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · फावड़ा",
+          "x": 0.14,
+          "y": 0.98,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "near",
+            "x": 6,
+            "y": -6
+          }
+        }
+      ],
+      "fx": [
+        "rays",
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.4,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 1.1,
+          "gain": 0.12
+        },
+        {
+          "kind": "wind",
+          "at": 1.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "thunder",
+          "at": 3.6,
+          "gain": 0.45
+        }
+      ],
+      "name": "४ · पहाड़ी पर चढ़ाई, मौसम बदला",
+      "scene": "जादुई चक्की · पहाड़ी की चट्टान",
+      "time": "day",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "static"
+      },
+      "vignette": 0.2,
+      "fxAmount": 0.9,
+      "minDuration": 4.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पहाड़ी पर चढ़ते ही अचानक मौसम ने करवट ली।",
+          "audio": "94171b426943a46f846b874cb269763c.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.46,
+          "y": 0.93,
+          "size": 1.05,
+          "face": "left",
+          "pose": "flinch",
+          "emotion": "worried"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "leaves",
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.6
+        },
+        {
+          "kind": "wind",
+          "at": 1.5,
+          "gain": 0.5
+        },
+        {
+          "kind": "thunder",
+          "at": 1,
+          "gain": 0.5
+        }
+      ],
+      "name": "५ · तेज आंधी और कोहरा",
+      "scene": "जादुई चक्की · आंधी में जंगल",
+      "time": "day",
+      "mood": "worried",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.25,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "fxAmount": 1.5,
+      "minDuration": 3.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "तेज आंधी और घने कोहरे ने रास्ता ढक लिया—",
+          "audio": "8f274d206371c53291f81e3ac34057f3.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.18,
+          "y": 0.95,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 2,
+              "x": 0.45,
+              "y": 0.9
+            },
+            {
+              "at": 3.6,
+              "pose": "look",
+              "x": 0.66,
+              "y": 0.88,
+              "size": 0.85,
+              "emotion": "surprised"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "leaves",
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.5
+        },
+        {
+          "kind": "wind",
+          "at": 2,
+          "gain": 0.4
+        }
+      ],
+      "name": "६ · भटककर अनजान जगह",
+      "scene": "जादुई चक्की · आंधी में जंगल",
+      "time": "day",
+      "mood": "worried",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pan-right"
+      },
+      "vignette": 0.42,
+      "fxAmount": 1.3,
+      "minDuration": 4.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "और माधव भटककर एक अनजान, सुनसान हिस्से में जा पहुंचा।",
+          "audio": "20231de7f8f35d088e3ffd4468004236.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.46,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "shiver",
+          "stance": "sit",
+          "emotion": "sad"
+        },
+        {
+          "character": "माधव",
+          "x": -0.1,
+          "y": 0.92,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 5.64,
+              "x": 0.14
+            },
+            {
+              "at": 5.9399999999999995,
+              "pose": "look"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · फावड़ा",
+          "x": -0.1,
+          "y": 0.92,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "near",
+            "x": 6,
+            "y": -6
+          }
+        }
+      ],
+      "fx": [
+        "rays",
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.4
+        },
+        {
+          "kind": "wind",
+          "at": 2.5,
+          "gain": 0.3
+        }
+      ],
+      "name": "७ · गुफा के बाहर कांपते साधु",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.42,
+        "y": 0.64,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "fxAmount": 0.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "गुफा के बाहर एक अत्यंत वृद्ध और कमजोर साधु",
+          "audio": "536da81bc27e5843b4b1ba7e9804b0e6.wav",
+          "at": 0.4
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "ठंड से कांप रहे थे।",
+          "audio": "b9ba555b1d98d2af718133265d45382a.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.5,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "shiver",
+          "stance": "sit",
+          "emotion": "sad"
+        },
+        {
+          "character": "माधव",
+          "x": 0.2,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "look",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 0.8,
+              "pose": "check-pocket",
+              "emotion": "sad"
+            },
+            {
+              "at": 4.06,
+              "pose": "walk",
+              "x": 0.34
+            },
+            {
+              "at": 5.06,
+              "pose": "comfort",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · माधव का गमछा",
+          "x": 0.5,
+          "y": 0.89,
+          "size": 0.78,
+          "at": 5.959999999999999,
+          "holder": "साधु बाबा",
+          "grasp": {
+            "hand": "waist",
+            "x": 0,
+            "y": -22
+          }
+        }
+      ],
+      "fx": [
+        "fog"
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.35
+        },
+        {
+          "kind": "whoosh",
+          "at": 5.859999999999999,
+          "gain": 0.2
+        }
+      ],
+      "name": "८ · चादर ओढ़ा दी",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "sad",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.6,
+        "x": 0.36,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.32,
+      "fxAmount": 0.7,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "खुद भूखे होने के बावजूद,",
+          "audio": "02154e8c00ecf52b6187857d6b367bc8.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "माधव ने बिना एक पल सोचे अपनी चादर साधु को ओढ़ा दी",
+          "audio": "2a12e855762b860e8f54b19a4cc1e643.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.52,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "shiver",
+          "stance": "sit",
+          "emotion": "sad",
+          "keys": [
+            {
+              "at": 2.4,
+              "pose": "reach"
+            },
+            {
+              "at": 3.8,
+              "pose": "idle",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.32,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "offer",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · दो सूखी रोटियां",
+          "x": 0.32,
+          "y": 0.92,
+          "size": 0.7,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "near",
+            "x": 0,
+            "y": 0
+          },
+          "end": 2.3
+        },
+        {
+          "prop": "जादुई चक्की · पानी का लोटा",
+          "x": 0.34,
+          "y": 0.92,
+          "size": 0.7,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "far",
+            "x": 0,
+            "y": 0
+          },
+          "end": 2.6999999999999997
+        },
+        {
+          "prop": "जादुई चक्की · दो सूखी रोटियां",
+          "x": 0.43,
+          "y": 0.95,
+          "size": 0.7,
+          "at": 2.3
+        },
+        {
+          "prop": "जादुई चक्की · पानी का लोटा",
+          "x": 0.47,
+          "y": 0.96,
+          "size": 0.7,
+          "at": 2.6999999999999997
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "water",
+          "at": 3,
+          "gain": 0.2
+        }
+      ],
+      "name": "९ · आखिरी रोटियां और पानी",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.7,
+        "x": 0.4,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "fxAmount": 0.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "और अपने हिस्से की आखिरी दो सूखी रोटियां और पानी उन्हें दे दिया।",
+          "audio": "6e9140a38ce40170d24f0f752bd9a79d.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.52,
+          "y": 0.89,
+          "size": 1,
+          "face": "front",
+          "pose": "idle",
+          "stance": "stand",
+          "emotion": "happy"
+        },
+        {
+          "character": "माधव",
+          "x": 0.28,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "happy"
+        }
+      ],
+      "props": [],
+      "fx": [],
+      "sounds": [],
+      "name": "१० · साधु की मुस्कान",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 2,
+        "focus": "साधु बाबा",
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fxAmount": 1.3,
+      "auraX": 0.5,
+      "auraY": 0.5,
+      "minDuration": 3,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "साधु ने तृप्त होकर मुस्कुराते हुए कहा—",
+          "audio": "e124605e5b6fd9e38e9a0a0802c8cdfa.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.56,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "open",
+          "stance": "stand",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.9699999999999998,
+              "pose": "present"
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 2.9699999999999998,
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "rays"
+      ],
+      "sounds": [],
+      "name": "११ · बेटा, तुमने सेवा की",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "x": 0.44,
+        "y": 0.64,
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fxAmount": 0.8,
+      "dialogue": [
+        {
+          "speaker": "साधु बाबा",
+          "text": "“बेटा, तुम खुद संकट में हो,",
+          "audio": "ca8452db39212d0d8602caf413e9bacb.wav",
+          "at": 0.3,
+          "emotion": "happy"
+        },
+        {
+          "speaker": "साधु बाबा",
+          "text": "फिर भी तुमने एक अनजान की सेवा की।”",
+          "audio": "15faa0f6226d714dd6a2f99ff295beb1.wav",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.5,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "stance": "stand",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1.5,
+              "x": 0.66,
+              "y": 0.76,
+              "size": 0.72,
+              "alpha": 1
+            },
+            {
+              "at": 1.55,
+              "alpha": 0
+            },
+            {
+              "at": 2.4,
+              "alpha": 0,
+              "x": 0.66,
+              "y": 0.76
+            },
+            {
+              "at": 2.5,
+              "alpha": 1,
+              "face": "left"
+            },
+            {
+              "at": 3.9,
+              "x": 0.52,
+              "y": 0.88,
+              "size": 1,
+              "pose": "present"
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.26,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "surprised"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.52,
+          "y": 0.88,
+          "size": 1,
+          "holder": "साधु बाबा",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          },
+          "at": 2.8
+        }
+      ],
+      "fx": [
+        "glitter",
+        "glow"
+      ],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.4,
+          "gain": 0.14
+        },
+        {
+          "kind": "footstep",
+          "at": 0.9,
+          "gain": 0.14
+        },
+        {
+          "kind": "twinkle",
+          "at": 2.8,
+          "gain": 0.4
+        }
+      ],
+      "name": "१२ · गुफा से चक्की लाए",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "fxAmount": 1,
+      "minDuration": 4.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "साधु गुफा से एक छोटी पत्थर की चक्की लाए और बोले—",
+          "audio": "15bb7fb36add519fb9e94231664b3f1e.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.56,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "offer",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.9,
+              "pose": "present"
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 1.3,
+              "pose": "cradle"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.56,
+          "y": 0.89,
+          "size": 1,
+          "holder": "साधु बाबा",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          },
+          "end": 1.3
+        },
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          },
+          "at": 1.3
+        }
+      ],
+      "fx": [
+        "glitter",
+        "aura"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 1.3,
+          "gain": 0.35
+        }
+      ],
+      "name": "१३ · बाईं ओर घुमाओ",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "x": 0.42,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "fxAmount": 0.8,
+      "auraX": 0.42,
+      "auraY": 0.6,
+      "dialogue": [
+        {
+          "speaker": "साधु बाबा",
+          "text": "“इसे बाईं ओर घुमाकर जो मांगोगे,",
+          "audio": "62bfc1fff27638feea2578983c95b34e.wav",
+          "at": 0.3,
+          "emotion": "happy"
+        },
+        {
+          "speaker": "साधु बाबा",
+          "text": "यह वही देगी,",
+          "audio": "e0497ba8ac7a2e1a53bd1307dc2bff42.wav",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.44,
+          "y": 0.92,
+          "size": 1.04,
+          "face": "front",
+          "pose": "cradle",
+          "emotion": "surprised"
+        },
+        {
+          "character": "साधु बाबा",
+          "x": 0.74,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "present",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · जगमगाती चक्की",
+          "x": 0.44,
+          "y": 0.92,
+          "size": 1.05,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          }
+        }
+      ],
+      "fx": [
+        "glitter",
+        "aura",
+        "embers"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 0.3,
+          "gain": 0.4
+        },
+        {
+          "kind": "bell",
+          "at": 1,
+          "gain": 0.25
+        }
+      ],
+      "name": "१४ · चक्की की सुनहरी चमक",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.7,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.34,
+      "fxAmount": 1.4,
+      "auraX": 0.5,
+      "auraY": 0.6,
+      "minDuration": 3,
+      "dialogue": [
+        {
+          "speaker": "साधु बाबा",
+          "text": "और दाईं ओर घुमाने पर रुक जाएगी।",
+          "audio": "a397e4ed8cdddc44830476a9bb7830bd.wav",
+          "at": 0.3,
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.56,
+          "y": 0.89,
+          "size": 1,
+          "face": "left",
+          "pose": "point",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 3,
+              "pose": "present",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "cradle",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.8,
+              "pose": "nod"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          }
+        }
+      ],
+      "fx": [
+        "aura",
+        "glitter",
+        "rays"
+      ],
+      "sounds": [
+        {
+          "kind": "bell",
+          "at": 0.4,
+          "gain": 0.25
+        }
+      ],
+      "name": "१५ · केवल भलाई के लिए",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "neutral",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.6,
+        "focus": "साधु बाबा",
+        "move": "push"
+      },
+      "vignette": 0.32,
+      "fxAmount": 1,
+      "auraX": 0.55,
+      "auraY": 0.5,
+      "dialogue": [
+        {
+          "speaker": "साधु बाबा",
+          "text": "पर याद रखना, इसका उपयोग केवल भलाई के लिए करना!”",
+          "audio": "a8f980ff6be9ab0d3217eebed6126ff2.wav",
+          "at": 0.3,
+          "emotion": "neutral"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.48,
+          "y": 0.88,
+          "size": 1,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1.6,
+              "face": "right",
+              "pose": "walk"
+            },
+            {
+              "at": 3,
+              "x": 0.66,
+              "y": 0.77,
+              "size": 0.72
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "bow",
+          "stance": "crouch",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1.4,
+              "pose": "cradle",
+              "stance": "crouch",
+              "emotion": "surprised"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -40
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 1.8,
+          "gain": 0.12
+        }
+      ],
+      "name": "१६ · चरणों में प्रणाम",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "fxAmount": 1,
+      "minDuration": 3.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "इतना कहकर साधु गुफा के भीतर चले गए",
+          "audio": "382d03e119c2d8c3f171cc63e1ece92e.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "साधु बाबा",
+          "x": 0.62,
+          "y": 0.78,
+          "size": 0.74,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1,
+              "x": 0.66,
+              "y": 0.74,
+              "size": 0.66,
+              "alpha": 1
+            },
+            {
+              "at": 2.4,
+              "alpha": 0,
+              "x": 0.69,
+              "y": 0.72,
+              "size": 0.6
+            }
+          ]
+        },
+        {
+          "character": "माधव",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1.02,
+          "face": "right",
+          "pose": "cradle",
+          "stance": "stand",
+          "emotion": "surprised"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.3,
+          "y": 0.92,
+          "size": 1,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -40
+          }
+        }
+      ],
+      "fx": [
+        "glitter",
+        "embers",
+        "aura",
+        "glow"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 0.8,
+          "gain": 0.4
+        },
+        {
+          "kind": "twinkle",
+          "at": 1.6,
+          "gain": 0.4
+        },
+        {
+          "kind": "bell",
+          "at": 2,
+          "gain": 0.3
+        },
+        {
+          "kind": "whoosh",
+          "at": 2.2,
+          "gain": 0.25
+        }
+      ],
+      "name": "१७ · सुनहरे कणों में ओझल",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "surprised",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "x": 0.58,
+        "y": 0.62,
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "fxAmount": 2,
+      "auraX": 0.64,
+      "auraY": 0.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "और देखते ही देखते आंखों से ओझल हो गए।",
+          "audio": "410183f49385c53b19a8d2f25ad178bf.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.4,
+          "y": 0.92,
+          "size": 1.05,
+          "face": "right",
+          "pose": "cradle",
+          "emotion": "surprised"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.4,
+          "y": 0.92,
+          "size": 1.05,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.1,
+          "gain": 0.18
+        }
+      ],
+      "name": "१८ · स्तब्ध माधव",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "surprised",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "focus": "माधव",
+        "move": "push"
+      },
+      "vignette": 0.34,
+      "fxAmount": 1,
+      "minDuration": 3,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "माधव स्तब्ध खड़ा देखता रह गया—",
+          "audio": "5b7d5df8ce93437eaefc31dcf532e5c2.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.44,
+          "y": 0.92,
+          "size": 1.05,
+          "face": "front",
+          "pose": "cradle",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 2.8800000000000003,
+              "emotion": "happy"
+            },
+            {
+              "at": 4.430000000000001,
+              "pose": "run",
+              "face": "right",
+              "x": 0.62
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.44,
+          "y": 0.92,
+          "size": 1.05,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -52
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [],
+      "name": "१९ · सपना या चमत्कार?",
+      "scene": "जादुई चक्की · प्राचीन गुफा",
+      "time": "dusk",
+      "mood": "surprised",
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "close",
+        "zoom": 1.9,
+        "focus": "माधव",
+        "move": "push"
+      },
+      "vignette": 0.38,
+      "fxAmount": 1.2,
+      "auraX": 0.45,
+      "auraY": 0.6,
+      "minDuration": 5,
+      "dialogue": [
+        {
+          "speaker": "माधव",
+          "text": "क्या यह कोई सपना था,",
+          "audio": "34f7ba5079c4a41769bd0e4e3d5d5a6f.wav",
+          "at": 0.4,
+          "emotion": "surprised"
+        },
+        {
+          "speaker": "माधव",
+          "text": "या भगवान का भेजा हुआ चमत्कार?",
+          "audio": "2c58022f5e8883ee89e906d404abc7bb.wav",
+          "emotion": "surprised"
+        }
+      ]
+    }
+  ],
+  "score": {
+    "file": "3c3352c71398fd552d5e4e7fee97bf1e.wav",
+    "gain": 0.34
+  }
+}

@@ -1,0 +1,1663 @@
+{
+  "title": "जादुई चक्की और दो भाइयों का न्याय · खंड 3",
+  "slug": "jadui-chakki-aur-do-bhai-part-3",
+  "language": "hi",
+  "ratio": "16:9",
+  "captions": true,
+  "captionScale": 0.74,
+  "characters": [
+    {
+      "name": "माधव",
+      "gender": "male",
+      "age": "adult",
+      "build": "slim",
+      "costume": "dhoti",
+      "hair": "crop",
+      "skin": "#a8694a",
+      "primary": "#b8ad90",
+      "accent": "#a2593e",
+      "patches": true,
+      "mud": true,
+      "barefoot": true,
+      "moustache": false,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "कविता",
+      "gender": "female",
+      "age": "adult",
+      "build": "slim",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#b06f4d",
+      "primary": "#6f8e88",
+      "accent": "#b89a58",
+      "patches": true,
+      "jewelry": "simple",
+      "barefoot": true,
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "बूढ़ी मां",
+      "gender": "female",
+      "age": "elder",
+      "build": "slim",
+      "costume": "sari",
+      "hair": "grey",
+      "skin": "#a56a4c",
+      "primary": "#d9d4c6",
+      "accent": "#9a968b",
+      "patches": true,
+      "barefoot": true,
+      "voiceStyle": "female, elderly, low pitch"
+    },
+    {
+      "name": "माधव (खुशहाल)",
+      "gender": "male",
+      "age": "adult",
+      "build": "regular",
+      "costume": "kurta",
+      "hair": "crop",
+      "skin": "#a8694a",
+      "primary": "#e9dfc6",
+      "accent": "#a2593e",
+      "moustache": false,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "कविता (खुशहाल)",
+      "gender": "female",
+      "age": "adult",
+      "build": "regular",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#b06f4d",
+      "primary": "#b8566b",
+      "accent": "#e0b860",
+      "jewelry": "simple",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "बूढ़ी मां (स्वस्थ)",
+      "gender": "female",
+      "age": "elder",
+      "build": "regular",
+      "costume": "sari",
+      "hair": "grey",
+      "skin": "#a56a4c",
+      "primary": "#f1ece0",
+      "accent": "#c9a064",
+      "jewelry": "simple",
+      "voiceStyle": "female, elderly, low pitch"
+    },
+    {
+      "name": "सोहन",
+      "gender": "male",
+      "age": "adult",
+      "build": "stout",
+      "costume": "kurta",
+      "hair": "turban",
+      "skin": "#b07a55",
+      "primary": "#7b2d3b",
+      "accent": "#e3b64f",
+      "trim": "#e8c25a",
+      "shawl": "#c99a2e",
+      "jewelry": "gold",
+      "moustache": true,
+      "voiceStyle": "male, middle-aged, low pitch"
+    },
+    {
+      "name": "मुनीम जी",
+      "gender": "male",
+      "age": "adult",
+      "build": "stout",
+      "costume": "kurta",
+      "hair": "topi",
+      "skin": "#b4805a",
+      "primary": "#efe9d8",
+      "accent": "#8a6a4a",
+      "shawl": "#cdbd92",
+      "glasses": true,
+      "moustache": false,
+      "tilak": "sandal",
+      "voiceStyle": "male, middle-aged, moderate pitch"
+    },
+    {
+      "name": "भोला",
+      "gender": "male",
+      "age": "young",
+      "build": "slim",
+      "costume": "vest",
+      "hair": "crop",
+      "skin": "#b57a50",
+      "primary": "#7a8a6a",
+      "accent": "#c9b48a",
+      "patches": true,
+      "barefoot": true,
+      "moustache": false,
+      "voiceStyle": "male, young adult, high pitch"
+    },
+    {
+      "name": "नन्हा बिरजू",
+      "gender": "male",
+      "age": "child",
+      "build": "slim",
+      "costume": "shirt",
+      "hair": "crop",
+      "skin": "#b88054",
+      "primary": "#a8734f",
+      "accent": "#d9c08a",
+      "patches": true,
+      "barefoot": true,
+      "voiceStyle": "male, child, high pitch"
+    },
+    {
+      "name": "कमली",
+      "gender": "female",
+      "age": "adult",
+      "build": "regular",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#ad6f4c",
+      "primary": "#9b4d5c",
+      "accent": "#e0b860",
+      "veil": true,
+      "jewelry": "simple",
+      "barefoot": true,
+      "voiceStyle": "female, middle-aged, moderate pitch"
+    },
+    {
+      "name": "धनिया",
+      "gender": "female",
+      "age": "young",
+      "build": "slim",
+      "costume": "salwar",
+      "hair": "braid",
+      "skin": "#b87a55",
+      "primary": "#4f8a7a",
+      "accent": "#e7c46a",
+      "jewelry": "simple",
+      "barefoot": true,
+      "voiceStyle": "female, young adult, high pitch"
+    },
+    {
+      "name": "वैद्य जी",
+      "gender": "male",
+      "age": "elder",
+      "build": "slim",
+      "costume": "dhoti",
+      "hair": "topi",
+      "skin": "#a9744f",
+      "primary": "#f3eddc",
+      "accent": "#7f9a74",
+      "shawl": "#c9c2a6",
+      "glasses": true,
+      "moustache": true,
+      "tilak": "sandal",
+      "barefoot": true,
+      "voiceStyle": "male, elderly, moderate pitch"
+    },
+    {
+      "name": "रामू काका",
+      "gender": "male",
+      "age": "elder",
+      "build": "slim",
+      "costume": "dhoti",
+      "hair": "grey",
+      "skin": "#a5714e",
+      "primary": "#e3dccb",
+      "accent": "#9a6a48",
+      "shawl": "#9a8c70",
+      "beard": "white",
+      "tilak": "red",
+      "barefoot": true,
+      "moustache": true,
+      "voiceStyle": "male, elderly, low pitch"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "जादुई चक्की · माधव की झोपड़ी",
+      "kind": "home",
+      "image": "f39e68c3ace0228ef05ab736ef761578.jpg",
+      "ambience": "village",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · कुम्हार का आंगन",
+      "kind": "courtyard",
+      "image": "10b24c8a96d10776b1062a02d4ae2ada.jpg",
+      "ambience": "village",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · शाम का चौक",
+      "kind": "chowk",
+      "image": "051b2ab975370ff92214ad6982bf7dc7.jpg",
+      "ambience": "night",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · सोहन की हवेली",
+      "kind": "home",
+      "image": "4a32602ea49f6fd6e088590cb6bae344.jpg",
+      "ambience": "village",
+      "bakedLight": true
+    }
+  ],
+  "props": [
+    {
+      "name": "जादुई चक्की · पत्थर की चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82"
+    },
+    {
+      "name": "जादुई चक्की · घूमती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "spin"
+    },
+    {
+      "name": "जादुई चक्की · अनाज उगलती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "grain"
+    },
+    {
+      "name": "जादुई चक्की · अनाज का ढेर",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "heap"
+    },
+    {
+      "name": "जादुई चक्की · अनाज की बोरी",
+      "kind": "seed-sack",
+      "color": "#c9a15f"
+    },
+    {
+      "name": "जादुई चक्की · भरी बोरी",
+      "kind": "seed-sack",
+      "color": "#b98d52"
+    },
+    {
+      "name": "जादुई चक्की · तह किया कपड़ा",
+      "kind": "shawl",
+      "color": "#c0643f"
+    },
+    {
+      "name": "जादुई चक्की · दवा की पोटली",
+      "kind": "cloth-pouch",
+      "color": "#8a9a6a"
+    },
+    {
+      "name": "जादुई चक्की · माधव का चाक",
+      "kind": "chaak",
+      "color": "#8a5f3c",
+      "label": "spin"
+    },
+    {
+      "name": "जादुई चक्की · पका लाल घड़ा",
+      "kind": "pot",
+      "color": "#b9482f"
+    },
+    {
+      "name": "जादुई चक्की · मुनीम की बही",
+      "kind": "book",
+      "color": "#6b3a2a"
+    }
+  ],
+  "shots": [
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": -0.08,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.6,
+              "x": 0.4
+            },
+            {
+              "at": 3,
+              "pose": "idle"
+            }
+          ]
+        },
+        {
+          "character": "कविता",
+          "x": 0.64,
+          "y": 0.86,
+          "size": 0.96,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2.4,
+              "emotion": "surprised"
+            }
+          ]
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "idle",
+          "stance": "sit",
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": -0.08,
+          "y": 0.88,
+          "size": 0.9,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          }
+        }
+      ],
+      "fx": [
+        "rays"
+      ],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.3,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 0.9,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 1.5,
+          "gain": 0.12
+        },
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.12
+        }
+      ],
+      "name": "१ · चक्की लेकर घर लौटा",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "atmosphere": "village",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.24,
+      "fxAmount": 0.7,
+      "minDuration": 3.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "माधव वो छोटी सी चक्की लेकर घर लौटा।",
+          "audio": "f08f54caff09f4a15a4f955512f5d9e6.wav",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.4,
+          "y": 0.88,
+          "size": 1.02,
+          "face": "right",
+          "pose": "talk",
+          "emotion": "happy"
+        },
+        {
+          "character": "कविता",
+          "x": 0.62,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "left",
+          "pose": "listen",
+          "emotion": "surprised"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "attend",
+          "stance": "sit",
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.4,
+          "y": 0.88,
+          "size": 0.85,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.14
+        }
+      ],
+      "name": "२ · परिवार को पूरी बात",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.5,
+        "y": 0.62,
+        "move": "push"
+      },
+      "vignette": 0.24,
+      "minDuration": 3.2,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसने कविता और मां को पूरी बात बताई।",
+          "audio": "eddc1b67b910badbe28442fe823d994e.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.38,
+          "y": 0.88,
+          "size": 1.02,
+          "face": "right",
+          "pose": "offer",
+          "emotion": "neutral"
+        },
+        {
+          "character": "कविता",
+          "x": 0.62,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "left",
+          "pose": "shake",
+          "emotion": "worried"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "shake",
+          "stance": "sit",
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.38,
+          "y": 0.88,
+          "size": 0.85,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [],
+      "name": "३ · यकीन नहीं हुआ",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "worried",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.35,
+        "x": 0.55,
+        "y": 0.62,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "minDuration": 2.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पहले तो उन्हें यकीन नहीं हुआ,",
+          "audio": "6cbd11d089500202f43c90ce29a137d8.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.36,
+          "y": 0.88,
+          "size": 1.02,
+          "face": "right",
+          "pose": "hold",
+          "emotion": "sad"
+        },
+        {
+          "character": "कविता",
+          "x": 0.62,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "left",
+          "pose": "point",
+          "emotion": "worried"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "think",
+          "stance": "sit",
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.36,
+          "y": 0.88,
+          "size": 0.85,
+          "holder": "माधव",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "sad",
+          "at": 0.4,
+          "gain": 0.2
+        }
+      ],
+      "name": "४ · पत्थर का टुकड़ा कैसे पेट भरेगा",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "worried",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.35,
+        "x": 0.5,
+        "y": 0.62,
+        "move": "push"
+      },
+      "vignette": 0.3,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "आखिर एक मामूली सा पत्थर का टुकड़ा भूखे पेट को कैसे भर सकता है?",
+          "audio": "90ec563774e117fbfe8677b90e0bae9b.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "खाना कैसे दे सकता है?",
+          "audio": "4c9d2ea24a5c13975f676da0a0477dc4.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.44,
+          "y": 0.9,
+          "size": 1.04,
+          "face": "right",
+          "pose": "work",
+          "stance": "crouch",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 3.71,
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "कविता",
+          "x": 0.24,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "worried"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "attend",
+          "stance": "sit",
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.6,
+          "y": 0.91,
+          "size": 1.5
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.2,
+          "gain": 0.08
+        }
+      ],
+      "name": "५ · बाईं ओर घुमाकर मांगा",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "happy",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.35,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन जब माधव ने चक्की को बाईं ओर घुमाकर कहा,",
+          "audio": "963e6f26adba81ca5fd725cd17d4d3cd.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "माधव",
+          "text": "“हे जादुई चक्की,",
+          "audio": "5b527777e325d7f31d2d30facf913393.wav",
+          "emotion": "happy"
+        },
+        {
+          "speaker": "माधव",
+          "text": "हमें खाने के लिए गेहूं और चावल दो,”",
+          "audio": "42a0c12c6a711baff4ae7fd7820b9481.wav",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.44,
+          "y": 0.9,
+          "size": 1.04,
+          "face": "right",
+          "pose": "work",
+          "stance": "crouch",
+          "emotion": "happy"
+        },
+        {
+          "character": "कविता",
+          "x": 0.24,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "right",
+          "pose": "open",
+          "emotion": "surprised"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "open",
+          "stance": "sit",
+          "emotion": "surprised"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · अनाज उगलती चक्की",
+          "x": 0.6,
+          "y": 0.91,
+          "size": 1.5
+        }
+      ],
+      "fx": [
+        "rays"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 0.3,
+          "gain": 0.3
+        },
+        {
+          "kind": "pot",
+          "at": 3,
+          "gain": 0.16
+        },
+        {
+          "kind": "pot",
+          "at": 3.8,
+          "gain": 0.16
+        },
+        {
+          "kind": "pot",
+          "at": 4.6,
+          "gain": 0.16
+        }
+      ],
+      "name": "६ · चक्की से गेहूं-चावल",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "surprised",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "fxAmount": 0.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "तो चक्की अपने आप घूमने लगी",
+          "audio": "c69577759cff75106764efbf7ed4aa30.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "और उससे साफ-सुथरे गेहूं और चावल के दाने निकलने लगे।",
+          "audio": "7738d5f04d27397d83be7650a6bb5874.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.44,
+          "y": 0.9,
+          "size": 1.04,
+          "face": "right",
+          "pose": "work",
+          "stance": "crouch",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 3.16,
+              "pose": "idle",
+              "stance": "stand",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "कविता",
+          "x": 0.24,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "right",
+          "pose": "open",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 3.56,
+              "pose": "cheer",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "open",
+          "stance": "sit",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 3.56,
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · अनाज उगलती चक्की",
+          "x": 0.6,
+          "y": 0.91,
+          "size": 1.5,
+          "end": 3.16
+        },
+        {
+          "prop": "जादुई चक्की · अनाज का ढेर",
+          "x": 0.6,
+          "y": 0.91,
+          "size": 1.5,
+          "at": 3.16
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "whoosh",
+          "at": 3.16,
+          "gain": 0.2
+        }
+      ],
+      "name": "७ · दाईं ओर घुमाते ही रुक गई",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "surprised",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जैसे ही माधव ने चक्की को दाईं ओर घुमाया,",
+          "audio": "70215f20d1f44069b27846e92f0068ff.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "वह तुरंत रुक गई।",
+          "audio": "205487f8cf24260d4348329a853a147d.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव",
+          "x": 0.34,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "cheer",
+          "emotion": "happy"
+        },
+        {
+          "character": "कविता",
+          "x": 0.56,
+          "y": 0.86,
+          "size": 0.98,
+          "face": "front",
+          "pose": "laugh",
+          "emotion": "happy"
+        },
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.82,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "laugh",
+          "stance": "sit",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · भरी बोरी",
+          "x": 0.14,
+          "y": 0.92,
+          "size": 1.2
+        },
+        {
+          "prop": "जादुई चक्की · अनाज की बोरी",
+          "x": 0.22,
+          "y": 0.94,
+          "size": 1.15
+        },
+        {
+          "prop": "जादुई चक्की · अनाज का ढेर",
+          "x": 0.62,
+          "y": 0.92,
+          "size": 1.2
+        }
+      ],
+      "fx": [
+        "petals",
+        "rays"
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.16
+        },
+        {
+          "kind": "funny",
+          "at": 0.6,
+          "gain": 0.2
+        }
+      ],
+      "name": "८ · सारे दुख खत्म",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "happy",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pull"
+      },
+      "vignette": 0.2,
+      "fxAmount": 0.8,
+      "minDuration": 4.2,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "इस चमत्कार से माधव के परिवार के सारे दुख खत्म हो गए।",
+          "audio": "bf02b1cd8b2dbbcc3158a56d89c952a6.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "बूढ़ी मां",
+          "x": 0.76,
+          "y": 0.735,
+          "size": 0.72,
+          "face": "left",
+          "pose": "idle",
+          "stance": "sit",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 1.6,
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "वैद्य जी",
+          "x": 0.52,
+          "y": 0.87,
+          "size": 0.98,
+          "face": "right",
+          "pose": "comfort",
+          "emotion": "neutral"
+        },
+        {
+          "character": "माधव",
+          "x": 0.32,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "attend",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 1.6,
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · दवा की पोटली",
+          "x": 0.6,
+          "y": 0.92,
+          "size": 0.9
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.12
+        }
+      ],
+      "name": "९ · मां का इलाज",
+      "scene": "जादुई चक्की · माधव की झोपड़ी",
+      "time": "day",
+      "mood": "happy",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.62,
+        "y": 0.64,
+        "move": "push"
+      },
+      "vignette": 0.22,
+      "minDuration": 2.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसने मां का अच्छा इलाज करवाया,",
+          "audio": "bee95fce23c276527ac21d6b93fe9791.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.5,
+          "y": 0.8,
+          "size": 0.9,
+          "face": "left",
+          "pose": "work",
+          "stance": "sit",
+          "emotion": "happy"
+        },
+        {
+          "character": "कविता (खुशहाल)",
+          "x": 0.78,
+          "y": 0.86,
+          "size": 0.92,
+          "face": "left",
+          "pose": "present",
+          "emotion": "happy"
+        },
+        {
+          "character": "बूढ़ी मां (स्वस्थ)",
+          "x": 0.16,
+          "y": 0.86,
+          "size": 0.86,
+          "face": "right",
+          "pose": "idle",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पका लाल घड़ा",
+          "x": 0.36,
+          "y": 0.8,
+          "size": 0.8
+        }
+      ],
+      "fx": [
+        "rays",
+        "petals"
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.2
+        },
+        {
+          "kind": "pot",
+          "at": 1.6,
+          "gain": 0.2
+        },
+        {
+          "kind": "pot",
+          "at": 3.2,
+          "gain": 0.2
+        }
+      ],
+      "name": "१० · सुंदर घर और कुम्हारी",
+      "scene": "जादुई चक्की · कुम्हार का आंगन",
+      "time": "day",
+      "mood": "happy",
+      "atmosphere": "village",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.16,
+      "fxAmount": 0.7,
+      "minDuration": 5.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "झोपड़ी की जगह एक सुंदर घर बनवाया और अपनी कुम्हारी का काम भी फिर से शुरू किया।",
+          "audio": "5a9956694ee934bf46b9ec0035412644.wav",
+          "at": 0.4
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.58,
+          "y": 0.88,
+          "size": 1.02,
+          "face": "front",
+          "pose": "idle",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2.64,
+              "pose": "fold",
+              "emotion": "happy"
+            }
+          ]
+        },
+        {
+          "character": "कविता (खुशहाल)",
+          "x": 0.8,
+          "y": 0.88,
+          "size": 0.94,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "happy"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "rays"
+      ],
+      "sounds": [
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.16
+        }
+      ],
+      "name": "११ · अमीर होकर भी घमंड नहीं",
+      "scene": "जादुई चक्की · कुम्हार का आंगन",
+      "time": "day",
+      "mood": "neutral",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "focus": "माधव (खुशहाल)",
+        "move": "push"
+      },
+      "vignette": 0.2,
+      "fxAmount": 0.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "मगर अमीर होने के बाद भी",
+          "audio": "1b54e843c895bd06f9be46fa1596adc0.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "माधव ने कभी घमंड नहीं किया।",
+          "audio": "824c51ad9f316527141fa75f5108bd62.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "रामू काका",
+          "x": 0.24,
+          "y": 0.9,
+          "size": 1,
+          "face": "right",
+          "pose": "idle",
+          "emotion": "sad"
+        },
+        {
+          "character": "कमली",
+          "x": 0.36,
+          "y": 0.93,
+          "size": 1,
+          "face": "right",
+          "pose": "cradle",
+          "emotion": "sad"
+        },
+        {
+          "character": "नन्हा बिरजू",
+          "x": 0.7,
+          "y": 0.92,
+          "size": 0.9,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "sad"
+        },
+        {
+          "character": "धनिया",
+          "x": 0.82,
+          "y": 0.9,
+          "size": 0.98,
+          "face": "left",
+          "pose": "idle",
+          "emotion": "worried"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "fireflies"
+      ],
+      "sounds": [
+        {
+          "kind": "wind",
+          "at": 0.2,
+          "gain": 0.14
+        },
+        {
+          "kind": "sad",
+          "at": 0.6,
+          "gain": 0.2
+        }
+      ],
+      "name": "१२ · गरीबों को अनाज, कपड़े, दवा की जरूरत",
+      "scene": "जादुई चक्की · शाम का चौक",
+      "time": "dusk",
+      "mood": "sad",
+      "atmosphere": "night",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "fxAmount": 0.7,
+      "minDuration": 5,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "गांव में जब भी किसी गरीब को अनाज, कपड़े या दवा की जरूरत होती,",
+          "audio": "769314bc1a75d0d33bd3c3438903ea56.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.36,
+          "y": 0.93,
+          "size": 1,
+          "face": "right",
+          "pose": "pass",
+          "emotion": "happy"
+        },
+        {
+          "character": "रामू काका",
+          "x": 0.64,
+          "y": 0.9,
+          "size": 0.96,
+          "face": "left",
+          "pose": "attend",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1.6,
+              "pose": "fold"
+            }
+          ]
+        },
+        {
+          "character": "कमली",
+          "x": 0.8,
+          "y": 0.93,
+          "size": 0.96,
+          "face": "left",
+          "pose": "cradle",
+          "emotion": "happy"
+        },
+        {
+          "character": "धनिया",
+          "x": 0.16,
+          "y": 0.9,
+          "size": 0.96,
+          "face": "right",
+          "pose": "present",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · भरी बोरी",
+          "x": 0.36,
+          "y": 0.93,
+          "size": 0.8,
+          "holder": "माधव (खुशहाल)",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -62
+          }
+        },
+        {
+          "prop": "जादुई चक्की · अनाज की बोरी",
+          "x": 0.64,
+          "y": 0.92,
+          "size": 0.8,
+          "at": 1.6
+        },
+        {
+          "prop": "जादुई चक्की · तह किया कपड़ा",
+          "x": 0.8,
+          "y": 0.9,
+          "size": 0.5,
+          "at": 0.4
+        }
+      ],
+      "fx": [
+        "fireflies"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 0.3,
+          "gain": 0.14
+        }
+      ],
+      "name": "१३ · चुपचाप मदद",
+      "scene": "जादुई चक्की · शाम का चौक",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.2,
+        "x": 0.5,
+        "y": 0.7,
+        "move": "push"
+      },
+      "vignette": 0.26,
+      "fxAmount": 0.7,
+      "minDuration": 4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "माधव चुपचाप चक्की से सामान निकालकर उनकी मदद कर देता।",
+          "audio": "d753394dac2b54f93ee276267197ee2a.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.48,
+          "y": 0.93,
+          "size": 1.02,
+          "face": "front",
+          "pose": "fold",
+          "emotion": "happy"
+        },
+        {
+          "character": "रामू काका",
+          "x": 0.28,
+          "y": 0.9,
+          "size": 0.96,
+          "face": "right",
+          "pose": "cheer",
+          "emotion": "happy"
+        },
+        {
+          "character": "कमली",
+          "x": 0.18,
+          "y": 0.94,
+          "size": 0.96,
+          "face": "right",
+          "pose": "present",
+          "emotion": "happy"
+        },
+        {
+          "character": "नन्हा बिरजू",
+          "x": 0.68,
+          "y": 0.94,
+          "size": 0.88,
+          "face": "left",
+          "pose": "cheer",
+          "emotion": "happy"
+        },
+        {
+          "character": "धनिया",
+          "x": 0.8,
+          "y": 0.9,
+          "size": 0.96,
+          "face": "left",
+          "pose": "present",
+          "emotion": "happy"
+        },
+        {
+          "character": "भोला",
+          "x": 0.9,
+          "y": 0.94,
+          "size": 0.94,
+          "face": "left",
+          "pose": "cheer",
+          "emotion": "happy"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "fireflies",
+        "petals"
+      ],
+      "sounds": [
+        {
+          "kind": "bell",
+          "at": 0.4,
+          "gain": 0.2
+        },
+        {
+          "kind": "birds",
+          "at": 0.3,
+          "gain": 0.1
+        }
+      ],
+      "name": "१४ · पूरे गांव में दरियादिली के चर्चे",
+      "scene": "जादुई चक्की · शाम का चौक",
+      "time": "dusk",
+      "mood": "happy",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "pull"
+      },
+      "vignette": 0.24,
+      "fxAmount": 0.8,
+      "minDuration": 3.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पूरे गांव में माधव की दरियादिली के चर्चे होने लगे।",
+          "audio": "b85a4528a5235fe855964956f331e5aa.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.55,
+          "y": 0.745,
+          "size": 0.88,
+          "face": "left",
+          "pose": "work",
+          "stance": "sit",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2.6,
+              "pose": "listen",
+              "emotion": "surprised"
+            }
+          ]
+        },
+        {
+          "character": "मुनीम जी",
+          "x": 0.2,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "talk",
+          "emotion": "neutral"
+        }
+      ],
+      "props": [],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "coin",
+          "at": 0.5,
+          "gain": 0.12
+        },
+        {
+          "kind": "coin",
+          "at": 1.2,
+          "gain": 0.12
+        }
+      ],
+      "name": "१५ · बड़े भाई सोहन तक खबर",
+      "scene": "जादुई चक्की · सोहन की हवेली",
+      "time": "day",
+      "mood": "neutral",
+      "atmosphere": "village",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.52,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.28,
+      "minDuration": 4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन यह खबर जब बड़े भाई सोहन के कानों तक पहुंची,",
+          "audio": "1716c267eb73a2581d8dabc028b72562.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.55,
+          "y": 0.78,
+          "size": 0.98,
+          "face": "front",
+          "pose": "fold",
+          "emotion": "angry"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "embers"
+      ],
+      "sounds": [
+        {
+          "kind": "thunder",
+          "at": 0.3,
+          "gain": 0.4
+        },
+        {
+          "kind": "angry",
+          "at": 0.9,
+          "gain": 0.3
+        }
+      ],
+      "name": "१६ · ईर्ष्या की आग",
+      "scene": "जादुई चक्की · सोहन की हवेली",
+      "time": "dusk",
+      "mood": "angry",
+      "atmosphere": "village",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 1.9,
+        "focus": "सोहन",
+        "move": "push"
+      },
+      "vignette": 0.5,
+      "fxAmount": 1.3,
+      "minDuration": 3.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "तो उसके सीने में ईर्ष्या की आग भड़क उठी।",
+          "audio": "e58eb0776d0a959a050182b43311b9c6.wav",
+          "at": 0.4
+        }
+      ]
+    }
+  ],
+  "score": {
+    "file": "54eadfa66f7b41c0e94ffc972c0d44ec.wav",
+    "gain": 0.34
+  }
+}

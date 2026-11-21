@@ -1,0 +1,2776 @@
+{
+  "title": "बटुआ लौटाने वाला चोर",
+  "ratio": "9:16",
+  "language": "hi",
+  "captions": true,
+  "score": {
+    "file": "4f998c69126cc1e7747dadff2e808bc6.wav",
+    "gain": 0.32
+  },
+  "characters": [
+    {
+      "name": "कथावाचक",
+      "gender": "male",
+      "age": "adult",
+      "voiceStyle": "male, middle-aged, low pitch"
+    },
+    {
+      "name": "गौरी",
+      "gender": "female",
+      "age": "adult",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#b87653",
+      "primary": "#873d58",
+      "accent": "#e0ae62",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "इमरान",
+      "gender": "male",
+      "age": "adult",
+      "costume": "kurta",
+      "hair": "part",
+      "skin": "#b27147",
+      "primary": "#347069",
+      "accent": "#dec99c",
+      "moustache": true,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "अजनबी",
+      "gender": "male",
+      "age": "adult",
+      "costume": "vest",
+      "hair": "turban",
+      "skin": "#9d6446",
+      "primary": "#4f403b",
+      "accent": "#ad7849",
+      "moustache": true,
+      "voiceStyle": "male, middle-aged, very low pitch"
+    },
+    {
+      "name": "डाकिया",
+      "gender": "male",
+      "age": "elder",
+      "costume": "vest",
+      "hair": "grey",
+      "skin": "#af7853",
+      "primary": "#597687",
+      "accent": "#d4b377",
+      "moustache": true,
+      "voiceStyle": "male, elderly, moderate pitch",
+      "badge": true
+    },
+    {
+      "name": "सरिता",
+      "gender": "female",
+      "age": "adult",
+      "costume": "shirt",
+      "hair": "bun",
+      "skin": "#a6694a",
+      "primary": "#a98b59",
+      "accent": "#785736",
+      "glasses": true,
+      "voiceStyle": "female, middle-aged, low pitch",
+      "badge": true
+    },
+    {
+      "name": "पिंटू",
+      "gender": "male",
+      "age": "young",
+      "costume": "shirt",
+      "hair": "crop",
+      "skin": "#ca8757",
+      "primary": "#c47f31",
+      "accent": "#e5bc73",
+      "moustache": false,
+      "voiceStyle": "male, teenager, high pitch"
+    },
+    {
+      "name": "हाट की ग्राहक",
+      "gender": "female",
+      "age": "adult",
+      "costume": "sari",
+      "hair": "braid",
+      "primary": "#637453",
+      "accent": "#bc7c4e",
+      "skin": "#a86d4c"
+    },
+    {
+      "name": "हाट का दुकानदार",
+      "gender": "male",
+      "age": "elder",
+      "costume": "dhoti",
+      "hair": "turban",
+      "primary": "#d6bc91",
+      "accent": "#9d643d",
+      "skin": "#a66f4e",
+      "moustache": true
+    },
+    {
+      "name": "पीपलगंज के बुज़ुर्ग",
+      "gender": "male",
+      "age": "elder",
+      "costume": "kurta",
+      "hair": "grey",
+      "primary": "#958277",
+      "accent": "#c5b69b",
+      "skin": "#9b6148",
+      "moustache": true,
+      "glasses": true
+    }
+  ],
+  "scenes": [
+    {
+      "name": "पीपलगंज का साप्ताहिक हाट",
+      "kind": "chowk",
+      "bakedLight": false,
+      "image": "d8d7b6de654b16aa0e1858865701957e.jpg"
+    },
+    {
+      "name": "पीपलगंज का डाकघर",
+      "kind": "lane",
+      "bakedLight": true,
+      "image": "2b81b86c1da9373c82032c57bdf49dc4.jpg"
+    },
+    {
+      "name": "गौरी का आँगन",
+      "kind": "home",
+      "bakedLight": false,
+      "image": "f6e297dd142a0a33d6a46671e5f16ddc.jpg"
+    },
+    {
+      "name": "पीपलगंज की चौकी",
+      "kind": "home",
+      "bakedLight": false,
+      "image": "deaa0b47e9cdcfcd72384998bde2e4d8.jpg"
+    },
+    {
+      "name": "पीपलगंज की रात",
+      "kind": "lane",
+      "bakedLight": true,
+      "image": "e464d8236da623f826e7d3f4bd236535.jpg"
+    },
+    {
+      "name": "गौरी की लकड़ी की मेज़",
+      "kind": "home",
+      "bakedLight": true,
+      "image": "b6b97cf16a4c8d483ab54aa6ae4a00f1.jpg"
+    },
+    {
+      "name": "अजनबी का कमरा",
+      "kind": "home",
+      "bakedLight": true,
+      "image": "67d0185815774c888039e15a62cb01b8.jpg"
+    },
+    {
+      "name": "पीपलगंज की सुबह",
+      "kind": "lane",
+      "bakedLight": true,
+      "image": "213ee03fc6767e7d0e81ffc265052a7d.jpg"
+    }
+  ],
+  "props": [
+    {
+      "name": "गौरी का बटुआ",
+      "kind": "wallet",
+      "color": "#85553d"
+    },
+    {
+      "name": "गौरी का खुला बटुआ",
+      "kind": "open-wallet",
+      "color": "#85553d"
+    },
+    {
+      "name": "गौरी की डाक",
+      "kind": "envelope",
+      "color": "#c9a168",
+      "label": "गौरी · पीपलगंज"
+    },
+    {
+      "name": "सादा लिफ़ाफ़ा",
+      "kind": "envelope",
+      "color": "#cbb07b"
+    },
+    {
+      "name": "लाल डाक-बक्सा",
+      "kind": "postbox",
+      "color": "#a73c36"
+    },
+    {
+      "name": "लौटाए हुए बटुए की पर्ची",
+      "kind": "note",
+      "color": "#ebd9a8",
+      "label": "ये मिला।\nज़रा संभलकर।"
+    },
+    {
+      "name": "रसोई की पर्ची",
+      "kind": "note",
+      "color": "#ebd9a8",
+      "label": "कहा था,\nज़रा संभलकर।"
+    },
+    {
+      "name": "घर के पते की पर्ची",
+      "kind": "note",
+      "color": "#d9c9a5",
+      "label": "गौरी\nपीपलगंज"
+    },
+    {
+      "name": "पीपलगंज का अख़बार",
+      "kind": "newspaper",
+      "color": "#ddd1b4",
+      "label": "शरीफ़ चोर"
+    },
+    {
+      "name": "गौरी की बिटिया की तस्वीर",
+      "kind": "photo",
+      "color": "#dbc19a"
+    },
+    {
+      "name": "पीपलगंज बस का टिकट",
+      "kind": "ticket",
+      "color": "#819d96",
+      "label": "पीपलगंज बस"
+    },
+    {
+      "name": "पीतल का सिक्का",
+      "kind": "coin",
+      "color": "#c7974f"
+    },
+    {
+      "name": "गौरी के घर की चाबी",
+      "kind": "key",
+      "color": "#bfa169"
+    },
+    {
+      "name": "नक़ल की चाबी",
+      "kind": "key",
+      "color": "#a49078"
+    },
+    {
+      "name": "साबुन पर चाबी की छाप",
+      "kind": "soap",
+      "color": "#bd8e8c"
+    },
+    {
+      "name": "पीतल का पुराना ताला",
+      "kind": "latch",
+      "color": "#978064"
+    },
+    {
+      "name": "पते और चाबियों का तख़्ता",
+      "kind": "key-rack",
+      "color": "#725843"
+    },
+    {
+      "name": "इमरान की चाय",
+      "kind": "tea",
+      "color": "#9e6a3e"
+    },
+    {
+      "name": "गौरी का दीया",
+      "kind": "diya",
+      "color": "#a5593e"
+    },
+    {
+      "name": "इमरान की नीची मेज़",
+      "kind": "bench",
+      "color": "#916744"
+    },
+    {
+      "name": "हाट की सब्ज़ी की टोकरी",
+      "kind": "basket",
+      "color": "#b48151"
+    }
+  ],
+  "shots": [
+    {
+      "name": "हाट में एक अजनबी",
+      "scene": "पीपलगंज का साप्ताहिक हाट",
+      "direction": "पीपलगंज का साप्ताहिक हाट। गौरी सब्ज़ियाँ चुनती है। पीछे से गुज़रता अजनबी उसका बटुआ ले जाता है।",
+      "time": "day",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पीपलगंज के हाट में उस दिन गौरी का बटुआ चोरी हुआ। किसी ने चोर को देखा तक नहीं।",
+          "emotion": "neutral",
+          "at": 0.67
+        }
+      ],
+      "camera": {
+        "frame": "wide",
+        "x": 0.51,
+        "y": 0.5,
+        "zoom": 1.05,
+        "move": "push",
+        "fit": false
+      },
+      "transition": "fade",
+      "captionPosition": "low",
+      "overlays": [
+        {
+          "text": "बटुआ लौटाने वाला चोर",
+          "at": 0.5,
+          "end": 5.8,
+          "y": 0.185,
+          "style": "title",
+          "eyebrow": "पीपलगंज की कहानी"
+        }
+      ],
+      "actors": [
+        {
+          "character": "हाट की ग्राहक",
+          "x": 0.409,
+          "y": 0.626,
+          "size": 0.42,
+          "face": "right",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 5.6,
+              "x": 0.49,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "हाट का दुकानदार",
+          "x": 0.585,
+          "y": 0.65,
+          "size": 0.39,
+          "face": "left",
+          "pose": "hold",
+          "keys": [
+            {
+              "at": 2.5,
+              "pose": "nod"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "गौरी",
+          "x": 0.48,
+          "y": 0.88,
+          "size": 0.83,
+          "face": "left",
+          "pose": "look",
+          "keys": [
+            {
+              "at": 1.4,
+              "pose": "reach"
+            },
+            {
+              "at": 4.1,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "अजनबी",
+          "x": 0.674,
+          "y": 0.819,
+          "size": 0.83,
+          "face": "left",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 2.37,
+              "x": 0.581,
+              "pose": "reach"
+            },
+            {
+              "at": 3.38,
+              "x": 0.577,
+              "pose": "sneak"
+            },
+            {
+              "at": 6.75,
+              "x": 0.318,
+              "y": 0.766,
+              "size": 0.73,
+              "pose": "walk"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "हाट की सब्ज़ी की टोकरी",
+          "x": 0.365,
+          "y": 0.86,
+          "size": 0.86
+        },
+        {
+          "prop": "हाट की सब्ज़ी की टोकरी",
+          "x": 0.385,
+          "y": 0.873,
+          "size": 0.63,
+          "angle": 6
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.5,
+          "y": 0.744,
+          "size": 0.37,
+          "angle": -13,
+          "end": 3.17,
+          "depth": 0.895,
+          "keys": [
+            {
+              "at": 2.48,
+              "x": 0.5,
+              "y": 0.744,
+              "angle": -13
+            },
+            {
+              "at": 3.05,
+              "x": 0.531,
+              "y": 0.71,
+              "angle": 7
+            },
+            {
+              "at": 3.16,
+              "alpha": 0
+            }
+          ]
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.32,
+          "holder": "अजनबी",
+          "at": 3.17,
+          "end": 6.7,
+          "angle": -8
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0,
+          "gain": 0.2
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 1.3,
+          "gain": 0.09
+        },
+        {
+          "file": "f29ee2ae5942a0df7bf95d26471055f9.wav",
+          "at": 2.63,
+          "gain": 0.21
+        }
+      ]
+    },
+    {
+      "name": "जेब खाली",
+      "scene": "पीपलगंज का साप्ताहिक हाट",
+      "direction": "गौरी अपनी साड़ी के पल्लू के नीचे खाली जेब टटोलती है। इमरान उसकी तरफ़ मुड़ता है।",
+      "time": "day",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "गौरी",
+          "text": "इमरान भाई, मेरा बटुआ! अभी तो यहीं था।",
+          "emotion": "worried",
+          "at": 0.64
+        },
+        {
+          "speaker": "इमरान",
+          "text": "भीड़ में गिरा होगा। चलो, जहाँ से आई हो, वहाँ देखते हैं।",
+          "emotion": "neutral",
+          "at": 3.8
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.511,
+        "y": 0.525,
+        "zoom": 1.18,
+        "move": "static",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "हाट की ग्राहक",
+          "x": 0.552,
+          "y": 0.62,
+          "size": 0.39,
+          "face": "right",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 5.8,
+              "x": 0.67,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "गौरी",
+          "x": 0.445,
+          "y": 0.885,
+          "size": 0.85,
+          "face": "right",
+          "pose": "check-pocket",
+          "keys": [
+            {
+              "at": 0.48,
+              "pose": "flinch"
+            },
+            {
+              "at": 1.1,
+              "pose": "open"
+            },
+            {
+              "at": 3,
+              "pose": "check-pocket"
+            },
+            {
+              "at": 5.65,
+              "pose": "nod"
+            }
+          ],
+          "emotion": "worried"
+        },
+        {
+          "character": "इमरान",
+          "x": 0.571,
+          "y": 0.864,
+          "size": 0.88,
+          "face": "right",
+          "pose": "idle",
+          "keys": [
+            {
+              "at": 1.1,
+              "face": "left",
+              "pose": "think",
+              "emotion": "worried"
+            },
+            {
+              "at": 3.55,
+              "pose": "open"
+            },
+            {
+              "at": 5.85,
+              "pose": "point"
+            },
+            {
+              "at": 7.3,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0,
+          "gain": 0.15
+        },
+        {
+          "file": "f29ee2ae5942a0df7bf95d26471055f9.wav",
+          "at": 0.21,
+          "gain": 0.13
+        }
+      ]
+    },
+    {
+      "name": "लाल डाक-बक्सा",
+      "scene": "पीपलगंज का डाकघर",
+      "direction": "शाम। वही अजनबी एक लिफ़ाफ़ा लाल डाक-बक्से में डालता है और निकल जाता है।",
+      "time": "dusk",
+      "minDuration": 6,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन शाम ढले, किसी ने वही बटुआ एक लिफ़ाफ़े में रखकर गाँव के डाक-बक्से में डाल दिया।",
+          "emotion": "neutral",
+          "at": 0.386
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.527,
+        "y": 0.53,
+        "zoom": 1.12,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.14,
+      "actors": [
+        {
+          "character": "अजनबी",
+          "x": 0.382,
+          "y": 0.87,
+          "size": 0.86,
+          "face": "right",
+          "pose": "sneak",
+          "keys": [
+            {
+              "at": 2.25,
+              "x": 0.49,
+              "pose": "offer"
+            },
+            {
+              "at": 3.82,
+              "pose": "look"
+            },
+            {
+              "at": 4.15,
+              "face": "left",
+              "pose": "walk"
+            },
+            {
+              "at": 5.53,
+              "x": 0.377,
+              "y": 0.84,
+              "size": 0.83,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "लाल डाक-बक्सा",
+          "x": 0.595,
+          "y": 0.852,
+          "size": 1.28
+        },
+        {
+          "prop": "गौरी की डाक",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.34,
+          "holder": "अजनबी",
+          "end": 2.86,
+          "angle": 12
+        },
+        {
+          "prop": "गौरी की डाक",
+          "x": 0.564,
+          "y": 0.696,
+          "size": 0.34,
+          "at": 2.86,
+          "end": 3.84,
+          "angle": 9,
+          "keys": [
+            {
+              "at": 2.87,
+              "x": 0.564,
+              "y": 0.696
+            },
+            {
+              "at": 3.47,
+              "x": 0.594,
+              "y": 0.67,
+              "angle": -2
+            },
+            {
+              "at": 3.82,
+              "x": 0.601,
+              "y": 0.701,
+              "alpha": 0
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.1,
+          "gain": 0.15
+        },
+        {
+          "file": "450b069265dcab249e503f992cb1d1e2.wav",
+          "at": 3.47,
+          "gain": 0.27
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 4.18,
+          "gain": 0.13
+        }
+      ]
+    },
+    {
+      "name": "गौरी के नाम डाक",
+      "scene": "गौरी का आँगन",
+      "direction": "अगली सुबह। डाकिया घर के दरवाज़े पर गौरी को लिफ़ाफ़ा देता है।",
+      "time": "dawn",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "डाकिया",
+          "text": "गौरी बहन, तुम्हारे नाम की डाक है। भेजने वाले का नाम नहीं लिखा।",
+          "emotion": "neutral",
+          "at": 0.49
+        },
+        {
+          "speaker": "गौरी",
+          "text": "अरे, ये तो मेरा बटुआ है!",
+          "emotion": "surprised",
+          "at": 4.86
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.558,
+        "y": 0.54,
+        "zoom": 1.1,
+        "move": "static",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "डाकिया",
+          "x": 0.482,
+          "y": 0.852,
+          "size": 0.86,
+          "face": "right",
+          "pose": "offer",
+          "keys": [
+            {
+              "at": 3.65,
+              "pose": "nod"
+            },
+            {
+              "at": 6.4,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "गौरी",
+          "x": 0.613,
+          "y": 0.865,
+          "size": 0.83,
+          "face": "left",
+          "pose": "idle",
+          "keys": [
+            {
+              "at": 2.78,
+              "pose": "offer"
+            },
+            {
+              "at": 3.78,
+              "pose": "read"
+            },
+            {
+              "at": 4.55,
+              "pose": "flinch",
+              "emotion": "surprised"
+            },
+            {
+              "at": 5.25,
+              "pose": "read",
+              "emotion": "happy"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "गौरी की डाक",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.44,
+          "holder": "डाकिया",
+          "end": 3.53,
+          "angle": 5
+        },
+        {
+          "prop": "गौरी की डाक",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.45,
+          "holder": "गौरी",
+          "at": 3.53,
+          "end": 4.51,
+          "angle": -8
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.43,
+          "holder": "गौरी",
+          "at": 4.51,
+          "angle": -8
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 3.43,
+          "gain": 0.19
+        }
+      ]
+    },
+    {
+      "name": "सब कुछ अंदर",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "मेज़ पर खुला बटुआ। सिक्के, तस्वीर और बस का टिकट। एक छोटी पर्ची धीरे से नज़र आती है।",
+      "time": "day",
+      "minDuration": 9,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "एक भी सिक्का कम नहीं था। बिटिया की तस्वीर और बस का टिकट भी वहीं थे। बस एक पर्ची नई थी।",
+          "emotion": "neutral",
+          "at": 0.55
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.5,
+        "y": 0.533,
+        "zoom": 1.3,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [],
+      "captionPosition": "top",
+      "vignette": 0.24,
+      "props": [
+        {
+          "prop": "गौरी का खुला बटुआ",
+          "x": 0.474,
+          "y": 0.651,
+          "size": 1.75,
+          "angle": -9
+        },
+        {
+          "prop": "गौरी की बिटिया की तस्वीर",
+          "x": 0.576,
+          "y": 0.555,
+          "size": 0.92,
+          "angle": 12,
+          "alpha": 0,
+          "depth": 0.692,
+          "keys": [
+            {
+              "at": 1.74,
+              "alpha": 0,
+              "y": 0.6,
+              "x": 0.547
+            },
+            {
+              "at": 2.38,
+              "alpha": 1,
+              "y": 0.555,
+              "x": 0.576
+            }
+          ]
+        },
+        {
+          "prop": "पीपलगंज बस का टिकट",
+          "x": 0.429,
+          "y": 0.684,
+          "size": 0.75,
+          "angle": -12,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 3.3,
+              "alpha": 0,
+              "x": 0.459
+            },
+            {
+              "at": 3.85,
+              "alpha": 1,
+              "x": 0.429
+            }
+          ]
+        },
+        {
+          "prop": "पीतल का सिक्का",
+          "x": 0.464,
+          "y": 0.644,
+          "size": 0.79,
+          "at": 0.5,
+          "angle": 10,
+          "keys": [
+            {
+              "at": 0.5,
+              "x": 0.475
+            },
+            {
+              "at": 1.06,
+              "x": 0.464,
+              "angle": -4
+            }
+          ]
+        },
+        {
+          "prop": "पीतल का सिक्का",
+          "x": 0.495,
+          "y": 0.656,
+          "size": 0.62,
+          "at": 0.65,
+          "angle": -7
+        },
+        {
+          "prop": "लौटाए हुए बटुए की पर्ची",
+          "x": 0.554,
+          "y": 0.704,
+          "size": 1.33,
+          "angle": 8,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 5.12,
+              "alpha": 0,
+              "y": 0.741
+            },
+            {
+              "at": 5.72,
+              "alpha": 1,
+              "y": 0.704
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "f7d426c73c42c5e33b3e4b93c6cc3c93.wav",
+          "at": 0.52,
+          "gain": 0.19
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 5.18,
+          "gain": 0.16
+        }
+      ]
+    },
+    {
+      "name": "ज़रा संभलकर",
+      "scene": "गौरी का आँगन",
+      "direction": "गौरी पर्ची पढ़ती है। इमरान की हैरानी हँसी में बदलती है।",
+      "time": "dusk",
+      "minDuration": 7,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "गौरी",
+          "text": "ये मिला। ज़रा संभलकर।",
+          "emotion": "neutral",
+          "at": 0.6
+        },
+        {
+          "speaker": "इमरान",
+          "text": "वाह! चोर ने पैसे भी लौटाए और डाक का ख़र्चा भी ख़ुद दिया।",
+          "emotion": "funny",
+          "at": 3.18
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.542,
+        "y": 0.527,
+        "zoom": 1.19,
+        "move": "static",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "गौरी",
+          "x": 0.482,
+          "y": 0.878,
+          "size": 0.85,
+          "face": "right",
+          "pose": "read",
+          "keys": [
+            {
+              "at": 2.66,
+              "pose": "look"
+            },
+            {
+              "at": 4.3,
+              "pose": "nod",
+              "emotion": "happy"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "इमरान",
+          "x": 0.603,
+          "y": 0.861,
+          "size": 0.86,
+          "face": "left",
+          "pose": "think",
+          "keys": [
+            {
+              "at": 2.69,
+              "pose": "flinch",
+              "emotion": "surprised"
+            },
+            {
+              "at": 3.1,
+              "pose": "open",
+              "emotion": "funny"
+            },
+            {
+              "at": 5.86,
+              "pose": "nod"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "लौटाए हुए बटुए की पर्ची",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.41,
+          "holder": "गौरी",
+          "angle": 7,
+          "grip": 29
+        },
+        {
+          "prop": "इमरान की चाय",
+          "x": 0.639,
+          "y": 0.865,
+          "size": 0.74
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 0.1,
+          "gain": 0.09
+        },
+        {
+          "file": "1681fea3bb1008cd682cf6e744d36279.wav",
+          "at": 6.13,
+          "gain": 0.15
+        }
+      ]
+    },
+    {
+      "name": "अख़बार की सुर्ख़ी",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "कस्बे का अख़बार मेज़ पर खुलता है। सुर्ख़ी में शरीफ़ चोर का ज़िक्र है।",
+      "time": "day",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जब दूसरे बटुए भी ऐसे ही लौटने लगे, ख़बर कस्बे के अख़बार तक पहुँची। लोगों ने उसे शरीफ़ चोर कहना शुरू कर दिया।",
+          "emotion": "neutral",
+          "at": 0.45
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.504,
+        "y": 0.5,
+        "zoom": 1.23,
+        "move": "pull",
+        "fit": false
+      },
+      "actors": [],
+      "captionPosition": "top",
+      "vignette": 0.16,
+      "props": [
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.578,
+          "y": 0.635,
+          "size": 1.06,
+          "angle": 19
+        },
+        {
+          "prop": "पीपलगंज का अख़बार",
+          "x": 0.496,
+          "y": 0.765,
+          "size": 2.12,
+          "angle": -13,
+          "alpha": 0.4,
+          "keys": [
+            {
+              "at": 0.76,
+              "angle": -4,
+              "y": 0.715,
+              "alpha": 1
+            },
+            {
+              "at": 3.8,
+              "angle": -1.2
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 0.09,
+          "gain": 0.29
+        }
+      ]
+    },
+    {
+      "name": "चौकी में हँसी",
+      "scene": "पीपलगंज की चौकी",
+      "direction": "चौकी में सिपाही सरिता अख़बार रखकर हँसती है।",
+      "time": "day",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "सरिता",
+          "text": "जो चोर बटुआ सही सलामत घर पहुँचा दे, उसकी क्या शिकायत लिखूँ? डाकिए से अच्छी सेवा करता है!",
+          "emotion": "funny",
+          "at": 0.87
+        }
+      ],
+      "camera": {
+        "frame": "close",
+        "x": 0.531,
+        "y": 0.542,
+        "zoom": 1.58,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "सरिता",
+          "x": 0.525,
+          "y": 0.856,
+          "size": 0.89,
+          "face": "right",
+          "pose": "read",
+          "keys": [
+            {
+              "at": 0.72,
+              "pose": "think",
+              "emotion": "happy"
+            },
+            {
+              "at": 2.68,
+              "pose": "open",
+              "emotion": "funny"
+            },
+            {
+              "at": 5.85,
+              "pose": "nod"
+            },
+            {
+              "at": 6.73,
+              "pose": "fold"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "पीपलगंज का अख़बार",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.42,
+          "holder": "सरिता",
+          "end": 0.83,
+          "angle": 11,
+          "grip": 71
+        },
+        {
+          "prop": "पीपलगंज का अख़बार",
+          "x": 0.627,
+          "y": 0.784,
+          "size": 0.48,
+          "at": 0.83,
+          "angle": -15
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 0.3,
+          "gain": 0.15
+        }
+      ]
+    },
+    {
+      "name": "लोग पर्ची माँगने लगे",
+      "scene": "पीपलगंज का साप्ताहिक हाट",
+      "direction": "हाट में पिंटू जानबूझकर बटुआ दिखाता है। इमरान चाय के पास खड़ा है।",
+      "time": "day",
+      "minDuration": 10,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "पिंटू",
+          "text": "देखो, मैंने बटुआ बाहर रखा है। मुझे भी उसकी पर्ची चाहिए!",
+          "emotion": "happy",
+          "at": 0.79
+        },
+        {
+          "speaker": "इमरान",
+          "text": "बस अपना पता साफ़ लिख देना, पिंटू!",
+          "emotion": "neutral",
+          "at": 5
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.51,
+        "y": 0.524,
+        "zoom": 1.11,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "हाट का दुकानदार",
+          "x": 0.485,
+          "y": 0.633,
+          "size": 0.39,
+          "face": "right",
+          "pose": "talk",
+          "keys": [
+            {
+              "at": 5.9,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "हाट की ग्राहक",
+          "x": 0.585,
+          "y": 0.602,
+          "size": 0.34,
+          "face": "left",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 7.1,
+              "x": 0.393,
+              "pose": "look"
+            }
+          ],
+          "emotion": "neutral"
+        },
+        {
+          "character": "पिंटू",
+          "x": 0.443,
+          "y": 0.884,
+          "size": 0.79,
+          "face": "right",
+          "pose": "point",
+          "keys": [
+            {
+              "at": 1.45,
+              "pose": "check-pocket"
+            },
+            {
+              "at": 2.58,
+              "pose": "offer"
+            },
+            {
+              "at": 4.11,
+              "pose": "wave"
+            },
+            {
+              "at": 6.1,
+              "pose": "nod"
+            },
+            {
+              "at": 7.52,
+              "pose": "walk"
+            },
+            {
+              "at": 9.25,
+              "x": 0.425,
+              "y": 0.772,
+              "size": 0.7,
+              "face": "back",
+              "pose": "idle"
+            }
+          ],
+          "emotion": "happy"
+        },
+        {
+          "character": "इमरान",
+          "x": 0.571,
+          "y": 0.852,
+          "size": 0.85,
+          "face": "left",
+          "pose": "hold",
+          "keys": [
+            {
+              "at": 4.37,
+              "pose": "think"
+            },
+            {
+              "at": 4.86,
+              "pose": "point",
+              "emotion": "funny"
+            },
+            {
+              "at": 7.55,
+              "pose": "open"
+            }
+          ],
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "इमरान की नीची मेज़",
+          "x": 0.605,
+          "y": 0.911,
+          "size": 1
+        },
+        {
+          "prop": "इमरान की चाय",
+          "x": 0.584,
+          "y": 0.856,
+          "size": 0.71
+        },
+        {
+          "prop": "इमरान की चाय",
+          "x": 0.608,
+          "y": 0.851,
+          "size": 0.69
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.457,
+          "y": 0.766,
+          "size": 0.38,
+          "angle": 9,
+          "end": 2.58
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.39,
+          "holder": "पिंटू",
+          "at": 2.58,
+          "end": 5.15,
+          "angle": 9
+        }
+      ],
+      "sounds": [
+        {
+          "file": "3e78b446b7fadfb58e6ed52c89ee7d43.wav",
+          "at": 0,
+          "gain": 0.18
+        },
+        {
+          "file": "1681fea3bb1008cd682cf6e744d36279.wav",
+          "at": 4.1,
+          "gain": 0.15
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 7.56,
+          "gain": 0.15
+        }
+      ]
+    },
+    {
+      "name": "सौ, दो सौ, तीन सौ",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "समय बीतता है। मेज़ पर लिफ़ाफ़े बढ़ते हैं। गिनती सौ से तीन सौ तक जाती है।",
+      "time": "day",
+      "minDuration": 9,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "हफ़्ते महीनों में बदल गए। पहले सौ बटुए लौटे। फिर दो सौ। और फिर गिनती तीन सौ तक पहुँच गई।",
+          "emotion": "neutral",
+          "at": 0.49
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.506,
+        "y": 0.505,
+        "zoom": 1.18,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [],
+      "vignette": 0.22,
+      "overlays": [
+        {
+          "text": "१००",
+          "at": 1.55,
+          "end": 3.49,
+          "y": 0.265,
+          "style": "count",
+          "eyebrow": "लौटे हुए बटुए"
+        },
+        {
+          "text": "२००",
+          "at": 3.51,
+          "end": 5.52,
+          "y": 0.265,
+          "style": "count",
+          "eyebrow": "लौटे हुए बटुए"
+        },
+        {
+          "text": "३००",
+          "at": 5.55,
+          "end": 8.5,
+          "y": 0.265,
+          "style": "count",
+          "eyebrow": "लौटे हुए बटुए"
+        }
+      ],
+      "props": [
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.431,
+          "y": 0.619,
+          "size": 1.24,
+          "angle": -17
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.53,
+          "y": 0.66,
+          "size": 1.34,
+          "angle": 12,
+          "at": 0.6,
+          "keys": [
+            {
+              "at": 0.6,
+              "y": 0.74
+            },
+            {
+              "at": 1,
+              "y": 0.66
+            }
+          ]
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.471,
+          "y": 0.668,
+          "size": 1.36,
+          "angle": -5,
+          "at": 1.44,
+          "keys": [
+            {
+              "at": 1.44,
+              "x": 0.412
+            },
+            {
+              "at": 1.84,
+              "x": 0.471
+            }
+          ]
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.537,
+          "y": 0.726,
+          "size": 1.3,
+          "angle": 22,
+          "at": 3.46,
+          "keys": [
+            {
+              "at": 3.46,
+              "y": 0.81
+            },
+            {
+              "at": 3.88,
+              "y": 0.726
+            }
+          ]
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.459,
+          "y": 0.728,
+          "size": 1.41,
+          "angle": -21,
+          "at": 5.51,
+          "keys": [
+            {
+              "at": 5.51,
+              "y": 0.8
+            },
+            {
+              "at": 5.96,
+              "y": 0.728
+            }
+          ]
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.535,
+          "y": 0.69,
+          "size": 0.94,
+          "angle": 5,
+          "at": 5.8,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 5.8,
+              "alpha": 0
+            },
+            {
+              "at": 6.18,
+              "alpha": 1
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 1.41,
+          "gain": 0.14
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 3.47,
+          "gain": 0.17
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 5.51,
+          "gain": 0.2
+        }
+      ]
+    },
+    {
+      "name": "डरने की क्या बात है",
+      "scene": "गौरी का आँगन",
+      "direction": "गौरी घर लौटकर बटुआ मेज़ पर रखती है। दीपक जल रहा है।",
+      "time": "dusk",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "गौरी",
+          "text": "मैंने भी बटुआ फिर वहीं रख दिया। सब कुछ वापस आ गया था। मुझे लगा, अब डरने की क्या बात है?",
+          "emotion": "neutral",
+          "at": 0.68
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.549,
+        "y": 0.535,
+        "zoom": 1.12,
+        "move": "pull",
+        "fit": false
+      },
+      "transition": "fade",
+      "actors": [
+        {
+          "character": "गौरी",
+          "x": 0.431,
+          "y": 0.879,
+          "size": 0.84,
+          "face": "right",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 1.74,
+              "x": 0.509,
+              "pose": "offer"
+            },
+            {
+              "at": 3.25,
+              "pose": "look"
+            },
+            {
+              "at": 5.21,
+              "pose": "open"
+            },
+            {
+              "at": 6.39,
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "इमरान की नीची मेज़",
+          "x": 0.638,
+          "y": 0.887,
+          "size": 1.16
+        },
+        {
+          "prop": "गौरी का दीया",
+          "x": 0.641,
+          "y": 0.835,
+          "size": 0.7
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.39,
+          "holder": "गौरी",
+          "end": 2.85,
+          "angle": 3
+        },
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.598,
+          "y": 0.841,
+          "size": 0.52,
+          "at": 2.85,
+          "angle": -5,
+          "keys": [
+            {
+              "at": 2.85,
+              "y": 0.794
+            },
+            {
+              "at": 3.11,
+              "y": 0.84
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.09,
+          "gain": 0.13
+        },
+        {
+          "file": "f29ee2ae5942a0df7bf95d26471055f9.wav",
+          "at": 2.86,
+          "gain": 0.12
+        }
+      ]
+    },
+    {
+      "name": "रविवार की रात",
+      "scene": "पीपलगंज की रात",
+      "direction": "चाँदनी में पीपलगंज की सुनसान गली। दूर मंदिर की घंटी और झींगुर।",
+      "time": "night",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "फिर आया रविवार। रात इतनी शांत थी कि गाँव के आख़िरी घर से भी मंदिर की घंटी सुनाई दे रही थी।",
+          "emotion": "neutral",
+          "at": 1.1
+        }
+      ],
+      "camera": {
+        "frame": "wide",
+        "x": 0.569,
+        "y": 0.5,
+        "zoom": 1.02,
+        "move": "pan-right",
+        "fit": false
+      },
+      "actors": [],
+      "transition": "fade",
+      "vignette": 0.32,
+      "overlays": [
+        {
+          "text": "रविवार · आधी रात",
+          "at": 0.8,
+          "end": 6.25,
+          "y": 0.21,
+          "style": "tag",
+          "eyebrow": ""
+        }
+      ],
+      "sounds": [
+        {
+          "file": "08200ec96e139fbabb0bbe9e3384b307.wav",
+          "at": 0,
+          "gain": 0.22
+        },
+        {
+          "file": "5fb29e5e4a80547e77b4e39f4399fa2b.wav",
+          "at": 0.29,
+          "gain": 0.26
+        }
+      ]
+    },
+    {
+      "name": "अपनी चाबी से",
+      "scene": "पीपलगंज की रात",
+      "direction": "अँधेरे में एक बंद कुंडी। धातु की धीमी खट, और दरवाज़ा खुल जाता है।",
+      "time": "night",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "न कोई शीशा चटका, न कोई दरवाज़ा टूटा। एक के बाद एक, घरों के ताले अपनी ही चाबी से खुल गए।",
+          "emotion": "neutral",
+          "at": 0.52
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.843,
+        "y": 0.56,
+        "zoom": 1.83,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [],
+      "vignette": 0.41,
+      "captionPosition": "top",
+      "props": [
+        {
+          "prop": "पीतल का पुराना ताला",
+          "x": 0.842,
+          "y": 0.676,
+          "size": 1.54
+        },
+        {
+          "prop": "गौरी के घर की चाबी",
+          "x": 0.824,
+          "y": 0.606,
+          "size": 0.97,
+          "alpha": 0,
+          "angle": -13,
+          "depth": 0.71,
+          "keys": [
+            {
+              "at": 2.74,
+              "x": 0.795,
+              "y": 0.615,
+              "alpha": 0
+            },
+            {
+              "at": 3.28,
+              "x": 0.824,
+              "y": 0.609,
+              "alpha": 1,
+              "angle": -10
+            },
+            {
+              "at": 4.3,
+              "x": 0.827,
+              "y": 0.604,
+              "angle": 22
+            },
+            {
+              "at": 4.53,
+              "angle": -2
+            },
+            {
+              "at": 6.13,
+              "x": 0.795,
+              "y": 0.61,
+              "alpha": 0
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "08200ec96e139fbabb0bbe9e3384b307.wav",
+          "at": 0,
+          "gain": 0.09
+        },
+        {
+          "file": "31e55c34b5791c39a0b809e64e00189e.wav",
+          "at": 4.14,
+          "gain": 0.29
+        },
+        {
+          "file": "841ed8a8275bce01f5366ab7fbb41998.wav",
+          "at": 6.38,
+          "gain": 0.2
+        }
+      ]
+    },
+    {
+      "name": "घर के भीतर",
+      "scene": "गौरी का आँगन",
+      "direction": "गौरी जलता दीया लेकर उठती है। खुला दरवाज़ा देखकर ठिठक जाती है।",
+      "time": "night",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "गौरी",
+          "text": "कौन है? दरवाज़ा खुला कैसे? अभी तो मैंने बंद किया था।",
+          "emotion": "worried",
+          "at": 2.53
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.588,
+        "y": 0.539,
+        "zoom": 1.18,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.44,
+      "actors": [
+        {
+          "character": "गौरी",
+          "x": 0.501,
+          "y": 0.892,
+          "size": 0.89,
+          "face": "right",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 1.25,
+              "x": 0.551,
+              "pose": "read",
+              "emotion": "worried"
+            },
+            {
+              "at": 1.77,
+              "x": 0.535,
+              "pose": "flinch",
+              "emotion": "surprised"
+            },
+            {
+              "at": 2.39,
+              "pose": "offer",
+              "emotion": "worried"
+            },
+            {
+              "at": 5.68,
+              "pose": "listen",
+              "emotion": "worried"
+            },
+            {
+              "at": 6.78,
+              "face": "back",
+              "pose": "hold"
+            }
+          ],
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "गौरी का दीया",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.75,
+          "holder": "गौरी",
+          "at": 0,
+          "end": 1.58,
+          "angle": 5
+        },
+        {
+          "prop": "गौरी का दीया",
+          "x": 0.604,
+          "y": 0.7,
+          "size": 0.75,
+          "at": 1.58,
+          "keys": [
+            {
+              "at": 1.58,
+              "y": 0.695
+            },
+            {
+              "at": 2.5,
+              "y": 0.674,
+              "x": 0.627
+            },
+            {
+              "at": 5.63,
+              "y": 0.712,
+              "x": 0.6
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "08200ec96e139fbabb0bbe9e3384b307.wav",
+          "at": 0,
+          "gain": 0.13
+        },
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.28,
+          "gain": 0.1
+        },
+        {
+          "file": "841ed8a8275bce01f5366ab7fbb41998.wav",
+          "at": 1.42,
+          "gain": 0.13
+        }
+      ]
+    },
+    {
+      "name": "वही पर्ची",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "सुबह। गौरी की मेज़ पर पर्ची पड़ी है। लिखावट वही है, संदेश बदल गया है।",
+      "time": "dawn",
+      "minDuration": 9,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सुबह तक घरों से नक़दी और गहने गायब थे। हर रसोई की मेज़ पर एक पर्ची पड़ी थी।",
+          "emotion": "neutral",
+          "at": 0.43
+        },
+        {
+          "speaker": "गौरी",
+          "text": "कहा था, ज़रा संभलकर।",
+          "emotion": "worried",
+          "at": 6.34
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.508,
+        "y": 0.498,
+        "zoom": 1.51,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.3,
+      "actors": [],
+      "captionPosition": "top",
+      "props": [
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.506,
+          "y": 0.669,
+          "size": 2.22,
+          "angle": 5
+        },
+        {
+          "prop": "गौरी का दीया",
+          "x": 0.411,
+          "y": 0.556,
+          "size": 0.57,
+          "angle": -7
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 6,
+          "gain": 0.17
+        }
+      ]
+    },
+    {
+      "name": "एक रात में तीन सौ",
+      "scene": "पीपलगंज की चौकी",
+      "direction": "चौकी में इस बार हँसी नहीं है। सरिता शिकायतों के ढेर के पास खड़ी है।",
+      "time": "dawn",
+      "minDuration": 10,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "सरिता",
+          "text": "तीन सौ घर, एक ही रात। कहीं ताला टूटा नहीं। जैसे खोलने वाले के पास हर घर की अपनी चाबी थी।",
+          "emotion": "worried",
+          "at": 0.96
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.517,
+        "y": 0.537,
+        "zoom": 1.14,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.18,
+      "actors": [
+        {
+          "character": "गौरी",
+          "x": 0.441,
+          "y": 0.867,
+          "size": 0.83,
+          "face": "right",
+          "pose": "fold",
+          "keys": [
+            {
+              "at": 3.78,
+              "pose": "look"
+            },
+            {
+              "at": 6.62,
+              "pose": "shake",
+              "emotion": "sad"
+            }
+          ],
+          "emotion": "worried"
+        },
+        {
+          "character": "सरिता",
+          "x": 0.568,
+          "y": 0.846,
+          "size": 0.9,
+          "face": "left",
+          "pose": "read",
+          "keys": [
+            {
+              "at": 1.4,
+              "pose": "open"
+            },
+            {
+              "at": 3.77,
+              "pose": "shake"
+            },
+            {
+              "at": 4.61,
+              "pose": "point"
+            },
+            {
+              "at": 6.52,
+              "pose": "think"
+            },
+            {
+              "at": 8.3,
+              "pose": "look"
+            }
+          ],
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "इमरान की नीची मेज़",
+          "x": 0.631,
+          "y": 0.902,
+          "size": 1.16
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.615,
+          "y": 0.85,
+          "size": 0.66,
+          "angle": 7
+        },
+        {
+          "prop": "सादा लिफ़ाफ़ा",
+          "x": 0.643,
+          "y": 0.849,
+          "size": 0.64,
+          "angle": -10
+        },
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.43,
+          "holder": "सरिता",
+          "end": 1.39,
+          "angle": -7,
+          "grip": 38
+        },
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.623,
+          "y": 0.847,
+          "size": 0.64,
+          "at": 1.39,
+          "angle": -6
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 1.22,
+          "gain": 0.15
+        }
+      ]
+    },
+    {
+      "name": "लिखावट की पहचान",
+      "scene": "पीपलगंज की चौकी",
+      "direction": "गौरी सरिता के पास पुरानी और नई पर्ची साथ रखती है।",
+      "time": "dawn",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "सरिता",
+          "text": "ये लिखावट पहले देखी है?",
+          "emotion": "neutral",
+          "at": 0.62
+        },
+        {
+          "speaker": "गौरी",
+          "text": "मेरे बटुए की पर्ची पर। दोनों की लिखावट बिल्कुल एक जैसी है।",
+          "emotion": "neutral",
+          "at": 3.3
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.514,
+        "y": 0.526,
+        "zoom": 1.21,
+        "move": "static",
+        "fit": false
+      },
+      "actors": [
+        {
+          "character": "गौरी",
+          "x": 0.445,
+          "y": 0.874,
+          "size": 0.83,
+          "face": "right",
+          "pose": "read",
+          "keys": [
+            {
+              "at": 2.29,
+              "pose": "offer"
+            },
+            {
+              "at": 4.58,
+              "pose": "point"
+            },
+            {
+              "at": 6.58,
+              "pose": "fold"
+            }
+          ],
+          "emotion": "worried"
+        },
+        {
+          "character": "सरिता",
+          "x": 0.571,
+          "y": 0.846,
+          "size": 0.89,
+          "face": "left",
+          "pose": "offer",
+          "keys": [
+            {
+              "at": 1.68,
+              "pose": "read"
+            },
+            {
+              "at": 4.15,
+              "pose": "look"
+            },
+            {
+              "at": 5.3,
+              "pose": "nod",
+              "emotion": "worried"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "लौटाए हुए बटुए की पर्ची",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.42,
+          "holder": "गौरी",
+          "end": 4.13,
+          "angle": 13,
+          "grip": 33
+        },
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.43,
+          "holder": "सरिता",
+          "end": 4.14,
+          "angle": -12,
+          "grip": 33
+        },
+        {
+          "prop": "इमरान की नीची मेज़",
+          "x": 0.549,
+          "y": 0.903,
+          "size": 1.06
+        },
+        {
+          "prop": "लौटाए हुए बटुए की पर्ची",
+          "x": 0.519,
+          "y": 0.854,
+          "size": 0.59,
+          "at": 4.13,
+          "angle": 9
+        },
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.579,
+          "y": 0.856,
+          "size": 0.61,
+          "at": 4.14,
+          "angle": -7
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 3.95,
+          "gain": 0.16
+        }
+      ]
+    },
+    {
+      "name": "बटुए में पता",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "पुराना बटुआ, पते की पर्ची और घर की चाबी। अब दर्शक उन चीज़ों को देखता है जिन पर पहले ध्यान नहीं गया।",
+      "time": "day",
+      "minDuration": 9,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "अब बात समझ आई। हर बटुए में घर का पता था। और ज़्यादातर लोग उसमें एक फ़ालतू चाबी भी रखते थे।",
+          "emotion": "neutral",
+          "at": 0.59
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.503,
+        "y": 0.523,
+        "zoom": 1.25,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.22,
+      "actors": [],
+      "captionPosition": "top",
+      "props": [
+        {
+          "prop": "गौरी का खुला बटुआ",
+          "x": 0.48,
+          "y": 0.659,
+          "size": 1.72,
+          "angle": -11
+        },
+        {
+          "prop": "घर के पते की पर्ची",
+          "x": 0.553,
+          "y": 0.635,
+          "size": 1.29,
+          "angle": 12,
+          "alpha": 0,
+          "depth": 0.689,
+          "keys": [
+            {
+              "at": 1.49,
+              "alpha": 0,
+              "x": 0.502,
+              "y": 0.625
+            },
+            {
+              "at": 2.48,
+              "alpha": 1,
+              "x": 0.553,
+              "y": 0.635
+            }
+          ]
+        },
+        {
+          "prop": "गौरी के घर की चाबी",
+          "x": 0.474,
+          "y": 0.727,
+          "size": 1.23,
+          "angle": -14,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 4.26,
+              "alpha": 0,
+              "y": 0.66,
+              "x": 0.469
+            },
+            {
+              "at": 5.15,
+              "alpha": 1,
+              "y": 0.727,
+              "x": 0.474,
+              "angle": -10
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 1.74,
+          "gain": 0.13
+        },
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 4.76,
+          "gain": 0.17
+        }
+      ]
+    },
+    {
+      "name": "साबुन पर निशान",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "साबुन पर चाबी की छाप। अगली कट में चाबी की नक़ल। अजनबी फिर लिफ़ाफ़ा बंद करता है।",
+      "time": "day",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "वह साबुन पर चाबी की छाप लेकर उसकी नक़ल बनवा लेता। शाम तक असली चाबी बटुए के साथ लौट जाती।",
+          "emotion": "neutral",
+          "at": 0.52
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.497,
+        "y": 0.515,
+        "zoom": 1.31,
+        "move": "push",
+        "fit": false
+      },
+      "vignette": 0.35,
+      "actors": [],
+      "captionPosition": "top",
+      "props": [
+        {
+          "prop": "साबुन पर चाबी की छाप",
+          "x": 0.456,
+          "y": 0.614,
+          "size": 1.74,
+          "angle": -13
+        },
+        {
+          "prop": "नक़ल की चाबी",
+          "x": 0.55,
+          "y": 0.631,
+          "size": 1.38,
+          "angle": 16,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 2.2,
+              "alpha": 0,
+              "x": 0.568
+            },
+            {
+              "at": 2.87,
+              "alpha": 1,
+              "x": 0.55
+            }
+          ]
+        },
+        {
+          "prop": "गौरी की डाक",
+          "x": 0.539,
+          "y": 0.728,
+          "size": 1.38,
+          "angle": -8,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 4.27,
+              "alpha": 0,
+              "y": 0.801
+            },
+            {
+              "at": 4.99,
+              "alpha": 1,
+              "y": 0.728
+            }
+          ]
+        },
+        {
+          "prop": "गौरी के घर की चाबी",
+          "x": 0.532,
+          "y": 0.734,
+          "size": 0.96,
+          "angle": -15,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 4.82,
+              "alpha": 0,
+              "x": 0.474
+            },
+            {
+              "at": 5.64,
+              "alpha": 1,
+              "x": 0.526,
+              "y": 0.73
+            },
+            {
+              "at": 6.39,
+              "alpha": 0,
+              "x": 0.543,
+              "y": 0.688
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 2.58,
+          "gain": 0.17
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 5.77,
+          "gain": 0.19
+        }
+      ]
+    },
+    {
+      "name": "इंतज़ार",
+      "scene": "अजनबी का कमरा",
+      "direction": "अजनबी के कमरे में पते के साथ जमा चाबियाँ। उसकी उँगली एक और पर्ची टाँगती है।",
+      "time": "night",
+      "minDuration": 8,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "पतों के साथ चाबियाँ जमा होती रहीं। किसी ने ताला नहीं बदला, क्योंकि किसी को लगा ही नहीं कि कुछ गायब है।",
+          "emotion": "neutral",
+          "at": 0.67
+        }
+      ],
+      "camera": {
+        "frame": "medium",
+        "x": 0.52,
+        "y": 0.525,
+        "zoom": 1.19,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.29,
+      "captionPosition": "top",
+      "actors": [
+        {
+          "character": "अजनबी",
+          "x": 0.611,
+          "y": 0.866,
+          "size": 0.8,
+          "face": "back",
+          "pose": "look",
+          "keys": [
+            {
+              "at": 1.49,
+              "face": "left",
+              "pose": "reach"
+            },
+            {
+              "at": 3.18,
+              "pose": "offer"
+            },
+            {
+              "at": 5.35,
+              "pose": "think"
+            },
+            {
+              "at": 6.4,
+              "face": "back",
+              "pose": "idle"
+            }
+          ],
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "पते और चाबियों का तख़्ता",
+          "x": 0.487,
+          "y": 0.623,
+          "size": 1.54
+        },
+        {
+          "prop": "गौरी का दीया",
+          "x": 0.408,
+          "y": 0.797,
+          "size": 0.61
+        },
+        {
+          "prop": "नक़ल की चाबी",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.47,
+          "holder": "अजनबी",
+          "at": 1.49,
+          "end": 3.52,
+          "angle": -25
+        },
+        {
+          "prop": "नक़ल की चाबी",
+          "x": 0.533,
+          "y": 0.586,
+          "size": 0.59,
+          "at": 3.52,
+          "angle": 81
+        }
+      ],
+      "sounds": [
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 3.45,
+          "gain": 0.24
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 4.75,
+          "gain": 0.1
+        }
+      ]
+    },
+    {
+      "name": "पीपलगंज की सुबह",
+      "scene": "पीपलगंज की सुबह",
+      "direction": "धूप में वही गली। गौरी के घर के बाहर पड़ोसी चुप खड़े हैं। पुलिस चौकी के काग़ज़ खुले हैं।",
+      "time": "dawn",
+      "minDuration": 9,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जिस आदमी को पीपलगंज ने शरीफ़ चोर कहा, उसने एक ही रात में तीन सौ परिवारों के घर लूट लिए।",
+          "emotion": "neutral",
+          "at": 0.61
+        }
+      ],
+      "camera": {
+        "frame": "wide",
+        "x": 0.535,
+        "y": 0.5,
+        "zoom": 1.1,
+        "move": "pull",
+        "fit": false
+      },
+      "vignette": 0.16,
+      "overlays": [
+        {
+          "text": "३०० घर · एक रात",
+          "at": 5.6,
+          "end": 8.6,
+          "y": 0.237,
+          "style": "title",
+          "eyebrow": ""
+        }
+      ],
+      "actors": [
+        {
+          "character": "पीपलगंज के बुज़ुर्ग",
+          "x": 0.579,
+          "y": 0.642,
+          "size": 0.47,
+          "face": "left",
+          "pose": "hold",
+          "keys": [
+            {
+              "at": 3.7,
+              "pose": "look"
+            }
+          ],
+          "emotion": "sad"
+        },
+        {
+          "character": "गौरी",
+          "x": 0.447,
+          "y": 0.868,
+          "size": 0.8,
+          "face": "right",
+          "pose": "fold",
+          "keys": [
+            {
+              "at": 4.46,
+              "pose": "look"
+            }
+          ],
+          "emotion": "sad"
+        },
+        {
+          "character": "सरिता",
+          "x": 0.557,
+          "y": 0.846,
+          "size": 0.85,
+          "face": "left",
+          "pose": "read",
+          "keys": [
+            {
+              "at": 2.81,
+              "pose": "look"
+            },
+            {
+              "at": 5.59,
+              "pose": "fold"
+            }
+          ],
+          "emotion": "worried"
+        },
+        {
+          "character": "इमरान",
+          "x": 0.686,
+          "y": 0.858,
+          "size": 0.73,
+          "face": "left",
+          "pose": "walk",
+          "keys": [
+            {
+              "at": 3.41,
+              "x": 0.639,
+              "pose": "idle"
+            },
+            {
+              "at": 4.49,
+              "pose": "think"
+            }
+          ],
+          "emotion": "sad"
+        }
+      ],
+      "props": [
+        {
+          "prop": "रसोई की पर्ची",
+          "x": 0.5,
+          "y": 0.85,
+          "size": 0.37,
+          "holder": "सरिता",
+          "angle": 8,
+          "end": 5.59
+        }
+      ],
+      "sounds": [
+        {
+          "file": "bfd2b5d2579f90aae2790c57da77ff12.wav",
+          "at": 0.32,
+          "gain": 0.11
+        },
+        {
+          "file": "b420c54b267f1dc989c3853b11c29569.wav",
+          "at": 2.6,
+          "gain": 0.09
+        }
+      ]
+    },
+    {
+      "name": "आख़िरी बात",
+      "scene": "गौरी की लकड़ी की मेज़",
+      "direction": "लौटाया हुआ बटुआ और वही पर्ची। पास रखी चाबी पर रोशनी रुकती है।",
+      "time": "day",
+      "minDuration": 6,
+      "atmosphere": "quiet",
+      "autoSound": false,
+      "dialogue": [
+        {
+          "speaker": "गौरी",
+          "text": "बटुआ लौट आया था। पर अब हमारे घर की चाबी उसके पास भी थी।",
+          "emotion": "neutral",
+          "at": 0.48
+        }
+      ],
+      "camera": {
+        "frame": "detail",
+        "x": 0.504,
+        "y": 0.515,
+        "zoom": 1.36,
+        "move": "push",
+        "fit": false
+      },
+      "actors": [],
+      "captionPosition": "top",
+      "vignette": 0.39,
+      "transition": "fade",
+      "props": [
+        {
+          "prop": "गौरी का बटुआ",
+          "x": 0.46,
+          "y": 0.672,
+          "size": 1.76,
+          "angle": -13
+        },
+        {
+          "prop": "लौटाए हुए बटुए की पर्ची",
+          "x": 0.532,
+          "y": 0.648,
+          "size": 1.54,
+          "angle": 10
+        },
+        {
+          "prop": "नक़ल की चाबी",
+          "x": 0.518,
+          "y": 0.732,
+          "size": 1.2,
+          "angle": -11,
+          "alpha": 0,
+          "keys": [
+            {
+              "at": 2.24,
+              "alpha": 0,
+              "x": 0.542
+            },
+            {
+              "at": 3,
+              "alpha": 1,
+              "x": 0.518
+            }
+          ]
+        }
+      ],
+      "sounds": [
+        {
+          "file": "c7708df85649cbe674a83c694e8a9da5.wav",
+          "at": 2.8,
+          "gain": 0.13
+        }
+      ]
+    }
+  ]
+}

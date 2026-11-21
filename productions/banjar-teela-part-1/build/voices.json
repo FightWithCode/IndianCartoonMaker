@@ -1,0 +1,254 @@
+[
+  {
+    "number": 1,
+    "scene": 1,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "धीमी, गंभीर और भावनात्मक आवाज़ में",
+    "text": "गांव के जिस सूखे टीले को लोग कभी ‘बंजर टीला’ कहकर मुँह फेर लेते थे,",
+    "audio": "3fdd0ef51eb04aae6115275b7e7db939.wav",
+    "duration": 6.019,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.796
+  },
+  {
+    "number": 2,
+    "scene": 1,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "गरमाहट और गर्व के साथ",
+    "text": "आज उसी मिट्टी से बने घड़ों का ठंडा पानी पूरे शहर की प्यास बुझाता है।",
+    "audio": "a0b707bb2764e99b5200aec5c7d09148.wav",
+    "duration": 6.154,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.868
+  },
+  {
+    "number": 3,
+    "scene": 2,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "धीमे, करुण स्वर में",
+    "text": "पर जब एक गरीब विधवा माँ और उसके नन्हे बेटे ने पहली बार उस टीले की सख्त मिट्टी को हाथ लगाया,",
+    "audio": "ec2300bed5ecc9d9fbdb00175d70a93b.wav",
+    "duration": 10.298,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.891
+  },
+  {
+    "number": 4,
+    "scene": 2,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "दुख के साथ",
+    "text": "तो गांव के बड़े-बुजुर्ग हंस पड़े। बोले—",
+    "audio": "ee6371493e925817f41ca24cc87138d4.wav",
+    "duration": 3.615,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.807
+  },
+  {
+    "number": 5,
+    "scene": 2,
+    "code": "E",
+    "speaker": "गाँव के बुज़ुर्ग",
+    "direction": "ताना मारते हुए, हँसी के साथ",
+    "text": "इस राख जैसी मिट्टी से घड़े नहीं, सिर्फ तुम्हारी किस्मत फूटेगी।",
+    "audio": "39a24da32d63e089291c88ad7b5b7d1c.wav",
+    "duration": 3.85,
+    "speed": 0.94,
+    "settings": [
+      "default",
+      "male, elderly, moderate pitch",
+      52061,
+      0.92
+    ],
+    "match": 0.884
+  },
+  {
+    "number": 6,
+    "scene": 2,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "रहस्य और आशा के साथ",
+    "text": "उन्हें क्या पता था कि कुछ ही महीनों बाद वही लोग उस टूटे हुए चाक के आगे सिर झुकाकर खड़े होंगे।",
+    "audio": "d62900ac2ccbba293b24b6f67c7c00f8.wav",
+    "duration": 9.754,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.905
+  },
+  {
+    "number": 7,
+    "scene": 3,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "शांत, कोमल स्वर में",
+    "text": "चंदनपुर नाम का एक छोटा सा गांव था,",
+    "audio": "25782b3fc00c1866d2e57072806e5897.wav",
+    "duration": 2.461,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.792
+  },
+  {
+    "number": 8,
+    "scene": 3,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "शांत, कोमल स्वर में",
+    "text": "जहां सुबह की शुरुआत चिड़ियों की चहचहाहट से नहीं,",
+    "audio": "8292d79d50de9b3ad98b47f581ab0f01.wav",
+    "duration": 4.84,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.74
+  },
+  {
+    "number": 9,
+    "scene": 3,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "शांत, कोमल स्वर में",
+    "text": "बल्कि मंदिर की घंटियों और कुएं पर बजती बाल्टियों की आवाज से होती थी।",
+    "audio": "6da3b3e1563abc1d30f176a847e4b568.wav",
+    "duration": 6.807,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.8
+  },
+  {
+    "number": 10,
+    "scene": 3,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "शांत, कोमल स्वर में",
+    "text": "गांव के बीचों-बीच एक पुराना पीपल का पेड़ था,",
+    "audio": "52c92960eea5572d63e9f1b6e73caea4.wav",
+    "duration": 3.89,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.788
+  },
+  {
+    "number": 11,
+    "scene": 3,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "शांत, कोमल स्वर में",
+    "text": "और उसके नीचे हर शाम गांव के बड़े लोगों की चौपाल जमती थी।",
+    "audio": "5f8bcd9f3d4706abc763a4d097703d97.wav",
+    "duration": 5.48,
+    "speed": 0.95,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.929
+  },
+  {
+    "number": 12,
+    "scene": 4,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "धीमे, उदास स्वर में",
+    "text": "उसी गांव के सबसे आखिरी छोर पर, नाले के किनारे एक कच्चा घर था।",
+    "audio": "c625a4060643168c9298558284836399.wav",
+    "duration": 7.026,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.901
+  },
+  {
+    "number": 13,
+    "scene": 4,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "धीमे, उदास स्वर में",
+    "text": "उसकी छत के खपरैल आधे टूट चुके थे, और दीवारों पर बारिश की लकीरें साफ दिखती थीं।",
+    "audio": "f05e47b246f868aae67ffa8e51194803.wav",
+    "duration": 7.983,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.777
+  },
+  {
+    "number": 14,
+    "scene": 4,
+    "code": "N",
+    "speaker": "कथावाचक",
+    "direction": "नरम, स्नेह और करुणा के साथ",
+    "text": "उस घर में रहती थी ३८ साल की जानकी और उसका ११ साल का बेटा, छोटू।",
+    "audio": "517883fd5305c6c5b61a3719153c62c4.wav",
+    "duration": 7.793,
+    "speed": 0.915,
+    "settings": [
+      "Rahul",
+      null,
+      71011,
+      0.95
+    ],
+    "match": 0.811
+  }
+]

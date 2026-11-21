@@ -1,0 +1,10 @@
+[
+  {
+    "name": "साधु बाबा",
+    "role": "an ancient hermit (sadhu): matted white locks in a top-knot, long white beard, thin bare chest with ash marks and a rudraksha garland, saffron lower cloth and a sash, barefoot",
+    "gender": "male", "age": "elder", "build": "slim", "costume": "ascetic", "hair": "jata",
+    "skin": "#9a6540", "primary": "#e07a1f", "accent": "#c4561a",
+    "beard": "long", "tilak": "tripund", "barefoot": true, "moustache": true,
+    "voiceStyle": "male, elderly, low pitch"
+  }
+]
