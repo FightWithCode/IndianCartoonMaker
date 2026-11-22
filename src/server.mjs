@@ -15,7 +15,7 @@ const types = {
   '.json': 'application/json; charset=utf-8', '.srt': 'text/plain; charset=utf-8', '.mp4': 'video/mp4',
   ...mediaTypes,
 };
-const staticFiles = new Set(['/', '/app.js', '/draw.js', '/inserts.js', '/scenery.js', '/cast.js', '/canvas.js', '/styles.css', '/plates/banyan-square.jpg']);
+const staticFiles = new Set(['/', '/app.js', '/draw.js', '/inserts.js', '/scenery.js', '/rig-lib.js', '/face.js', '/lipsync.js', '/cast.js', '/canvas.js', '/styles.css', '/plates/banyan-square.jpg']);
 let exporting = false;
 
 function json(res, code, value) {

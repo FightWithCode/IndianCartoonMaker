@@ -1,0 +1,2152 @@
+{
+  "title": "जादुई चक्की और दो भाइयों का न्याय · खंड 4",
+  "slug": "jadui-chakki-aur-do-bhai-part-4",
+  "language": "hi",
+  "ratio": "16:9",
+  "captions": true,
+  "captionScale": 0.74,
+  "characters": [
+    {
+      "name": "माधव (खुशहाल)",
+      "gender": "male",
+      "age": "adult",
+      "build": "regular",
+      "costume": "kurta",
+      "hair": "crop",
+      "skin": "#a8694a",
+      "primary": "#e9dfc6",
+      "accent": "#a2593e",
+      "moustache": false,
+      "voiceStyle": "male, young adult, moderate pitch"
+    },
+    {
+      "name": "कविता (खुशहाल)",
+      "gender": "female",
+      "age": "adult",
+      "build": "regular",
+      "costume": "sari",
+      "hair": "bun",
+      "skin": "#b06f4d",
+      "primary": "#b8566b",
+      "accent": "#e0b860",
+      "jewelry": "simple",
+      "voiceStyle": "female, young adult, moderate pitch"
+    },
+    {
+      "name": "बूढ़ी मां (स्वस्थ)",
+      "gender": "female",
+      "age": "elder",
+      "build": "regular",
+      "costume": "sari",
+      "hair": "grey",
+      "skin": "#a56a4c",
+      "primary": "#f1ece0",
+      "accent": "#c9a064",
+      "jewelry": "simple",
+      "voiceStyle": "female, elderly, low pitch"
+    },
+    {
+      "name": "सोहन",
+      "gender": "male",
+      "age": "adult",
+      "build": "stout",
+      "costume": "kurta",
+      "hair": "turban",
+      "skin": "#b07a55",
+      "primary": "#7b2d3b",
+      "accent": "#e3b64f",
+      "trim": "#e8c25a",
+      "shawl": "#c99a2e",
+      "jewelry": "gold",
+      "moustache": true,
+      "voiceStyle": "male, middle-aged, low pitch"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "जादुई चक्की · रात में माधव का घर",
+      "kind": "courtyard",
+      "image": "d2fe2e0f3045780cde18c29aa25cf891.jpg",
+      "ambience": "night",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · रात में माधव का कमरा",
+      "kind": "home",
+      "image": "3beef15dff5aae0e5b27c7cfc01689f9.jpg",
+      "ambience": "night",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · रात में सोहन की हवेली",
+      "kind": "home",
+      "image": "34371b0d05b23f3a6241ef2fc66ffd33.jpg",
+      "ambience": "night",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · हवेली का दालान",
+      "kind": "home",
+      "image": "588473b1edd09ed67177ad6292bfabe2.jpg",
+      "ambience": "room",
+      "bakedLight": true
+    },
+    {
+      "name": "जादुई चक्की · चटकती हवेली",
+      "kind": "home",
+      "image": "4eeb7432987443740519b1a1fdd1005c.jpg",
+      "ambience": "night",
+      "bakedLight": true
+    }
+  ],
+  "props": [
+    {
+      "name": "जादुई चक्की · पत्थर की चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82"
+    },
+    {
+      "name": "जादुई चक्की · अनाज उगलती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "grain"
+    },
+    {
+      "name": "जादुई चक्की · चमकती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "glow"
+    },
+    {
+      "name": "जादुई चक्की · घूमती चक्की",
+      "kind": "chakki",
+      "color": "#8f8a82",
+      "label": "spin"
+    },
+    {
+      "name": "जादुई चक्की · भरी बोरी",
+      "kind": "seed-sack",
+      "color": "#b98d52"
+    },
+    {
+      "name": "जादुई चक्की · रजाई",
+      "kind": "quilt",
+      "color": "#7d5a8c"
+    },
+    {
+      "name": "जादुई चक्की · पीतल का लोटा",
+      "kind": "lota",
+      "color": "#d9a33c"
+    },
+    {
+      "name": "जादुई चक्की · सिक्कों का ढेर",
+      "kind": "coin-pile",
+      "color": "#e6b33a"
+    }
+  ],
+  "shots": [
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.42,
+          "y": 0.9,
+          "size": 1,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 1.6,
+              "x": 0.52,
+              "pose": "fold",
+              "emotion": "angry"
+            },
+            {
+              "at": 7.18,
+              "emotion": "angry",
+              "pose": "fold"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "embers"
+      ],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.4,
+          "gain": 0.1
+        },
+        {
+          "kind": "footstep",
+          "at": 1,
+          "gain": 0.1
+        },
+        {
+          "kind": "angry",
+          "at": 7.38,
+          "gain": 0.25
+        }
+      ],
+      "name": "१ · ईर्ष्या की आग",
+      "scene": "जादुई चक्की · रात में सोहन की हवेली",
+      "time": "night",
+      "mood": "angry",
+      "atmosphere": "night",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.5,
+        "x": 0.5,
+        "y": 0.6,
+        "move": "push"
+      },
+      "vignette": 0.42,
+      "fxAmount": 0.8,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जब सोहन ने देखा कि उसका गरीब भाई माधव अचानक गांव का सबसे सम्मानित व्यक्ति बन गया है,",
+          "audio": "909120cbbca38f1a4d82c1748a93515a.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "तो उसके सीने में ईर्ष्या की आग भड़क उठी।",
+          "audio": "b426e057a7683232e0ccd0b6685db664.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "बूढ़ी मां (स्वस्थ)",
+          "x": 0.3,
+          "y": 0.86,
+          "size": 0.86,
+          "face": "right",
+          "pose": "doze",
+          "stance": "lie",
+          "emotion": "neutral"
+        },
+        {
+          "character": "कविता (खुशहाल)",
+          "x": 0.56,
+          "y": 0.88,
+          "size": 0.92,
+          "face": "left",
+          "pose": "doze",
+          "stance": "sit",
+          "emotion": "neutral"
+        },
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.74,
+          "y": 0.88,
+          "size": 0.96,
+          "face": "left",
+          "pose": "doze",
+          "stance": "sit",
+          "emotion": "neutral"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · रजाई",
+          "x": 0.3,
+          "y": 0.87,
+          "size": 0.9
+        }
+      ],
+      "fx": [
+        "fireflies"
+      ],
+      "sounds": [],
+      "name": "२ · घर में सब सो रहे थे",
+      "scene": "जादुई चक्की · रात में माधव का कमरा",
+      "time": "night",
+      "mood": "neutral",
+      "atmosphere": "night",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "fxAmount": 0.3,
+      "minDuration": 3.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "एक रात जब माधव अपने परिवार के साथ सो रहा था,",
+          "audio": "624b5d8ed958576ffbb2c50813f75c0a.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.12,
+          "y": 0.9,
+          "size": 0.7,
+          "face": "right",
+          "pose": "sneak",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 3.3,
+              "x": 0.46,
+              "y": 0.72,
+              "size": 0.56
+            },
+            {
+              "at": 3.5,
+              "pose": "listen"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.6,
+          "gain": 0.05
+        },
+        {
+          "kind": "footstep",
+          "at": 1.5,
+          "gain": 0.05
+        },
+        {
+          "kind": "footstep",
+          "at": 2.4,
+          "gain": 0.05
+        }
+      ],
+      "name": "३ · दबे पांव",
+      "scene": "जादुई चक्की · रात में माधव का घर",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.25,
+        "x": 0.55,
+        "y": 0.6,
+        "move": "pan"
+      },
+      "vignette": 0.45,
+      "minDuration": 3.6,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन दबे पांव उसके घर के बाहर जा पहुंचा।",
+          "audio": "f63dae6bfe7bae3e7197da28dfd45ae3.wav",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.5,
+          "y": 0.66,
+          "size": 0.52,
+          "face": "right",
+          "pose": "look",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 1.2,
+              "emotion": "surprised"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [],
+      "sounds": [],
+      "name": "४ · खिड़की से झांका",
+      "scene": "जादुई चक्की · रात में माधव का घर",
+      "time": "night",
+      "mood": "surprised",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 2.4,
+        "x": 0.53,
+        "y": 0.48,
+        "move": "push"
+      },
+      "vignette": 0.5,
+      "minDuration": 2.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "खिड़की से झांकने पर उसने देख लिया",
+          "audio": "454fc9b13f1c00d115ca74da4c483230.wav",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.4,
+          "y": 0.86,
+          "size": 1,
+          "face": "right",
+          "pose": "work",
+          "stance": "sit",
+          "emotion": "happy"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · अनाज उगलती चक्की",
+          "x": 0.55,
+          "y": 0.9,
+          "size": 1.15
+        },
+        {
+          "prop": "जादुई चक्की · भरी बोरी",
+          "x": 0.7,
+          "y": 0.9,
+          "size": 0.8,
+          "at": 4.379999999999999
+        }
+      ],
+      "fx": [
+        "glitter"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 4.579999999999999,
+          "gain": 0.2
+        }
+      ],
+      "name": "५ · चक्की से अनाज",
+      "scene": "जादुई चक्की · रात में माधव का कमरा",
+      "time": "night",
+      "mood": "surprised",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.45,
+        "x": 0.5,
+        "y": 0.66,
+        "move": "push"
+      },
+      "vignette": 0.42,
+      "fxAmount": 0.5,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "कि कैसे माधव ने उस छोटी पत्थर की चक्की को घुमाकर",
+          "audio": "2a28a040df1c6b291c42aede710e4c09.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "ढेर सारा अनाज निकाला।",
+          "audio": "4a95d61e51ec21304c9595ace5ab2165.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.5,
+          "y": 0.66,
+          "size": 0.52,
+          "face": "right",
+          "pose": "think",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 2.77,
+              "pose": "talk",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "glitter"
+      ],
+      "sounds": [],
+      "name": "६ · मुंह में पानी",
+      "scene": "जादुई चक्की · रात में माधव का घर",
+      "time": "night",
+      "mood": "funny",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 2.4,
+        "x": 0.53,
+        "y": 0.5,
+        "move": "push"
+      },
+      "vignette": 0.5,
+      "fxAmount": 0.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन के मुंह में पानी आ गया—",
+          "audio": "7a497a7fbe8ca0f5a30f80ec9f15376b.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "सोहन",
+          "text": "“अच्छा! तो इस मामूली सी चक्की में सारा खजाना छिपा है!”",
+          "audio": "ed90d0a51e0bbfa01ac4731edae78ca5.wav",
+          "emotion": "happy"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "माधव (खुशहाल)",
+          "x": 0.6,
+          "y": 0.72,
+          "size": 0.56,
+          "face": "right",
+          "pose": "walk",
+          "emotion": "neutral",
+          "keys": [
+            {
+              "at": 2.8,
+              "x": 0.86,
+              "y": 0.86,
+              "size": 0.7
+            }
+          ]
+        },
+        {
+          "character": "सोहन",
+          "x": 0.3,
+          "y": 0.8,
+          "size": 0.62,
+          "face": "right",
+          "pose": "hush",
+          "emotion": "worried"
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पीतल का लोटा",
+          "x": 0.6,
+          "y": 0.72,
+          "size": 0.7,
+          "holder": "माधव (खुशहाल)",
+          "grasp": {
+            "hand": "near",
+            "x": 0,
+            "y": -20
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "door",
+          "at": 0.2,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 0.8,
+          "gain": 0.08
+        },
+        {
+          "kind": "footstep",
+          "at": 1.6,
+          "gain": 0.08
+        }
+      ],
+      "name": "७ · माधव बाहर निकला",
+      "scene": "जादुई चक्की · रात में माधव का घर",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.3,
+        "x": 0.52,
+        "y": 0.6
+      },
+      "vignette": 0.45,
+      "minDuration": 3.2,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "जैसे ही माधव घर से बाहर किसी काम के लिए निकला,",
+          "audio": "69403c4c6ca5385a5b1762990085d60b.wav",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.14,
+          "y": 0.9,
+          "size": 1,
+          "face": "right",
+          "pose": "sneak",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 1.1,
+              "x": 0.46,
+              "pose": "scoop",
+              "stance": "crouch",
+              "emotion": "happy"
+            },
+            {
+              "at": 1.9,
+              "pose": "cradle",
+              "stance": "stand"
+            },
+            {
+              "at": 2.3,
+              "pose": "run",
+              "face": "left"
+            },
+            {
+              "at": 3.9,
+              "x": -0.2
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.56,
+          "y": 0.9,
+          "size": 0.9,
+          "end": 1.9
+        },
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.46,
+          "y": 0.9,
+          "size": 0.85,
+          "holder": "सोहन",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          },
+          "at": 1.9
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "whoosh",
+          "at": 1.9,
+          "gain": 0.3
+        },
+        {
+          "kind": "footstep",
+          "at": 2.5,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 2.8,
+          "gain": 0.12
+        },
+        {
+          "kind": "footstep",
+          "at": 3.1,
+          "gain": 0.12
+        }
+      ],
+      "name": "८ · चक्की चुराई",
+      "scene": "जादुई चक्की · रात में माधव का कमरा",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.35,
+        "x": 0.5,
+        "y": 0.66
+      },
+      "vignette": 0.45,
+      "minDuration": 4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन अंदर घुसा और चक्की चुराकर अपनी हवेली भाग आया।",
+          "audio": "ceef4e354e76804b460e1052d00b280d.wav",
+          "at": 0.2
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": -0.1,
+          "y": 0.92,
+          "size": 0.85,
+          "face": "right",
+          "pose": "run",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 1.9,
+              "x": 0.52,
+              "y": 0.8,
+              "size": 0.62
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": -0.1,
+          "y": 0.92,
+          "size": 0.85,
+          "holder": "सोहन",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          }
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "footstep",
+          "at": 0.2,
+          "gain": 0.14
+        },
+        {
+          "kind": "footstep",
+          "at": 0.5,
+          "gain": 0.14
+        },
+        {
+          "kind": "footstep",
+          "at": 0.8,
+          "gain": 0.14
+        },
+        {
+          "kind": "footstep",
+          "at": 1.1,
+          "gain": 0.14
+        }
+      ],
+      "name": "९ · हवेली की ओर भागा",
+      "scene": "जादुई चक्की · रात में सोहन की हवेली",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.15,
+        "x": 0.5,
+        "y": 0.6
+      },
+      "vignette": 0.45,
+      "minDuration": 2.2,
+      "dialogue": []
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.5,
+          "y": 0.9,
+          "size": 1,
+          "face": "back",
+          "pose": "reach",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 2.6,
+              "pose": "hold"
+            },
+            {
+              "at": 3.6,
+              "face": "front",
+              "pose": "cradle",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · पत्थर की चक्की",
+          "x": 0.5,
+          "y": 0.9,
+          "size": 0.85,
+          "holder": "सोहन",
+          "grasp": {
+            "hand": "both",
+            "x": 0,
+            "y": -58
+          },
+          "at": 3.6
+        }
+      ],
+      "fx": [],
+      "sounds": [
+        {
+          "kind": "door",
+          "at": 0.5,
+          "gain": 0.5
+        },
+        {
+          "kind": "door",
+          "at": 1.6,
+          "gain": 0.35
+        },
+        {
+          "kind": "door",
+          "at": 2.4,
+          "gain": 0.3
+        }
+      ],
+      "name": "१० · दरवाजे बंद",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.3,
+        "x": 0.5,
+        "y": 0.6,
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "minDuration": 6.4,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "हवेली पहुंचते ही उसने दरवाजे और खिड़कियां अंदर से बंद कर लिए ताकि किसी को पता न चले।",
+          "audio": "4bab6cfba9d165280ea3ec93e4f067f0.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.44,
+          "y": 0.9,
+          "size": 1,
+          "face": "right",
+          "pose": "work",
+          "stance": "crouch",
+          "emotion": "happy",
+          "keys": [
+            {
+              "at": 5.119999999999999,
+              "pose": "cheer",
+              "stance": "stand",
+              "emotion": "angry"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · घूमती चक्की",
+          "x": 0.6,
+          "y": 0.9,
+          "size": 0.95,
+          "motion": "glow"
+        }
+      ],
+      "fx": [
+        "aura"
+      ],
+      "sounds": [
+        {
+          "kind": "whoosh",
+          "at": 0.8,
+          "gain": 0.25
+        }
+      ],
+      "name": "११ · बाईं ओर घुमाकर मांगा सोना",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "angry",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.4,
+        "x": 0.52,
+        "y": 0.64,
+        "move": "push"
+      },
+      "vignette": 0.42,
+      "fxAmount": 0.6,
+      "auraX": 0.6,
+      "auraY": 0.78,
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन ने लालच में चक्की को जोर से बाईं ओर घुमाया और चिल्लाया,",
+          "audio": "da2b86e71687e9ef7ca5cba01edd3e30.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "सोहन",
+          "text": "“हे चक्की, मुझे इतना सोना दो कि मेरी पूरी हवेली भर जाए!”",
+          "audio": "055ceb2097efbd860728c9e1d49f1d2a.wav",
+          "emotion": "angry"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.36,
+          "y": 0.9,
+          "size": 0.95,
+          "face": "right",
+          "pose": "flinch",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 2.99,
+              "pose": "open",
+              "emotion": "happy"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · घूमती चक्की",
+          "x": 0.6,
+          "y": 0.9,
+          "size": 0.95,
+          "motion": "glow"
+        }
+      ],
+      "fx": [
+        "coins",
+        "aura",
+        "glitter"
+      ],
+      "sounds": [
+        {
+          "kind": "twinkle",
+          "at": 0.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "coin",
+          "at": 0.7,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 1.2,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 1.7,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 2.2,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 2.8,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 3.4,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 4,
+          "gain": 0.18
+        },
+        {
+          "kind": "coin",
+          "at": 4.6,
+          "gain": 0.18
+        }
+      ],
+      "name": "१२ · सोने की बरसात",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "surprised",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.2,
+        "x": 0.52,
+        "y": 0.6,
+        "move": "pull"
+      },
+      "vignette": 0.34,
+      "fxAmount": 1.1,
+      "auraX": 0.6,
+      "auraY": 0.72,
+      "coinSources": [
+        {
+          "x": 0.6,
+          "y": 0.74,
+          "mode": "fountain",
+          "rate": 0.6,
+          "at": 0.3
+        },
+        {
+          "x": 0.6,
+          "y": 0.74,
+          "mode": "fountain",
+          "rate": 0.8,
+          "at": 2.19
+        }
+      ],
+      "gold": {
+        "from": 1.06,
+        "to": 0.97,
+        "at": 2.19,
+        "peakX": 0.6
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "चक्की तेजी से घूमने लगी",
+          "audio": "e0a2a71bfdda4fada04275b273de8821.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "और उससे चमकते हुए सोने के सिक्कों की बरसात होने लगी।",
+          "audio": "9dbb1c6c3712e48a02ef08ffa8a735fb.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.38,
+          "y": 0.9,
+          "size": 0.95,
+          "face": "right",
+          "pose": "laugh",
+          "emotion": "funny",
+          "keys": [
+            {
+              "at": 0.4,
+              "pose": "laugh",
+              "face": "right",
+              "y": 0.9167532467532468
+            },
+            {
+              "at": 0.8500000000000001,
+              "pose": "cheer",
+              "face": "right",
+              "y": 0.9131006493506494
+            },
+            {
+              "at": 1.3,
+              "pose": "laugh",
+              "face": "left",
+              "y": 0.909448051948052
+            },
+            {
+              "at": 1.75,
+              "pose": "cheer",
+              "face": "left",
+              "y": 0.9057954545454546
+            },
+            {
+              "at": 2.2,
+              "pose": "laugh",
+              "face": "right",
+              "y": 0.9021428571428571
+            },
+            {
+              "at": 2.6500000000000004,
+              "pose": "cheer",
+              "face": "right",
+              "y": 0.8984902597402598
+            },
+            {
+              "at": 3.1000000000000005,
+              "pose": "laugh",
+              "face": "left",
+              "y": 0.8948376623376624
+            },
+            {
+              "at": 3.5500000000000007,
+              "pose": "cheer",
+              "face": "left",
+              "y": 0.891185064935065
+            },
+            {
+              "at": 4.000000000000001,
+              "pose": "laugh",
+              "face": "right",
+              "y": 0.8875324675324676
+            },
+            {
+              "at": 4.450000000000001,
+              "pose": "cheer",
+              "face": "right",
+              "y": 0.8838798701298701
+            },
+            {
+              "at": 4.900000000000001,
+              "pose": "laugh",
+              "face": "left",
+              "y": 0.8802272727272727
+            },
+            {
+              "at": 5.350000000000001,
+              "pose": "cheer",
+              "face": "left",
+              "y": 0.8765746753246754
+            },
+            {
+              "at": 5.800000000000002,
+              "pose": "laugh",
+              "face": "right",
+              "y": 0.872922077922078
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · घूमती चक्की",
+          "x": 0.66,
+          "y": 0.92,
+          "size": 0.95,
+          "motion": "glow",
+          "keys": [
+            {
+              "at": 6.16,
+              "y": 0.86
+            }
+          ]
+        }
+      ],
+      "fx": [
+        "coins",
+        "glitter",
+        "aura"
+      ],
+      "sounds": [
+        {
+          "kind": "coin",
+          "at": 0.5,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 1.4,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 2.3,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 3.2,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 4.1,
+          "gain": 0.16
+        },
+        {
+          "kind": "funny",
+          "at": 0.6,
+          "gain": 0.2
+        }
+      ],
+      "name": "१३ · सिक्कों के ढेर पर नाच",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "funny",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.2,
+        "x": 0.5,
+        "y": 0.6
+      },
+      "vignette": 0.34,
+      "fxAmount": 1.2,
+      "auraX": 0.66,
+      "auraY": 0.62,
+      "coinSources": [
+        {
+          "x": 0.66,
+          "y": 0.64,
+          "mode": "fountain",
+          "rate": 1
+        }
+      ],
+      "gold": {
+        "from": 0.97,
+        "to": 0.9,
+        "peakX": 0.66
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन खुशी से पागल हो गया",
+          "audio": "b97e0613cc32eee4b6e8d98af7e240ca.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "और सिक्कों के ढेर पर नाचने लगा।",
+          "audio": "4460d9ea2de18c7ff86bdd9bd793ee79.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.42,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "laugh",
+          "emotion": "funny",
+          "keys": [
+            {
+              "at": 1.6,
+              "pose": "flinch",
+              "emotion": "surprised"
+            },
+            {
+              "at": 4.42,
+              "pose": "shiver",
+              "emotion": "worried"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · घूमती चक्की",
+          "x": 0.68,
+          "y": 0.86,
+          "size": 0.95,
+          "motion": "glow",
+          "keys": [
+            {
+              "at": 8.73,
+              "y": 0.7
+            }
+          ]
+        }
+      ],
+      "fx": [
+        "coins",
+        "aura"
+      ],
+      "sounds": [
+        {
+          "kind": "coin",
+          "at": 0.4,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 1.3,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 2.2,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 3.1,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 4,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 4.9,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 5.8,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 6.7,
+          "gain": 0.16
+        },
+        {
+          "kind": "surprise",
+          "at": 1.6,
+          "gain": 0.3
+        }
+      ],
+      "name": "१४ · कमर तक सोना",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.35,
+        "x": 0.48,
+        "y": 0.56,
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "fxAmount": 1.2,
+      "auraX": 0.68,
+      "auraY": 0.62,
+      "coinSources": [
+        {
+          "x": 0.68,
+          "y": 0.64,
+          "mode": "fountain",
+          "rate": 1.2
+        }
+      ],
+      "gold": {
+        "from": 0.9,
+        "to": 0.72,
+        "peakX": 0.68
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "कुछ ही देर में कमरा कमर तक सोने के सिक्कों से भर गया।",
+          "audio": "99569195a76a5957cb0cf3a23a5c0617.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "अब सोहन को सांस लेने में तकलीफ होने लगी।",
+          "audio": "fae2ad94c6ad5c0923feda3079f4e5bf.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.44,
+          "y": 0.88,
+          "size": 1,
+          "face": "right",
+          "pose": "reach",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 2.5,
+              "pose": "shake",
+              "emotion": "worried"
+            },
+            {
+              "at": 4.529999999999999,
+              "pose": "reach",
+              "emotion": "surprised"
+            }
+          ]
+        }
+      ],
+      "props": [
+        {
+          "prop": "जादुई चक्की · घूमती चक्की",
+          "x": 0.62,
+          "y": 0.7,
+          "size": 0.95,
+          "motion": "glow",
+          "keys": [
+            {
+              "at": 8.09,
+              "y": 0.65
+            }
+          ]
+        }
+      ],
+      "fx": [
+        "coins"
+      ],
+      "sounds": [
+        {
+          "kind": "coin",
+          "at": 0.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 1.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 2.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 3.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 4.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 5.5,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 6.5,
+          "gain": 0.15
+        }
+      ],
+      "name": "१५ · रोकने की कोशिश",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 1.7,
+        "x": 0.52,
+        "y": 0.5,
+        "move": "push"
+      },
+      "vignette": 0.46,
+      "fxAmount": 1.3,
+      "auraX": 0.62,
+      "auraY": 0.52,
+      "coinSources": [
+        {
+          "x": 0.62,
+          "y": 0.52,
+          "mode": "fountain",
+          "rate": 1.2
+        }
+      ],
+      "gold": {
+        "from": 0.72,
+        "to": 0.67,
+        "peakX": 0.62
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "उसने चक्की को रोकने की कोशिश की,",
+          "audio": "298ea31b3bafe9a54f7117556c392e9e.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "लेकिन उसे यह नहीं पता था",
+          "audio": "2224e979de209485e2b004e21ebcc75b.wav"
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "कि चक्की को रोकने के लिए दाईं ओर घुमाना पड़ता है!",
+          "audio": "8df50061c3736d90d8a3f26480e3f738.wav"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.44,
+          "y": 0.88,
+          "size": 1,
+          "face": "front",
+          "pose": "flinch",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 2.15,
+              "pose": "shake",
+              "emotion": "surprised"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "coins"
+      ],
+      "sounds": [
+        {
+          "kind": "surprise",
+          "at": 2.15,
+          "gain": 0.3
+        },
+        {
+          "kind": "coin",
+          "at": 0.6,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 1.6,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 2.6,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 3.6,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 4.6,
+          "gain": 0.15
+        }
+      ],
+      "name": "१६ · रुक जा!",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 1.9,
+        "x": 0.48,
+        "y": 0.44,
+        "move": "push"
+      },
+      "vignette": 0.5,
+      "fxAmount": 1.4,
+      "auraX": 0.66,
+      "auraY": 0.44,
+      "coinSources": [
+        {
+          "x": 0.66,
+          "y": 0.46,
+          "mode": "fountain",
+          "rate": 1.3
+        }
+      ],
+      "gold": {
+        "from": 0.67,
+        "to": 0.63,
+        "peakX": 0.66
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "वह घबराकर चिल्लाने लगा,",
+          "audio": "e6d5add63e827d7784f2e53843ad98b9.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "सोहन",
+          "text": "“रुक जा! बस कर, मुझे और सोना नहीं चाहिए!”",
+          "audio": "75ac2087adb946bdad3aa79d5808fdcf.wav",
+          "emotion": "worried"
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.42,
+          "y": 0.88,
+          "size": 1,
+          "face": "front",
+          "pose": "shiver",
+          "emotion": "worried",
+          "keys": [
+            {
+              "at": 5.210000000000001,
+              "y": 0.86
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "coins",
+        "aura"
+      ],
+      "sounds": [
+        {
+          "kind": "thunder",
+          "at": 0.4,
+          "gain": 0.25
+        },
+        {
+          "kind": "coin",
+          "at": 0.5,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 1.2,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 1.9,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 2.6,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 3.3,
+          "gain": 0.16
+        },
+        {
+          "kind": "coin",
+          "at": 4,
+          "gain": 0.16
+        }
+      ],
+      "name": "१७ · छत तक सोना",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.1,
+        "x": 0.5,
+        "y": 0.55
+      },
+      "vignette": 0.44,
+      "fxAmount": 1.5,
+      "auraX": 0.66,
+      "auraY": 0.5,
+      "coinSources": [
+        {
+          "x": 0.66,
+          "y": 0.5,
+          "mode": "fountain",
+          "rate": 1.5
+        }
+      ],
+      "gold": {
+        "from": 0.63,
+        "to": 0.58,
+        "peakX": 0.66
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "मगर चक्की नहीं रुकी।",
+          "audio": "9e4962c94aa078b212c6061dabfaf9e6.wav",
+          "at": 0.3
+        },
+        {
+          "speaker": "कथावाचक",
+          "text": "सोना बढ़ते-बढ़ते छत तक पहुंचने लगा।",
+          "audio": "799895c0ce1cf3cf93f7ad762720dac8.wav"
+        }
+      ]
+    },
+    {
+      "actors": [],
+      "props": [],
+      "fx": [
+        "coins",
+        "glitter",
+        "glow"
+      ],
+      "sounds": [
+        {
+          "kind": "thunder",
+          "at": 0.3,
+          "gain": 0.5
+        },
+        {
+          "kind": "thunder",
+          "at": 2.6,
+          "gain": 0.35
+        },
+        {
+          "kind": "coin",
+          "at": 0.6,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 1.1,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 1.6,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 2.1,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 2.6,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 3.1,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 3.6,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 4.1,
+          "gain": 0.14
+        }
+      ],
+      "name": "१८ · दीवारें चटकने लगीं",
+      "scene": "जादुई चक्की · चटकती हवेली",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "camera": {
+        "frame": "wide",
+        "move": "push"
+      },
+      "vignette": 0.4,
+      "fxAmount": 1.1,
+      "coinSources": [
+        {
+          "x": 0.116,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.2
+        },
+        {
+          "x": 0.203,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.32
+        },
+        {
+          "x": 0.29,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.44
+        },
+        {
+          "x": 0.378,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.56
+        },
+        {
+          "x": 0.622,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.6799999999999999
+        },
+        {
+          "x": 0.709,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.8
+        },
+        {
+          "x": 0.797,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 0.9199999999999999
+        },
+        {
+          "x": 0.884,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.55,
+          "at": 1.04
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "भारी सोने के सिक्कों के दबाव से हवेली की दीवारें चटकने लगीं",
+          "audio": "2c42758d777453f6723ff6b94a91a665.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.5,
+          "y": 0.86,
+          "size": 1,
+          "face": "back",
+          "pose": "work",
+          "emotion": "worried"
+        }
+      ],
+      "props": [],
+      "fx": [
+        "coins"
+      ],
+      "sounds": [
+        {
+          "kind": "door",
+          "at": 0.4,
+          "gain": 0.5
+        },
+        {
+          "kind": "door",
+          "at": 1,
+          "gain": 0.5
+        },
+        {
+          "kind": "door",
+          "at": 1.6,
+          "gain": 0.45
+        }
+      ],
+      "name": "१९ · दरवाजा जाम",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "medium",
+        "zoom": 1.45,
+        "x": 0.5,
+        "y": 0.42
+      },
+      "vignette": 0.5,
+      "fxAmount": 1.2,
+      "auraX": 0.82,
+      "auraY": 0.3,
+      "coinSources": [
+        {
+          "x": 0.85,
+          "y": 0.3,
+          "mode": "fountain",
+          "rate": 1
+        }
+      ],
+      "gold": {
+        "from": 0.585,
+        "to": 0.575
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "और दरवाजा अंदर से जाम हो गया।",
+          "audio": "a83786d7ce72fb9de918b5b7ebcbdb24.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [
+        {
+          "character": "सोहन",
+          "x": 0.46,
+          "y": 0.86,
+          "size": 1,
+          "face": "front",
+          "pose": "flinch",
+          "emotion": "surprised",
+          "keys": [
+            {
+              "at": 1.6,
+              "pose": "shake",
+              "emotion": "worried"
+            }
+          ]
+        }
+      ],
+      "props": [],
+      "fx": [
+        "coins"
+      ],
+      "sounds": [
+        {
+          "kind": "surprise",
+          "at": 0.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "coin",
+          "at": 0.8,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 1.6,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 2.4,
+          "gain": 0.15
+        },
+        {
+          "kind": "coin",
+          "at": 3.2,
+          "gain": 0.15
+        }
+      ],
+      "name": "२० · मदद के लिए चीख",
+      "scene": "जादुई चक्की · हवेली का दालान",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "room",
+      "autoSound": false,
+      "camera": {
+        "frame": "close",
+        "zoom": 2.1,
+        "x": 0.48,
+        "y": 0.36,
+        "move": "push"
+      },
+      "vignette": 0.55,
+      "fxAmount": 1.4,
+      "auraX": 0.7,
+      "auraY": 0.26,
+      "coinSources": [
+        {
+          "x": 0.72,
+          "y": 0.26,
+          "mode": "fountain",
+          "rate": 1.2
+        }
+      ],
+      "gold": {
+        "from": 0.575,
+        "to": 0.56
+      },
+      "dialogue": [
+        {
+          "speaker": "कथावाचक",
+          "text": "सोहन सोने के ढेर में दबने लगा और मदद के लिए चीखने लगा।",
+          "audio": "a2f9c20577906be4be967c5bd592ff4e.wav",
+          "at": 0.3
+        }
+      ]
+    },
+    {
+      "actors": [],
+      "props": [],
+      "fx": [
+        "coins",
+        "glitter",
+        "glow"
+      ],
+      "sounds": [
+        {
+          "kind": "thunder",
+          "at": 0.2,
+          "gain": 0.55
+        },
+        {
+          "kind": "whoosh",
+          "at": 1.4,
+          "gain": 0.3
+        },
+        {
+          "kind": "coin",
+          "at": 0.5,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 1,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 1.5,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 2,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 2.5,
+          "gain": 0.14
+        },
+        {
+          "kind": "coin",
+          "at": 3,
+          "gain": 0.14
+        }
+      ],
+      "name": "२१ · सोना बाहर बह निकला",
+      "scene": "जादुई चक्की · चटकती हवेली",
+      "time": "night",
+      "mood": "worried",
+      "atmosphere": "night",
+      "autoSound": false,
+      "transition": "fade",
+      "camera": {
+        "frame": "wide",
+        "zoom": 1.2,
+        "x": 0.5,
+        "y": 0.5,
+        "move": "pull"
+      },
+      "vignette": 0.48,
+      "fxAmount": 1.3,
+      "minDuration": 4.2,
+      "coinSources": [
+        {
+          "x": 0.116,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.203,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.29,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.378,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.622,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.709,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.797,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        },
+        {
+          "x": 0.884,
+          "y": 0.31,
+          "mode": "spill",
+          "rate": 0.8,
+          "at": 0
+        }
+      ],
+      "dialogue": []
+    }
+  ],
+  "score": {
+    "file": "a803a93ae75dfcff12f00728f751870a.wav",
+    "gain": 0.34
+  }
+}

@@ -365,9 +365,28 @@
       - laugh * (3.4 + Math.sin(time * 16) * 3.1);
     const leaning = { sneak: -.07, flinch: .055, laugh: .04, pass: -.046, scoop: -.047, comfort: -.035, doze: -.045, bow: -.5, shiver: .05 };
     const aim = leaning[pose] ?? 0;
-    const lean = mix(leaning[state.previousPose] ?? aim, aim, state.poseBlend ?? 1)
-      + Math.sin(phase * 1.3) * .007;
-    return { phase, swing, lift, drop: stanceDrop(state), bob, lean, laugh,
+    let lean = mix(leaning[state.previousPose] ?? aim, aim, state.poseBlend ?? 1)
+      + Math.sin(phase * 1.3) * .007 + (state.lean ?? 0);
+    let feet = null, walkBob = null, walkSwing = null;
+    if (state.walkPhase != null) {
+      // Planted-foot walk: each foot slides back linearly while on the ground (60% of the cycle)
+      // at exactly body speed, then lifts and swings forward. Women take a shorter, softer step.
+      const female = character.gender === 'female';
+      const S = state.stride ?? (female ? 12 : 18), L = (female ? 5 : 9) * Math.min(1, S / (female ? 12 : 18));
+      const foot = p => {
+        p = ((p % 1) + 1) % 1;
+        if (p < .6) return [S - 2 * S * (p / .6), 0];
+        const q = (p - .6) / .4, e = q * q * (3 - 2 * q);
+        return [-S + 2 * S * e, Math.sin(q * Math.PI) * L];
+      };
+      const p = state.walkPhase;
+      const [nx, nl] = foot(p), [fx, fl] = foot(p + .5);
+      feet = { nx, nl, fx, fl };
+      walkBob = -(female ? 1.8 : 3.2) * (.5 - .5 * Math.cos(p * Math.PI * 4));
+      walkSwing = -Math.sin(p * Math.PI * 2); // arms opposite to the legs
+      if (female) lean += Math.sin(p * Math.PI * 4) * .006;
+    }
+    return { phase, swing, lift, drop: state.drop ?? stanceDrop(state), bob: walkBob ?? bob, lean, laugh, feet, walkSwing,
       width: (face === 'left' ? -1 : 1) * bodyWidth(character) };
   }
 
@@ -428,11 +447,84 @@
     ctx.restore();
   }
 
+
+  // Arm solver for the prototype: original gesture table, walk swing synced to the planted feet,
+  // IK for explicit hand targets, and damped springs between poses (slight overshoot, no snapping).
+  const UPPER = 58, FORE = 57;
+  function ikArm(sx, sy, tx, ty, pole) {
+    const r = Lab.ik(sx, sy, tx, ty, UPPER, FORE, [sx + pole[0], sy + pole[1]], .5);
+    return [r.mx, r.my, r.ex, r.ey];
+  }
+  function arms2(character, state, time, mouth, speaking, motion) {
+    let pts;
+    if (motion.walkSwing != null && ['walk', 'run', 'sneak'].includes(actingPose(state, speaking)) && !state.carry) {
+      // the original walk gesture, driven by the walk phase instead of the clock
+      const sw = motion.walkSwing * (character.gender === 'female' ? 16 : 23);
+      pts = [56 + sw, -156, 45 + sw * 1.25, -116, -50 - sw * .7, -159, -57 - sw, -119];
+    } else pts = armPoints(state, time, mouth, speaking);
+    if (state.handN) { const [a, b, c, d] = ikArm(33, -226, state.handN[0], state.handN[1], state.poleN || [-40, 110]); pts = [a, b, c, d, ...pts.slice(4)]; }
+    if (state.handF) { const [a, b, c, d] = ikArm(-35, -226, state.handF[0], state.handF[1], state.poleF || [-50, 110]); pts = [...pts.slice(0, 4), a, b, c, d]; }
+    if (state.beatN) { pts[0] += state.beatN[0] * .35; pts[1] += state.beatN[1] * .35; pts[2] += state.beatN[0]; pts[3] += state.beatN[1]; }
+    const rig = state.rig;
+    if (!rig) return pts;
+    const dt = rig.last == null ? 0 : Math.max(0, Math.min(.1, time - rig.last));
+    rig.last = time;
+    if (!rig.s) rig.s = pts.map(v => new Lab.Spring(v, state.walkPhase != null ? 9 : 4.2, .62));
+    const freq = state.walkPhase != null ? 9 : (state.rigFreq ?? 4.2);
+    return pts.map((v, i) => {
+      rig.s[i].f = freq;
+      const locked = (i < 4 && state.lockN) || (i >= 4 && state.lockF);
+      if (locked) { rig.s[i].x = v; rig.s[i].v = 0; return v; }
+      return rig.s[i].step(v, dt);
+    });
+  }
+
+  // Convert a point in the person's local space (after translate/scale) into arm space.
+  function armSpace(character, state, time, p) {
+    const m = bodyMotion(character, state, time);
+    const y = p[1];
+    return [p[0] / m.width - m.lean * y, y - (m.bob + m.drop)];
+  }
+  function fromArm(character, state, time, a) {
+    const m = bodyMotion(character, state, time);
+    const y = a[1] + m.bob + m.drop;
+    return [(a[0] + m.lean * y) * m.width, y];
+  }
+
+  // Face controls from the engine state: emotion (with a springy blend from the previous one), the line's
+  // delivery emotion, pose cues, gaze, blinks, and Hindi mouth shapes from the caption text.
+  const tracks = new WeakMap();
+  function engineFace(state, pose, laugh, blink, gaze, vocal, speaking, time) {
+    const cur = Face.exprOf(pose === 'laugh' ? 'funny' : pose === 'think' ? 'think' : state.emotion);
+    const prev = Face.exprOf(state.previousEmotion ?? state.emotion);
+    const k = state.emotionBlend ?? 1;
+    const layers = [[prev, 1 - k], [cur, k]];
+    if (state.deliveryEmotion && state.deliveryBlend) layers.push([Face.exprOf(state.deliveryEmotion), state.deliveryBlend * .6]);
+    if (laugh) layers.push([Face.exprOf('funny'), laugh * .5]);
+    const c = Face.blend(...layers);
+    c.blink = Math.max(c.blink || 0, blink);
+    if (state.tears) c.tears = 1;
+    c.gazeX = gaze.x; c.gazeY = Math.max(c.gazeY, gaze.y * .9);
+    const line = state.line;
+    if (speaking && line && line.text && typeof LipSync !== 'undefined') {
+      let tr = tracks.get(line);
+      if (!tr) { tr = LipSync.track(line.text, line.start + .04, line.end - .06); tracks.set(line, tr); }
+      const vis = LipSync.sample(tr, time).ctl;
+      const g = clamp(vocal * 3.2, 0, 1); // silence in the recording closes the mouth
+      for (const n of ['jaw', 'wide', 'pucker', 'teeth', 'tongue', 'lowerIn']) c[n] = (c[n] || 0) * .35 + (vis[n] || 0) * g;
+      if (vis.closed) { c.closed = vis.closed; c.jaw *= 1 - vis.closed; }
+      c.press = Math.max(c.press || 0, vis.press || 0);
+      if (!vis.jaw && !vis.closed) c.jaw = Math.max(c.jaw, vocal * .6);
+    } else c.jaw = Math.max(c.jaw || 0, vocal * .75);
+    return c;
+  }
+
   function person(ctx, character, state, time, mouth, speaking, image) {
     if (image) {
       contain(ctx, image, 232, 347, 0);
       return;
     }
+    const baseTransform = ctx.getTransform();
     const { pose, face } = state;
     const rear = face === 'back';
     const female = character.gender === 'female';
@@ -448,18 +540,19 @@
     const clothShade = shade(primary, -35);
     const pants = sari ? primary : character.costume === 'dhoti' ? '#e6d7b5' : character.costume === 'ascetic' ? shade(character.primary, -6) :
       character.costume === 'salwar' ? shade(primary, -22) : character.costume === 'kurta' ? '#d1bfa6' : '#424854';
-    const { phase, swing, lift, drop, bob, lean, laugh, width } = bodyMotion(character, state, time);
+    const motion = bodyMotion(character, state, time);
+    const { phase, swing, lift, drop, bob, lean, laugh, width } = motion;
     const activePose = actingPose(state, speaking);
-    const [ex, ey, hx, hy, bx, by, kx, ky] = armPoints(state, time, mouth, speaking);
+    const [ex, ey, hx, hy, bx, by, kx, ky] = arms2(character, state, time, mouth, speaking, motion);
     const jewel = character.jewelry === 'gold' ? '#e8c25a' : character.jewelry === 'simple' ? '#8fb7c8' : null;
     const colors = { skin, shadow, cloth: ascetic ? shade(skin, -6) : clothShade, cuff: ascetic ? skin : accent, bangle: jewel, ring: character.jewelry === 'gold' ? '#f0cf6a' : null };
-    const support = state.carry === 'both';
+    const support = state.carry === 'both' || state.farFront;
     ctx.save();
     ctx.scale(width, 1);
     ctx.transform(1, 0, lean, 1, 0, 0);
     const feet = character.barefoot ? shade(skin, -6) : '#533b33';
-    leg(ctx, -18, -swing, swing > 0 ? lift : 0, shade(pants, -12), shade(pants, -26), skin, wrap, drop, feet);
-    leg(ctx, 18, swing, swing < 0 ? lift : 0, pants, shade(pants, -18), skin, wrap, drop, feet);
+    leg(ctx, -18, motion.feet ? motion.feet.fx : -swing, motion.feet ? motion.feet.fl : (swing > 0 ? lift : 0), shade(pants, -12), shade(pants, -26), skin, wrap, drop, feet);
+    leg(ctx, 18, motion.feet ? motion.feet.nx : swing, motion.feet ? motion.feet.nl : (swing < 0 ? lift : 0), pants, shade(pants, -18), skin, wrap, drop, feet);
     ctx.translate(0, bob + drop);
     if (!support) arm(ctx, -35, -226, bx, by, kx, ky, colors, short, sari, false);
     if (character.hair === 'braid') {
@@ -470,8 +563,11 @@
       line(ctx, -42 + swing * 0.19, -185, -34 + swing * 0.19, -182, accent, 3);
     }
     const hem = sari ? -20 - drop : long ? Math.min(-94, -38 - drop) : -122;
-    const body = `M-15 -247 Q-29 -244 -41 -234 Q-49 -221 -43 -198 Q-37 -169 -42 ${hem + 7}
-      Q-21 ${hem - 3} -1 ${hem} Q22 ${hem + 5} 45 ${hem + 1}
+    const hemK = sari ? .75 : long ? .3 : 0;
+    const hemL = motion.feet ? Math.min(motion.feet.nx, motion.feet.fx) * hemK - 2 : 0;
+    const hemR = motion.feet ? Math.max(motion.feet.nx, motion.feet.fx) * hemK + 2 : 0;
+    const body = `M-15 -247 Q-29 -244 -41 -234 Q-49 -221 -43 -198 Q-37 -169 ${-42 + hemL} ${hem + 7}
+      Q-21 ${hem - 3} ${-1 + (hemL + hemR) / 2} ${hem} Q22 ${hem + 5} ${45 + hemR} ${hem + 1}
       Q35 -170 44 -204 Q51 -230 34 -239 L17 -247 Q1 -237 -15 -247Z`;
     const fabric = gradient(ctx, -41, -237, 43, hem, [shade(primary, 18), primary, clothShade]);
     path(ctx, body, fabric, ink, 2.15);
@@ -479,8 +575,8 @@
     path(ctx, `M-34 -200 Q-30 -179 -36 -159 M28 -164 Q27 -146 31 ${hem + 9} M-25 ${hem + 13} Q-18 ${hem + 9} -11 ${hem + 11}`, null, shade(primary, -20), 1.55);
     if (sari) {
       path(ctx, `M-38 -235 Q-10 -210 28 -180 Q37 -169 38 -158 Q29 -148 -6 -163 Q-26 -174 -39 -194Z`, accent, ink, 1.5);
-      path(ctx, `M-36 -226 Q-2 -191 35 -170 M-38 -210 Q-10 -183 37 -162 M-27 -147 Q-24 -87 -28 ${hem - 8} M-9 -147 Q-1 -78 -8 ${hem - 4} M7 -142 Q12 -83 9 ${hem - 4}`, null, shade(accent, -40), 2.1);
-      path(ctx, `M-41 ${hem - 5} Q4 ${hem} 44 ${hem - 4}`, null, accent, 5);
+      path(ctx, `M-36 -226 Q-2 -191 35 -170 M-38 -210 Q-10 -183 37 -162 M-27 -147 Q-24 -87 ${-28 + hemL * .6} ${hem - 8} M-9 -147 Q-1 -78 ${-8 + (hemL + hemR) * .3} ${hem - 4} M7 -142 Q12 -83 ${9 + hemR * .6} ${hem - 4}`, null, shade(accent, -40), 2.1);
+      path(ctx, `M${-41 + hemL} ${hem - 5} Q${4 + (hemL + hemR) / 2} ${hem} ${44 + hemR} ${hem - 4}`, null, accent, 5);
     } else if (character.costume === 'salwar') {
       path(ctx, 'M-33 -242 Q-20 -237 -7 -225 Q17 -203 38 -201 L38 -183 Q0 -184 -25 -208 L-38 -229Z', accent, shade(accent, -50), 1.5);
       path(ctx, 'M-33 -235 Q-1 -199 37 -193 M-40 -100 Q1 -91 43 -98', null, shade(accent, 20), 2);
@@ -577,7 +673,8 @@
       path(ctx, 'M-42 -214 L-49 -150 L-31 -146 L-27 -210Z', shade(w, -14), ink, 1.6);
       path(ctx, 'M-46 -154 L-30 -150 M-40 -170 L-28 -167', null, shade(w, 28), 1.4);
     }
-    lap(ctx, drop, pants, skin, sari);
+    if (!state.noLap) lap(ctx, drop, pants, skin, sari);
+    if (state.beforeNear) state.beforeNear(ctx, baseTransform);
     if (support) arm(ctx, -35, -226, bx, by, kx, ky, colors, short, sari, false);
     arm(ctx, 33, -226, ex, ey, hx, hy, { ...colors, cloth: ascetic ? shade(skin, 2) : primary }, short, sari || female, ['point', 'hush'].includes(activePose));
     if (character.badge && !rear) {
@@ -607,7 +704,17 @@
     const vocal = clamp(mouth + laugh * (.36 + Math.sin(time * 12) * .14)
       + (pose === 'doze' ? .17 + Math.sin(phase * 2.25) * .11 : 0), 0, 1);
     if (ascetic) { ctx.translate(0, -300); ctx.scale(0.9, 1.05); ctx.translate(0, 300); }
-    head(ctx, character, state, vocal, blink, gaze, rear);
+    if (!rear && !image && typeof Face !== 'undefined') {
+      const dna = character.dna || Face.auto(character);
+      path(ctx, 'M-18 -267 L-17 -241 Q0 -223 18 -242 L15 -270Z', shade(character.skin, -21), ink, 1.9);
+      const c = state.expr ? { ...state.expr } : engineFace(state, pose, laugh, blink, gaze, vocal, speaking, time);
+      if (state.expr) c.jaw = Math.max(c.jaw || 0, state.visemes ? 0 : vocal * .75);
+      ctx.save();
+      ctx.translate(0, -262); ctx.rotate(state.headTilt || 0); ctx.translate(2, -32);
+      ctx.scale(1.0, 1.0);
+      Face.head(ctx, dna, c, character.skin, time);
+      ctx.restore();
+    } else head(ctx, character, state, vocal, blink, gaze, rear);
     if (state.ribbon) {
       const tip = Math.sin(phase * 5) * 2 + swing * 0.1;
       path(ctx, `M-31 -294 Q-50 -297 -52 -311 Q-40 -314 -31 -299 Q-25 -316 -15 -311 Q-16 -299 -28 -294
@@ -625,5 +732,5 @@
     return mix(before, now, state.stanceBlend ?? 1);
   }
 
-  globalThis.VillageCast = { height, person, hand, grasp, graspFingers, stanceDrop, lieAmount };
+  globalThis.VillageCast = { armSpace, fromArm, height, person, hand, grasp, graspFingers, stanceDrop, lieAmount };
 })();

@@ -14,7 +14,7 @@ from playwright.sync_api import sync_playwright
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPTS = ["draw.js", "inserts.js", "scenery.js", "cast.js", "canvas.js"]
+SCRIPTS = ["draw.js", "rig-lib.js", "face.js", "lipsync.js", "inserts.js", "scenery.js", "cast.js", "canvas.js"]
 ORIGIN = "https://gaon-render.local"
 
 

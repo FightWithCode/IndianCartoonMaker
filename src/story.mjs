@@ -204,6 +204,7 @@ export function resolveStory(raw, library) {
         pose: pick(actor.pose, poses, 'idle'),
         stance: pick(actor.stance, stances, 'stand'),
         ribbon: actor.ribbon === true,
+        tears: actor.tears === true,
         alpha: number(actor.alpha, 1, 0, 1),
         outfit: actor.outfit ? Object.fromEntries(Object.entries({
           costume: pick(actor.outfit.costume, costumes, undefined),
@@ -282,6 +283,16 @@ export function resolveStory(raw, library) {
       fxAmount: number(shot.fxAmount, 1, 0, 2),
       auraX: number(shot.auraX, 0.5, 0, 1),
       auraY: number(shot.auraY, 0.5, 0, 1),
+      // A rising heap of gold coins drawn over the actors (levels use the actors' y scale).
+      gold: shot.gold && typeof shot.gold === 'object' ? {
+        from: number(shot.gold.from, 1.05, 0, 1.3), to: number(shot.gold.to, number(shot.gold.from, 1.05, 0, 1.3), 0, 1.3),
+        at: number(shot.gold.at, 0, 0, 180), end: number(shot.gold.end, undefined, 0, 180), peakX: number(shot.gold.peakX, 0.5, -0.2, 1.2),
+      } : undefined,
+      // Where the 'coins' effect pours from: a fountain (up and out) or a spill (out of a window, falling).
+      coinSources: list(shot.coinSources, 12, `${name} coin sources`).map(item => ({
+        x: number(item.x, 0.5, -0.2, 1.2), y: number(item.y, 0.5, -0.2, 1.2), mode: pick(item.mode, ['fountain', 'spill'], 'fountain'),
+        rate: number(item.rate, 1, 0, 3), at: number(item.at, 0, 0, 180),
+      })),
     };
   });
   if (!shots.length) throw new Error('Create at least one shot.');

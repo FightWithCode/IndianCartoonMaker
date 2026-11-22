@@ -494,6 +494,117 @@ def jhopdi():
     return finish(pen, light=(0.97, 0.96, 0.92), grain_amount=0.12, vignette=0.34, seed=29, sky=520, cloud=0.08)
 
 
+# ----------------------------------------------------------------------------- haveli hall (night)
+def haveli_hall():
+    """Inside Sohan's haveli at night: arched cream walls, a heavy bolted double door in the centre,
+    closed teal shutters, wall torches and hanging brass lamps, a marble floor and a red carpet.
+    Same flat painted style and palette as the haveli exterior."""
+    pen = Pen()
+    rng = np.random.default_rng(2211)
+    CREAM, CREAM_L, CREAM_D = rgb("#e2c48c"), rgb("#efdcae"), rgb("#c9a774")
+    RED, RED_D, GOLD, GOLD_L = rgb("#a9472f"), rgb("#7e3322"), rgb("#d9a73c"), rgb("#f3d36e")
+    WOOD, WOOD_D, DARK, TEAL = rgb("#7a4a2a"), rgb("#4f2e1a"), rgb("#2e2018"), rgb("#2f6a62")
+    FLOOR_Y = 610
+
+    # back wall with a darker band under the timber ceiling
+    for y in range(0, FLOOR_Y):
+        pen.rect(0, y, W, y + 1.2, mixc(rgb("#8c6a48"), CREAM, min(1, y / 170) ** 0.7))
+    pen.rect(0, 0, W, 56, WOOD_D)
+    for x in range(-20, W, 120):
+        pen.rect(x, 0, x + 26, 64, WOOD)
+    pen.rect(0, 56, W, 70, RED)
+    pen.rect(0, 70, W, 78, GOLD)
+
+    # side arches with jaali screens
+    for x0, x1 in [(120, 470), (1130, 1480)]:
+        pen.poly(arch(x0 - 14, x1 + 14, FLOOR_Y, 300), RED)
+        pen.poly(arch(x0, x1, FLOOR_Y, 300), rgb("#3c2a1e"))
+        cx = (x0 + x1) / 2
+        for gx in range(x0 + 10, x1, 22):
+            pen.line([(gx, 140), (gx, FLOOR_Y)], rgb("#7c5c3c"), 2)
+        for gy in range(150, FLOOR_Y, 22):
+            pen.line([(x0 + 6, gy), (x1 - 6, gy)], rgb("#7c5c3c"), 2)
+        pen.shadow(arch(x0, x1, FLOOR_Y, 300), 120)
+        # closed teal shutters high on the wall
+        pen.rect(cx - 70, 92, cx - 4, 128, TEAL)
+        pen.rect(cx + 4, 92, cx + 70, 128, TEAL)
+        for sx in range(int(cx - 66), int(cx + 68), 10):
+            pen.line([(sx, 94), (sx, 126)], rgb("#24544d"), 1.4)
+
+    # pillars between the arches and the door
+    for px in (520, 1040):
+        pen.rect(px, 96, px + 44, FLOOR_Y, CREAM_L)
+        pen.rect(px + 30, 96, px + 44, FLOOR_Y, CREAM_D)
+        pen.rect(px - 8, FLOOR_Y - 26, px + 52, FLOOR_Y, RED)
+        pen.rect(px - 8, 88, px + 52, 104, RED)
+        # wall torch (mashaal) on each pillar
+        tx, ty = px + 22, 300
+        pen.rect(tx - 4, ty, tx + 4, ty + 60, WOOD_D)
+        pen.poly([(tx - 14, ty), (tx + 14, ty), (tx + 8, ty + 14), (tx - 8, ty + 14)], rgb("#5a4030"))
+        pen.poly([(tx - 13, ty), (tx, ty - 58), (tx + 13, ty)], rgb("#ff9b2f"))
+        pen.poly([(tx - 7, ty), (tx + 1, ty - 36), (tx + 7, ty)], rgb("#ffe08a"))
+        pen.shine(tx, ty - 20, 90, 90, 140)
+        pen.shine(tx, ty - 20, 34, 40, 255)
+
+    # the heavy wooden double door, bolted from inside
+    dx0, dx1, dtop = 640, 960, 250
+    pen.poly(arch(dx0 - 26, dx1 + 26, FLOOR_Y, dtop + 40), RED)
+    pen.poly(arch(dx0 - 12, dx1 + 12, FLOOR_Y, dtop + 40), GOLD)
+    pen.poly(arch(dx0, dx1, FLOOR_Y, dtop + 40), WOOD)
+    pen.line([(800, dtop - 110), (800, FLOOR_Y)], WOOD_D, 4)
+    for gx in range(dx0 + 24, dx1 - 10, 40):
+        for gy in range(dtop + 30, FLOOR_Y - 10, 40):
+            if gx < 790 or gx > 810:
+                pen.ell(gx, gy, 5, 5, GOLD_L)
+    pen.rect(dx0 - 30, 420, dx1 + 30, 446, WOOD_D)          # the bolt beam across both leaves
+    for bx in (dx0 - 22, 790, dx1 + 10):
+        pen.rect(bx, 410, bx + 14, 456, rgb("#3c3c3c"))
+    pen.shadow(arch(dx0, dx1, FLOOR_Y, dtop + 40), 60)
+
+    # hanging brass lamps
+    for lx in (330, 800, 1290):
+        pen.line([(lx, 78), (lx, 168)], rgb("#8a6a3a"), 2)
+        pen.poly([(lx - 26, 168), (lx + 26, 168), (lx + 14, 206), (lx - 14, 206)], GOLD)
+        pen.ell(lx, 210, 9, 7, rgb("#ffd27a"))
+        pen.shine(lx, 214, 120, 80, 120)
+
+    # marble floor in perspective
+    vx, vy = 800, 330
+    rows = [FLOOR_Y + (H - FLOOR_Y) * (k / 9) ** 1.5 for k in range(10)]
+    cols = list(range(-1600, 3201, 200))
+    def at(xb, y):  # x on the line from the vanishing point to xb at the bottom
+        return vx + (xb - vx) * (y - vy) / (H - vy)
+    for r in range(9):
+        for c in range(len(cols) - 1):
+            y0, y1 = rows[r], rows[r + 1]
+            quad = [(at(cols[c], y0), y0), (at(cols[c + 1], y0), y0), (at(cols[c + 1], y1), y1), (at(cols[c], y1), y1)]
+            pen.poly(quad, rgb("#efe4cc") if (r + c) % 2 else rgb("#c9b38c"))
+    # red carpet down the centre to the door
+    pen.poly([(700, FLOOR_Y), (900, FLOOR_Y), (1060, H), (540, H)], GOLD)
+    pen.poly([(712, FLOOR_Y), (888, FLOOR_Y), (1040, H), (560, H)], rgb("#a52a2a"))
+
+    # floor cushions and bolsters along the side walls, brass urns
+    for x0, x1 in [(110, 470), (1130, 1490)]:
+        pen.rect(x0, FLOOR_Y - 34, x1, FLOOR_Y + 6, rgb("#8e2c3c"))
+        pen.rect(x0, FLOOR_Y - 34, x1, FLOOR_Y - 26, GOLD)
+        for bx in (x0 + 40, x1 - 40):
+            pen.ell(bx, FLOOR_Y - 46, 34, 22, rgb("#b8343f"))
+            pen.ell(bx, FLOOR_Y - 46, 34, 4, GOLD)
+    for ux in (590, 1010):
+        pen.poly([(ux - 20, FLOOR_Y + 20), (ux + 20, FLOOR_Y + 20), (ux + 28, FLOOR_Y - 10), (ux + 12, FLOOR_Y - 40), (ux - 12, FLOOR_Y - 40), (ux - 28, FLOOR_Y - 10)], GOLD)
+        pen.shine(ux - 8, FLOOR_Y - 14, 8, 14, 255)
+    pen.shadow_ell(800, FLOOR_Y + 8, 700, 18, 150)
+
+    out = finish(pen, light=(1.02, 0.90, 0.74), grain_amount=0.09, vignette=0.50, seed=41, shadow_strength=0.6)
+    # warm torch pools on a dim room
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    warm = np.zeros((H, W), np.float32)
+    for cx, cy, r in [(542, 280, 260), (1062, 280, 260), (800, 214, 300), (330, 214, 220), (1290, 214, 220)]:
+        warm += np.exp(-(((xx - cx) ** 2 + (yy - cy) ** 2) / (2 * r ** 2)))
+    warm = np.clip(warm, 0, 1)
+    return out * (0.36 + 0.78 * warm)[..., None] * np.array([1.0, 0.90, 0.76], np.float32)
+
+
 def to_image(a):
     return Image.fromarray((np.clip(a, 0, 1) * 255 + 0.5).astype(np.uint8))
 

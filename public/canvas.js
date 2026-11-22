@@ -28,15 +28,51 @@
     })];
   }
 
+  // Damped-spring step response: a small wind-up, a quick move, a slight overshoot, then settle.
+  // Stateless (a function of the time since the key), so any frame can be drawn on its own.
+  function springBlend(age, freq = 3.1, damping = .58, windup = .1) {
+    if (age <= 0) return 0;
+    if (age < windup) return -.07 * Math.sin(Math.PI * age / windup);
+    const x = age - windup, w = 2 * Math.PI * freq, wd = w * Math.sqrt(1 - damping * damping);
+    return 1 - Math.exp(-damping * w * x) * (Math.cos(wd * x) + damping * w / wd * Math.sin(wd * x));
+  }
+
+  // Planted-foot walking: the gait phase comes from the distance actually travelled, so the foot on the
+  // ground never slides. Stride adapts to speed (women take shorter, quicker steps). When a walk ends the
+  // last step shortens over 0.35 s instead of snapping to a standing pose.
+  const WALKS = ['walk', 'run', 'sneak'];
+  function walkAt(track, t, character) {
+    const female = character.gender === 'female';
+    let phase = 0, S = female ? 10 : 14, T = 1, endedAt = null;
+    for (let i = 0; i < track.length && track[i].at <= t; i++) {
+      const a = track[i], b = track[i + 1];
+      if (!WALKS.includes(a.pose)) { endedAt = endedAt ?? null; continue; }
+      const segEnd = b ? b.at : Infinity;
+      const scale = height(character) * (a.size ?? 1) / 347;
+      const v = b ? Math.abs((b.x - a.x) * W) / scale / Math.max(.05, b.at - a.at) : 0;
+      if (v > 4) { S = clamp(v * (female ? .21 : .3), female ? 7 : 9, female ? 16 : 26); T = 2 * S / .6 / v; }
+      else { S = female ? 10 : 14; T = 1; }
+      phase += (Math.min(segEnd, t) - a.at) / T;
+      endedAt = segEnd <= t ? segEnd : null;
+    }
+    const now = track.filter(f => f.at <= t).at(-1);
+    if (now && WALKS.includes(now.pose)) return { walkPhase: phase, stride: S };
+    if (endedAt != null && t - endedAt < .35) {
+      const k = (t - endedAt) / .35;
+      return { walkPhase: phase + (t - endedAt) / T, stride: S * (1 - ease(k)) };
+    }
+    return null;
+  }
+
   function stateAt(track, t) {
     const nextIndex = track.findIndex(frame => frame.at > t);
     const index = nextIndex < 0 ? track.length - 1 : nextIndex - 1;
     const previous = track[index];
     const blend = {
       previousPose: track[index - 1]?.pose,
-      poseBlend: ease(clamp((t - previous.at) / 0.22, 0, 1)),
+      poseBlend: index > 0 ? springBlend(t - previous.at) : 1,
       previousEmotion: track[index - 1]?.emotion,
-      emotionBlend: ease(clamp((t - previous.at) / 0.32, 0, 1)),
+      emotionBlend: index > 0 ? springBlend(t - previous.at, 2.4, .62, 0) : 1,
       previousStance: track[index - 1]?.stance,
       stanceBlend: ease(clamp((t - previous.at) / 0.46, 0, 1)),
     };
@@ -163,6 +199,110 @@
 
   // Screen-space particle effects. Every position is a pure function of the shot's
   // seed and time, so re-rendering the same storyboard is frame-identical.
+  // ---- gold coins -------------------------------------------------------------------------------
+  // Every coin is a pure function of (index, time), so any frame renders the same on its own.
+  const hash = n => { const v = Math.sin(n * 127.1 + 311.7) * 43758.5453; return v - Math.floor(v); };
+  function coin(ctx, x, y, r, spin, alpha = 1) {
+    const squash = Math.max(0.18, Math.abs(Math.cos(spin)));
+    ctx.globalAlpha = alpha;
+    ctx.beginPath();
+    ctx.ellipse(x, y, r * squash, r, 0, 0, TAU);
+    ctx.fillStyle = squash > 0.5 ? '#f3c94a' : '#d9a331';
+    ctx.fill();
+    ctx.lineWidth = Math.max(0.6, r * 0.22);
+    ctx.strokeStyle = '#9a6a14';
+    ctx.stroke();
+    if (squash > 0.45) {
+      ctx.beginPath();
+      ctx.ellipse(x - r * 0.25 * squash, y - r * 0.3, r * 0.32 * squash, r * 0.22, 0, 0, TAU);
+      ctx.fillStyle = 'rgba(255,248,210,0.85)';
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  // Coins pouring from each source: a fountain arcs up and out, a spill falls out of a window.
+  function coinStreams(ctx, shot, t, width, h, unit, amount, fade) {
+    const sources = shot.coinSources?.length ? shot.coinSources : [{ x: shot.auraX, y: shot.auraY, mode: 'fountain', rate: 1, at: 0 }];
+    const glints = [];
+    sources.forEach((src, si) => {
+      const local = t - (src.at || 0);
+      if (local <= 0) return;
+      const rate = 30 * amount * (src.rate ?? 1);
+      const life = src.mode === 'spill' ? 1.5 : 1.7;
+      const first = Math.max(0, Math.floor((local - life) * rate)), last = Math.floor(local * rate);
+      for (let k = first; k <= last; k++) {
+        const age = local - k / rate;
+        if (age < 0 || age > life) continue;
+        const r1 = hash(k * 3.1 + si * 17), r2 = hash(k * 7.3 + si * 29), r3 = hash(k * 1.7 + si * 41);
+        let vx, vy;
+        if (src.mode === 'spill') { vx = (r1 - 0.5) * 0.22 * width; vy = (0.05 + r2 * 0.18) * h; }
+        else { vx = (r1 - 0.5) * 0.75 * width; vy = -(0.75 + r2 * 0.6) * h; }
+        const g = 1.55 * h;
+        const x = src.x * width + vx * age, y = src.y * h + vy * age + 0.5 * g * age * age;
+        if (y > h * 1.05) continue;
+        const a = Math.min(1, (life - age) / 0.25) * fade;
+        coin(ctx, x, y, (5 + r3 * 5) * unit, age * (9 + r1 * 8) + r2 * 6, a);
+        if (r3 > 0.86) glints.push([x, y, a]);
+      }
+    });
+    return glints;
+  }
+
+  // A heap of coins whose surface rises from gold.from to gold.to; drawn over the actors so they
+  // sink into it. Levels are in the actors' y scale (0.88 is the usual floor line).
+  function goldHeap(ctx, shot, t) {
+    const g = shot.gold;
+    const end = g.end ?? shot.duration;
+    const k = ease(clamp((t - g.at) / Math.max(0.01, end - g.at), 0, 1));
+    const level = mix(g.from, g.to, k) * H;
+    if (level >= H * 1.02) return;
+    const peak = g.peakX * W;
+    const surface = x => level - 0.07 * H * Math.exp(-(((x - peak) / (0.22 * W)) ** 2)) + Math.sin(x * 0.021 + t * 2.4) * 4 + Math.sin(x * 0.057 - t * 1.7) * 2.5;
+    ctx.save();
+    ctx.beginPath();
+    ctx.moveTo(-60, H + 60);
+    for (let x = -60; x <= W + 60; x += 20) ctx.lineTo(x, surface(x));
+    ctx.lineTo(W + 60, H + 60);
+    ctx.closePath();
+    const fill = ctx.createLinearGradient(0, level - 0.08 * H, 0, H);
+    fill.addColorStop(0, '#f8d870');
+    fill.addColorStop(0.35, '#e2a930');
+    fill.addColorStop(1, '#8e5c12');
+    ctx.fillStyle = fill;
+    ctx.fill();
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = '#8a5a12';
+    ctx.stroke();
+    ctx.clip();
+    // coin texture, densest at the surface; the top layer jostles as more coins pour in
+    for (let i = 0; i < 420; i++) {
+      const x = hash(i * 1.37) * (W + 120) - 60;
+      const depth = Math.pow(hash(i * 2.91), 2.2) * (H - level + 40);
+      const jitter = depth < 40 ? Math.sin(t * 6 + i) * 3 : 0;
+      const y = surface(x) + 6 + depth + jitter;
+      const r = 7 + hash(i * 5.3) * 7;
+      coin(ctx, x, y, r, hash(i * 9.1) * 6 + (depth < 40 ? t * 2 : 0), 0.95 - Math.min(0.5, depth / H));
+    }
+    // coins rolling down the slopes of the heap
+    for (let i = 0; i < 26; i++) {
+      const lane = hash(i * 4.4) < 0.5 ? -1 : 1;
+      const p = (t * (0.25 + hash(i * 3.3) * 0.3) + hash(i * 8.1)) % 1;
+      const x = peak + lane * p * 0.45 * W;
+      coin(ctx, x, surface(x) - 4, 8, t * 10 + i, 1 - p * 0.6);
+    }
+    ctx.restore();
+    // glints over the surface
+    ctx.save();
+    ctx.globalCompositeOperation = 'lighter';
+    for (let i = 0; i < 18; i++) {
+      const x = hash(i * 6.7) * W;
+      const tw = Math.max(0, Math.sin(t * (2 + hash(i) * 3) + i * 1.7));
+      star(ctx, x, surface(x) + 10 + hash(i * 2.2) * 50, 10 * tw, tw * 0.9);
+    }
+    ctx.restore();
+  }
+
   function effects(ctx, shot, t, width, h) {
     const unit = Math.min(width, h) / 720;
     const amount = shot.fxAmount ?? 1;
@@ -347,6 +487,11 @@
           ctx.restore();
         }
         ctx.globalCompositeOperation = 'lighter';
+      } else if (kind === 'coins') {
+        ctx.globalCompositeOperation = 'source-over';
+        const glints = coinStreams(ctx, shot, t, width, h, unit, amount, fade);
+        ctx.globalCompositeOperation = 'lighter';
+        for (const [x, y, a] of glints) star(ctx, x, y, 9 * unit, a * 0.9);
       } else if (kind === 'aura') {
         // A soft divine halo that breathes, with slow rays turning behind it.
         const cx = width * (shot.auraX ?? 0.5);
@@ -548,9 +693,12 @@
       const actors = shot.tracks.map(track => {
         const state = stateAt(track, t);
         state.x = shot.screenX(state.x);
+        const gait = walkAt(track, t, cast.get(key(state.character)));
+        if (gait) Object.assign(state, gait);
         const baseCharacter = cast.get(key(state.character));
         const character = state.outfit ? { ...baseCharacter, ...state.outfit } : baseCharacter;
         const speaking = active === key(character.name);
+        if (speaking) state.line = current;
         let mouth = 0;
         if (speaking) {
           const levelIndex = (t - current.start) * 25;
@@ -667,6 +815,7 @@
         }
         ctx.restore();
       }
+      if (shot.gold) goldHeap(ctx, shot, t);
       atmosphere(ctx, shot, t);
       ctx.restore();
       if (shot.fx?.length) effects(ctx, shot, t, width, h);
